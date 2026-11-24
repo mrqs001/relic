@@ -48,46 +48,17 @@
   </tr>
 </table>
 
-## By the numbers
+## Stack
 
 | | |
 | --- | --- |
-| Messages collected and kept exactly (5 weeks, 9 sources) | **6,306** |
-| Read by the model | **82%** |
-| Event reports placed on the map | **50%**, up from 27%; the rest stay unlocated, never guessed |
-| Same-event relationships found | **1,601** from 11,596 candidate pairs |
-| Reading gate: translation, events, negation, places | **67/67** authored multilingual cases |
-| Same-event gate | **39/40** exact, **0 false links** |
-| Ship finder gate | precision **1.0**, recall **1.0** on 40 cases |
-| Open a message, p95, 50k-revision workload | **177 ms** |
-| Crash recovery (`SIGKILL` mid-import) | all committed work restored, SQLite integrity check passed |
-| Automated tests | **364** core + 14 Telegram + 6 contract checks |
+| Backend | Rust, Tokio, Axum |
+| Storage | SQLite + content-addressed files |
+| Frontend | React, TypeScript, Vite, MapLibre GL |
+| AI | OpenRouter (LLM reading, embeddings) |
+| Sources | Telegram (MTProto), pluggable adapters |
 
-The gates are authored test sets that each model profile must pass before it
-is switched on, not accuracy on unseen data. Method and caveats are in
-[docs/RESULTS.md](docs/RESULTS.md).
-
-## How it is built
-
-**Rust core** (Tokio, Axum): about 35k lines. It covers collection with
-watermarks and gap detection, atomic versioned publications, bounded worker
-pools with reserved Stop capacity, LLM processing with validation and cost
-receipts, geography resolution and event grouping.
-
-**Storage:** SQLite (WAL) plus immutable SHA-256-addressed files. There's no
-external database, queue or search cluster.
-
-**Frontend:** React 19, TypeScript and Vite, with MapLibre GL for a 3D globe and
-flat maps, and TanStack Query.
-
-**AI:** OpenRouter with a pinned model and provider, strict JSON schemas,
-durable request receipts, and replayable evaluations that re-run with zero
-model calls.
-
-**Sources:** a three-trait adapter interface. The core enforces the safety
-rules, and an adapter only fetches.
-
-Read more in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+How it fits together: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). Evaluations and measurements: [docs/RESULTS.md](docs/RESULTS.md).
 
 ## Run it
 
