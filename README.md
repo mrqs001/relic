@@ -117,7 +117,7 @@ fully with Telegram and KeelWatch, and those three layers say *"Not included
 in this build"*. [docs/SOURCES.md](docs/SOURCES.md) describes the interface
 and what the private adapters do.
 
-<sub>KeelWatch is a private dataset platform. It is not part of this repository.</sub>
+<sub>KeelWatch is a personal private platform. It is not part of this repository.</sub>
 
 ## License
 
