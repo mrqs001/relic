@@ -27,7 +27,7 @@ its logs.
 | Setting | Meaning |
 | --- | --- |
 | `TELEGRAM_API_ID`, `TELEGRAM_API_HASH` | Your Telegram application credentials. You log in once from the Sources view; the session is stored under `RELIC_SESSION_DIR`. |
-| `KEELWATCH_URL`, `KEELWATCH_TOKEN` | A KeelWatch AIS service for the ship layer, ship tracks and the "ships near this message" finder. |
+| `KEELWATCH_URL`, `KEELWATCH_TOKEN` | KeelWatch, a private dataset platform for ship positions (AIS), used for the ship layer, ship tracks and the "ships near this message" finder. |
 | `KEELWATCH_FRESHNESS` | How recent a ship position must be to show: `30m`, `2h`, `24h`, `7d` or `all`. |
 
 Other providers (X, aircraft, a second ship feed) plug in as adapters; see

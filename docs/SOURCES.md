@@ -24,7 +24,7 @@ build"**, rather than looking empty or broken.
 | Source | What Relic does with it |
 | --- | --- |
 | **Telegram** | Streams channels you add, with a recent-history baseline, exact catch-up after downtime and retained media. Edits keep the earlier revision. |
-| **KeelWatch** | Ship positions as vector tiles, past moments, ship tracks and the "ships near this message" finder. |
+| **KeelWatch** (a private dataset platform for ship positions, not part of this repository) | Ship positions as vector tiles, past moments, ship tracks and the "ships near this message" finder. |
 | **Reference geography** | GeoNames, Natural Earth, selected country/province boundaries, marine regions and Geofabrik OpenStreetMap extracts, imported explicitly per region. |
 
 ## The interfaces
