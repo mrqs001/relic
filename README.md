@@ -14,9 +14,7 @@
   <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT licence"/>
 </p>
 
-<p align="center">
-  <img src="docs/images/demo.gif" alt="Relic: from the globe to Dubai, opening a report, then live aircraft and ships" width="720"/>
-</p>
+https://github.com/user-attachments/assets/f2c1b455-2d8d-41f7-b6c0-8b85a01c331e
 
 <p align="center"><sub>Demo workspace: the reports are fictional (<code>examples/demo-workspace.json</code>); aircraft and ships are live.</sub></p>
 
