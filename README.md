@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/demo.gif" alt="Relic: from the globe to the Strait of Hormuz, opening a report, with live ships and aircraft" width="880"/>
+  <img src="docs/images/demo.gif" alt="Relic: from the globe to the Strait of Hormuz, opening a report, with live ships and aircraft" width="800"/>
 </p>
 
 <p align="center"><sub>Real workspace with 3,419 messages in view. Message text and channel names are blurred in all images.</sub></p>
