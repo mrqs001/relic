@@ -15,10 +15,10 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/demo.gif" alt="Relic: from the globe to the Strait of Hormuz, opening a report, with live ships and aircraft" width="800"/>
+  <img src="docs/images/demo.gif" alt="Relic: from the globe to Dubai, opening a report, then live aircraft and ships" width="720"/>
 </p>
 
-<p align="center"><sub>Real workspace with 3,419 messages in view. Message text and channel names are blurred in all images.</sub></p>
+<p align="center"><sub>Demo workspace: the reports are fictional (<code>examples/demo-workspace.json</code>); aircraft and ships are live.</sub></p>
 
 ## What it does
 
@@ -32,19 +32,19 @@
 <table>
   <tr>
     <td><img src="docs/images/map-and-feed.png" alt="Map with event clusters, live aircraft and ships, and the feed"/></td>
-    <td><img src="docs/images/message-on-map.png" alt="A report opened on the map in the Strait of Hormuz"/></td>
+    <td><img src="docs/images/message-on-map.png" alt="A report opened on the map in Dubai"/></td>
   </tr>
   <tr>
-    <td align="center"><sub>Events, aircraft and ships over the Middle East, with the feed</sub></td>
-    <td align="center"><sub>A report placed in the Strait of Hormuz</sub></td>
+    <td align="center"><sub>Reports placed on the map, with the feed</sub></td>
+    <td align="center"><sub>A report opened where it happened</sub></td>
   </tr>
   <tr>
-    <td><img src="docs/images/live-layers.png" alt="Live ship and aircraft layers around the Strait of Hormuz"/></td>
-    <td><img src="docs/images/globe.png" alt="Globe view of all located reports"/></td>
+    <td><img src="docs/images/aircraft-card.png" alt="A live aircraft with its route, altitude profile and registration"/></td>
+    <td><img src="docs/images/ship-card.png" alt="A live ship with its course, speed, destination and identity"/></td>
   </tr>
   <tr>
-    <td align="center"><sub>Live ships (by type) and aircraft</sub></td>
-    <td align="center"><sub>Every located report, coloured by kind of event</sub></td>
+    <td align="center"><sub>Live aircraft: route, altitude profile, registration</sub></td>
+    <td align="center"><sub>Live ships: course, speed, destination, identity</sub></td>
   </tr>
 </table>
 
@@ -66,12 +66,12 @@ Requirements: Rust 1.98 (selected automatically by `rust-toolchain.toml`), Node 
 
 ```sh
 make build                                     # web app + release binary
-cargo run --manifest-path app/Cargo.toml --release --example ui_processing_fixture -- data/demo
+cargo run --manifest-path app/Cargo.toml --release --example demo_workspace -- data/demo
 ./relic --data-dir "$PWD/data/demo"            # open http://127.0.0.1:8790
 ```
 
-This opens a small fictional workspace with no accounts, network sources or
-model calls. To follow real channels, copy [`.env.example`](.env.example) to
+This opens the fictional demo workspace shown above (30 invented reports) with
+no accounts, network sources or model calls. To follow real channels, copy [`.env.example`](.env.example) to
 `.env`, add your Telegram API credentials, and start with `./relic --env .env`.
 See [docs/CONFIGURATION.md](docs/CONFIGURATION.md).
 

@@ -1,0 +1,1054 @@
+{
+ "version": 1,
+ "fictional": true,
+ "purpose": "Invented reports for the README demo and screenshots. No real person, organisation or incident; only the cities are real so the public reference data can place them.",
+ "sources": [
+  {
+   "id": "demo:wire",
+   "label": "Demo Wire (fictional)",
+   "family": "authored_report"
+  },
+  {
+   "id": "demo:monitor",
+   "label": "Demo Monitor (fictional)",
+   "family": "authored_report"
+  },
+  {
+   "id": "demo:local",
+   "label": "Demo Local (fictional)",
+   "family": "authored_report"
+  }
+ ],
+ "cases": [
+  {
+   "id": "demo-00",
+   "published_at": "2026-11-24T04:53:00Z",
+   "source": "demo:wire",
+   "original": "A fire broke out on a container stack at a port terminal in Dubai; loading at two berths was suspended.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Fire on container stack suspends loading at Dubai berths",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "safety",
+    "claims": [
+     {
+      "text": "A fire broke out on a container stack at a port terminal in Dubai; loading at two berths was suspended.",
+      "quote": "A fire broke out on a container stack at a port terminal in Dubai; loading at two berths was suspended.",
+      "state": "reported",
+      "event_type": "fire",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Dubai",
+      "quote": "A fire broke out on a container stack at a port terminal in Dubai; loading at two berths was suspended.",
+      "role": "event",
+      "canonical_name": "Dubai",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-01",
+   "published_at": "2026-11-24T03:16:00Z",
+   "source": "demo:monitor",
+   "original": "Loading resumed at one of the two berths in Dubai this evening, port staff said.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Loading partly resumes at Dubai berths",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "infrastructure",
+    "claims": [
+     {
+      "text": "Loading resumed at one of the two berths in Dubai this evening, port staff said.",
+      "quote": "Loading resumed at one of the two berths in Dubai this evening, port staff said.",
+      "state": "reported",
+      "event_type": "infrastructure_disruption",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Dubai",
+      "quote": "Loading resumed at one of the two berths in Dubai this evening, port staff said.",
+      "role": "event",
+      "canonical_name": "Dubai",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-02",
+   "published_at": "2026-11-24T01:39:00Z",
+   "source": "demo:local",
+   "original": "Delegations met in Doha for a second round of talks on shipping safety in the Gulf.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Second round of shipping-safety talks held in Doha",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "diplomacy",
+    "claims": [
+     {
+      "text": "Delegations met in Doha for a second round of talks on shipping safety in the Gulf.",
+      "quote": "Delegations met in Doha for a second round of talks on shipping safety in the Gulf.",
+      "state": "reported",
+      "event_type": "diplomatic_meeting",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Doha",
+      "quote": "Delegations met in Doha for a second round of talks on shipping safety in the Gulf.",
+      "role": "event",
+      "canonical_name": "Doha",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-03",
+   "published_at": "2026-11-24T00:02:00Z",
+   "source": "demo:wire",
+   "original": "Coast guard boats stopped and boarded a cargo vessel off Muscat early this morning.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Cargo vessel boarded off Muscat",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "conflict",
+    "claims": [
+     {
+      "text": "Coast guard boats stopped and boarded a cargo vessel off Muscat early this morning.",
+      "quote": "Coast guard boats stopped and boarded a cargo vessel off Muscat early this morning.",
+      "state": "reported",
+      "event_type": "maritime_interdiction",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Muscat",
+      "quote": "Coast guard boats stopped and boarded a cargo vessel off Muscat early this morning.",
+      "role": "event",
+      "canonical_name": "Muscat",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-04",
+   "published_at": "2026-11-23T22:25:00Z",
+   "source": "demo:monitor",
+   "original": "Mariners near Muscat were told to keep at least five nautical miles from a drifting barge.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Mariners warned about drifting barge near Muscat",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "safety",
+    "claims": [
+     {
+      "text": "Mariners near Muscat were told to keep at least five nautical miles from a drifting barge.",
+      "quote": "Mariners near Muscat were told to keep at least five nautical miles from a drifting barge.",
+      "state": "reported",
+      "event_type": "security_alert",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Muscat",
+      "quote": "Mariners near Muscat were told to keep at least five nautical miles from a drifting barge.",
+      "role": "event",
+      "canonical_name": "Muscat",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-05",
+   "published_at": "2026-11-23T20:48:00Z",
+   "source": "demo:local",
+   "original": "Air defenses intercepted two drones over Abu Dhabi, according to a defence statement.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Two drones intercepted over Abu Dhabi",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "conflict",
+    "claims": [
+     {
+      "text": "Air defenses intercepted two drones over Abu Dhabi, according to a defence statement.",
+      "quote": "Air defenses intercepted two drones over Abu Dhabi, according to a defence statement.",
+      "state": "reported",
+      "event_type": "air_defense",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Abu Dhabi",
+      "quote": "Air defenses intercepted two drones over Abu Dhabi, according to a defence statement.",
+      "role": "event",
+      "canonical_name": "Abu Dhabi",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-06",
+   "published_at": "2026-11-23T19:11:00Z",
+   "source": "demo:wire",
+   "original": "Riyadh announced new inspection rules for fuel tankers entering its ports.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "New inspection rules for fuel tankers announced in Riyadh",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "politics",
+    "claims": [
+     {
+      "text": "Riyadh announced new inspection rules for fuel tankers entering its ports.",
+      "quote": "Riyadh announced new inspection rules for fuel tankers entering its ports.",
+      "state": "reported",
+      "event_type": "policy_change",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Riyadh",
+      "quote": "Riyadh announced new inspection rules for fuel tankers entering its ports.",
+      "role": "event",
+      "canonical_name": "Riyadh",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-07",
+   "published_at": "2026-11-23T17:34:00Z",
+   "source": "demo:monitor",
+   "original": "Flights at Kuwait City airport were delayed for three hours after a power outage.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Power outage delays flights at Kuwait City airport",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "infrastructure",
+    "claims": [
+     {
+      "text": "Flights at Kuwait City airport were delayed for three hours after a power outage.",
+      "quote": "Flights at Kuwait City airport were delayed for three hours after a power outage.",
+      "state": "reported",
+      "event_type": "transport_disruption",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Kuwait City",
+      "quote": "Flights at Kuwait City airport were delayed for three hours after a power outage.",
+      "role": "event",
+      "canonical_name": "Kuwait City",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-08",
+   "published_at": "2026-11-23T15:57:00Z",
+   "source": "demo:local",
+   "original": "Residents reported an airstrike on a warehouse on the edge of Sanaa overnight.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Airstrike reported on warehouse near Sanaa",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "conflict",
+    "claims": [
+     {
+      "text": "Residents reported an airstrike on a warehouse on the edge of Sanaa overnight.",
+      "quote": "Residents reported an airstrike on a warehouse on the edge of Sanaa overnight.",
+      "state": "reported",
+      "event_type": "strike",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Sanaa",
+      "quote": "Residents reported an airstrike on a warehouse on the edge of Sanaa overnight.",
+      "role": "event",
+      "canonical_name": "Sanaa",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-09",
+   "published_at": "2026-11-23T14:20:00Z",
+   "source": "demo:wire",
+   "original": "A convoy of 14 aid trucks reached Sanaa after a two-day delay.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Aid convoy reaches Sanaa",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "other",
+    "claims": [
+     {
+      "text": "A convoy of 14 aid trucks reached Sanaa after a two-day delay.",
+      "quote": "A convoy of 14 aid trucks reached Sanaa after a two-day delay.",
+      "state": "reported",
+      "event_type": "aid_delivery",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Sanaa",
+      "quote": "A convoy of 14 aid trucks reached Sanaa after a two-day delay.",
+      "role": "event",
+      "canonical_name": "Sanaa",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-10",
+   "published_at": "2026-11-23T12:43:00Z",
+   "source": "demo:monitor",
+   "original": "Two naval supply ships arrived in Djibouti, a port official said.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Two naval supply ships arrive in Djibouti",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "conflict",
+    "claims": [
+     {
+      "text": "Two naval supply ships arrived in Djibouti, a port official said.",
+      "quote": "Two naval supply ships arrived in Djibouti, a port official said.",
+      "state": "reported",
+      "event_type": "military_movement",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Djibouti",
+      "quote": "Two naval supply ships arrived in Djibouti, a port official said.",
+      "role": "event",
+      "canonical_name": "Djibouti",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-11",
+   "published_at": "2026-11-23T11:06:00Z",
+   "source": "demo:local",
+   "original": "Several hundred people protested in Baghdad over electricity cuts.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Protest over electricity cuts in Baghdad",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "politics",
+    "claims": [
+     {
+      "text": "Several hundred people protested in Baghdad over electricity cuts.",
+      "quote": "Several hundred people protested in Baghdad over electricity cuts.",
+      "state": "reported",
+      "event_type": "protest",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Baghdad",
+      "quote": "Several hundred people protested in Baghdad over electricity cuts.",
+      "role": "event",
+      "canonical_name": "Baghdad",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-12",
+   "published_at": "2026-11-23T09:29:00Z",
+   "source": "demo:wire",
+   "original": "An explosion at a generator yard in Baghdad caused a fire but no injuries were reported.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Explosion at generator yard in Baghdad",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "safety",
+    "claims": [
+     {
+      "text": "An explosion at a generator yard in Baghdad caused a fire but no injuries were reported.",
+      "quote": "An explosion at a generator yard in Baghdad caused a fire but no injuries were reported.",
+      "state": "reported",
+      "event_type": "explosion",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Baghdad",
+      "quote": "An explosion at a generator yard in Baghdad caused a fire but no injuries were reported.",
+      "role": "event",
+      "canonical_name": "Baghdad",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-13",
+   "published_at": "2026-11-23T07:52:00Z",
+   "source": "demo:monitor",
+   "original": "Heavy rain damaged several old buildings in central Damascus.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Rain damages old buildings in Damascus",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "disaster",
+    "claims": [
+     {
+      "text": "Heavy rain damaged several old buildings in central Damascus.",
+      "quote": "Heavy rain damaged several old buildings in central Damascus.",
+      "state": "reported",
+      "event_type": "structural_damage",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Damascus",
+      "quote": "Heavy rain damaged several old buildings in central Damascus.",
+      "role": "event",
+      "canonical_name": "Damascus",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-14",
+   "published_at": "2026-11-23T06:15:00Z",
+   "source": "demo:local",
+   "original": "Foreign ministers met in Amman to discuss border crossings.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Foreign ministers meet in Amman",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "diplomacy",
+    "claims": [
+     {
+      "text": "Foreign ministers met in Amman to discuss border crossings.",
+      "quote": "Foreign ministers met in Amman to discuss border crossings.",
+      "state": "reported",
+      "event_type": "diplomatic_meeting",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Amman",
+      "quote": "Foreign ministers met in Amman to discuss border crossings.",
+      "role": "event",
+      "canonical_name": "Amman",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-15",
+   "published_at": "2026-11-23T04:38:00Z",
+   "source": "demo:wire",
+   "original": "Police in Jerusalem closed two roads after a suspicious package was found.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Roads closed in Jerusalem over suspicious package",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "safety",
+    "claims": [
+     {
+      "text": "Police in Jerusalem closed two roads after a suspicious package was found.",
+      "quote": "Police in Jerusalem closed two roads after a suspicious package was found.",
+      "state": "reported",
+      "event_type": "security_alert",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Jerusalem",
+      "quote": "Police in Jerusalem closed two roads after a suspicious package was found.",
+      "role": "event",
+      "canonical_name": "Jerusalem",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-16",
+   "published_at": "2026-11-23T03:01:00Z",
+   "source": "demo:monitor",
+   "original": "A ceasefire framework was signed in Cairo after three days of talks.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Ceasefire framework signed in Cairo",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "diplomacy",
+    "claims": [
+     {
+      "text": "A ceasefire framework was signed in Cairo after three days of talks.",
+      "quote": "A ceasefire framework was signed in Cairo after three days of talks.",
+      "state": "reported",
+      "event_type": "agreement",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Cairo",
+      "quote": "A ceasefire framework was signed in Cairo after three days of talks.",
+      "role": "event",
+      "canonical_name": "Cairo",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-17",
+   "published_at": "2026-11-23T01:24:00Z",
+   "source": "demo:local",
+   "original": "Ferry services in Istanbul were suspended because of strong winds.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Strong winds suspend Istanbul ferries",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "infrastructure",
+    "claims": [
+     {
+      "text": "Ferry services in Istanbul were suspended because of strong winds.",
+      "quote": "Ferry services in Istanbul were suspended because of strong winds.",
+      "state": "reported",
+      "event_type": "transport_disruption",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Istanbul",
+      "quote": "Ferry services in Istanbul were suspended because of strong winds.",
+      "role": "event",
+      "canonical_name": "Istanbul",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-18",
+   "published_at": "2026-11-22T23:47:00Z",
+   "source": "demo:wire",
+   "original": "Police in Ankara detained four people suspected of smuggling fuel.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Four detained in Ankara over fuel smuggling",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "politics",
+    "claims": [
+     {
+      "text": "Police in Ankara detained four people suspected of smuggling fuel.",
+      "quote": "Police in Ankara detained four people suspected of smuggling fuel.",
+      "state": "reported",
+      "event_type": "arrest",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Ankara",
+      "quote": "Police in Ankara detained four people suspected of smuggling fuel.",
+      "role": "event",
+      "canonical_name": "Ankara",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-19",
+   "published_at": "2026-11-22T22:10:00Z",
+   "source": "demo:monitor",
+   "original": "Families were evacuated from a district of Khartoum after fighting nearby.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Families evacuated in Khartoum",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "safety",
+    "claims": [
+     {
+      "text": "Families were evacuated from a district of Khartoum after fighting nearby.",
+      "quote": "Families were evacuated from a district of Khartoum after fighting nearby.",
+      "state": "reported",
+      "event_type": "evacuation",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Khartoum",
+      "quote": "Families were evacuated from a district of Khartoum after fighting nearby.",
+      "role": "event",
+      "canonical_name": "Khartoum",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-20",
+   "published_at": "2026-11-22T20:33:00Z",
+   "source": "demo:local",
+   "original": "Air raid sirens sounded across Kyiv and air defenses were active overnight.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Air defenses active over Kyiv",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "conflict",
+    "claims": [
+     {
+      "text": "Air raid sirens sounded across Kyiv and air defenses were active overnight.",
+      "quote": "Air raid sirens sounded across Kyiv and air defenses were active overnight.",
+      "state": "reported",
+      "event_type": "air_defense",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Kyiv",
+      "quote": "Air raid sirens sounded across Kyiv and air defenses were active overnight.",
+      "role": "event",
+      "canonical_name": "Kyiv",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-21",
+   "published_at": "2026-11-22T18:56:00Z",
+   "source": "demo:wire",
+   "original": "Taipei reported naval exercises near its coast for the second day.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Naval exercises reported near Taipei for second day",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "conflict",
+    "claims": [
+     {
+      "text": "Taipei reported naval exercises near its coast for the second day.",
+      "quote": "Taipei reported naval exercises near its coast for the second day.",
+      "state": "reported",
+      "event_type": "military_activity",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Taipei",
+      "quote": "Taipei reported naval exercises near its coast for the second day.",
+      "role": "event",
+      "canonical_name": "Taipei",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-22",
+   "published_at": "2026-11-22T17:19:00Z",
+   "source": "demo:monitor",
+   "original": "A blackout left parts of Caracas without power for six hours.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Six-hour blackout in parts of Caracas",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "infrastructure",
+    "claims": [
+     {
+      "text": "A blackout left parts of Caracas without power for six hours.",
+      "quote": "A blackout left parts of Caracas without power for six hours.",
+      "state": "reported",
+      "event_type": "infrastructure_disruption",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Caracas",
+      "quote": "A blackout left parts of Caracas without power for six hours.",
+      "role": "event",
+      "canonical_name": "Caracas",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-23",
+   "published_at": "2026-11-22T15:42:00Z",
+   "source": "demo:local",
+   "original": "A market fire in Lagos destroyed dozens of stalls.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Market fire destroys stalls in Lagos",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "safety",
+    "claims": [
+     {
+      "text": "A market fire in Lagos destroyed dozens of stalls.",
+      "quote": "A market fire in Lagos destroyed dozens of stalls.",
+      "state": "reported",
+      "event_type": "fire",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Lagos",
+      "quote": "A market fire in Lagos destroyed dozens of stalls.",
+      "role": "event",
+      "canonical_name": "Lagos",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-24",
+   "published_at": "2026-11-22T14:05:00Z",
+   "source": "demo:wire",
+   "original": "Gunmen attacked a checkpoint in Mogadishu, local reports said.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Checkpoint attacked in Mogadishu",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "conflict",
+    "claims": [
+     {
+      "text": "Gunmen attacked a checkpoint in Mogadishu, local reports said.",
+      "quote": "Gunmen attacked a checkpoint in Mogadishu, local reports said.",
+      "state": "reported",
+      "event_type": "armed_attack",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "Mogadishu",
+      "quote": "Gunmen attacked a checkpoint in Mogadishu, local reports said.",
+      "role": "event",
+      "canonical_name": "Mogadishu",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-25",
+   "published_at": "2026-11-22T12:28:00Z",
+   "source": "demo:monitor",
+   "original": "انفجار في مستودع قرب مرفأ بيروت ولا إصابات حتى الآن.",
+   "gold": {
+    "language": "ar",
+    "translation": "An explosion at a warehouse near the port of Beirut, no injuries so far.",
+    "headline": "Explosion at warehouse near Beirut port, no injuries so far",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "safety",
+    "claims": [
+     {
+      "text": "An explosion at a warehouse near the port of Beirut, no injuries so far.",
+      "quote": "انفجار في مستودع قرب مرفأ بيروت ولا إصابات حتى الآن.",
+      "state": "reported",
+      "event_type": "explosion",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "بيروت",
+      "quote": "انفجار في مستودع قرب مرفأ بيروت ولا إصابات حتى الآن.",
+      "role": "event",
+      "canonical_name": "Beirut",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-26",
+   "published_at": "2026-11-22T10:51:00Z",
+   "source": "demo:local",
+   "original": "تجمع اعتراضی کارگران در تهران برای دومین روز ادامه داشت.",
+   "gold": {
+    "language": "fa",
+    "translation": "A workers' protest in Tehran continued for a second day.",
+    "headline": "Workers' protest in Tehran continues for second day",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "politics",
+    "claims": [
+     {
+      "text": "A workers' protest in Tehran continued for a second day.",
+      "quote": "تجمع اعتراضی کارگران در تهران برای دومین روز ادامه داشت.",
+      "state": "reported",
+      "event_type": "protest",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "تهران",
+      "quote": "تجمع اعتراضی کارگران در تهران برای دومین روز ادامه داشت.",
+      "role": "event",
+      "canonical_name": "Tehran",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-27",
+   "published_at": "2026-11-22T09:14:00Z",
+   "source": "demo:wire",
+   "original": "התרעה הופעלה בתל אביב ותושבים התבקשו להיכנס למרחב מוגן.",
+   "gold": {
+    "language": "he",
+    "translation": "An alert was activated in Tel Aviv and residents were asked to enter a protected space.",
+    "headline": "Alert activated in Tel Aviv, residents told to enter shelters",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "safety",
+    "claims": [
+     {
+      "text": "An alert was activated in Tel Aviv and residents were asked to enter a protected space.",
+      "quote": "התרעה הופעלה בתל אביב ותושבים התבקשו להיכנס למרחב מוגן.",
+      "state": "reported",
+      "event_type": "security_alert",
+      "time_text": null,
+      "location_indices": [
+       0
+      ]
+     }
+    ],
+    "locations": [
+     {
+      "mention": "תל אביב",
+      "quote": "התרעה הופעלה בתל אביב ותושבים התבקשו להיכנס למרחב מוגן.",
+      "role": "event",
+      "canonical_name": "Tel Aviv",
+      "country_code": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "demo-28",
+   "published_at": "2026-11-22T07:37:00Z",
+   "source": "demo:monitor",
+   "original": "A shipping company said a cyber incident disrupted its booking system for several hours.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Cyber incident disrupts shipping bookings",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "infrastructure",
+    "claims": [
+     {
+      "text": "A shipping company said a cyber incident disrupted its booking system for several hours.",
+      "quote": "A shipping company said a cyber incident disrupted its booking system for several hours.",
+      "state": "reported",
+      "event_type": "cyber_incident",
+      "time_text": null,
+      "location_indices": []
+     }
+    ],
+    "locations": []
+   }
+  },
+  {
+   "id": "demo-29",
+   "published_at": "2026-11-22T06:00:00Z",
+   "source": "demo:local",
+   "original": "New sanctions were announced on three tanker operators.",
+   "gold": {
+    "language": "en",
+    "translation": null,
+    "headline": "Sanctions announced on three tanker operators",
+    "kind": "event",
+    "claim_status": "reported",
+    "topic": "politics",
+    "claims": [
+     {
+      "text": "New sanctions were announced on three tanker operators.",
+      "quote": "New sanctions were announced on three tanker operators.",
+      "state": "reported",
+      "event_type": "sanctions",
+      "time_text": null,
+      "location_indices": []
+     }
+    ],
+    "locations": []
+   }
+  }
+ ]
+}

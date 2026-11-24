@@ -145,3 +145,18 @@ explicit pass thresholds. `app/examples/evaluate_vessels.rs` runs them against t
 pinned profile with retained replies, or replays retained replies with zero calls.
 All names, identifiers and texts are invented.
 
+
+## README demo workspace
+
+`demo-workspace.json` holds 30 invented reports used for the README video and
+screenshots. No person, organisation or incident in it is real; only the cities
+are, so the public Natural Earth reference can place them. Readings are authored
+and pass the same exact-support validation and geography as model output. Three
+are in Arabic, Persian and Hebrew with English translations, and three stay
+unlocated on purpose: two name no place, and "Djibouti" is both a city and a
+country, so the resolver does not guess.
+
+```sh
+cargo run --manifest-path app/Cargo.toml --release --example demo_workspace -- data/demo
+./relic --data-dir "$PWD/data/demo"
+```
