@@ -117,10 +117,7 @@ fully with Telegram and KeelWatch, and those three layers say *"Not included
 in this build"*. [docs/SOURCES.md](docs/SOURCES.md) describes the interface
 and what the private adapters do.
 
-> **What is KeelWatch?** KeelWatch is a private dataset platform that collects
-> and stores ship positions (AIS) and serves them to Relic. It is not part of
-> this repository; without it, the ship-history layer reports itself as not
-> configured.
+<sub>KeelWatch is a private dataset platform. It is not part of this repository.</sub>
 
 ## License
 
