@@ -1,0 +1,54 @@
+{
+  "assets": {
+    "display.geojson": {
+      "bytes": 161260,
+      "sha256": "9085296623dfe25e44651f1c9e447024e20abaca3aeacfe128b1d1be94be0de7"
+    },
+    "full.geojson": {
+      "bytes": 2080512,
+      "sha256": "ff843c793c76687c99392196a85a0b066321fcf1a75f8b2565c3449942a86f4f"
+    },
+    "metadata.json": {
+      "bytes": 1745,
+      "sha256": "e35afa1c9e0f4de7f7dd6812ca11572b7c458c13ce93011ad23b2e268e2d5c3d"
+    }
+  },
+  "attribution": "geoBoundaries / William & Mary; gbOpen CC BY 4.0-compatible; original publisher and licence retained in metadata",
+  "boundary_id": "YEM-ADM0-85191696",
+  "collection": "gbOpen",
+  "country": "YEM",
+  "features": 1,
+  "level": "ADM0",
+  "publisher": "geoBoundaries",
+  "represented_time": "2017",
+  "requests": [
+    {
+      "acquired_at": "2026-09-20T21:41:35.619Z",
+      "bytes": 1745,
+      "publisher_last_modified": "Sat, 24 Feb 2024 10:31:26 GMT",
+      "requested_url": "https://www.geoboundaries.org/api/current/gbOpen/YEM/ADM0/",
+      "resolved_url": "https://www.geoboundaries.org/api/current/gbOpen/YEM/ADM0/",
+      "sha256": "e35afa1c9e0f4de7f7dd6812ca11572b7c458c13ce93011ad23b2e268e2d5c3d"
+    },
+    {
+      "acquired_at": "2026-09-20T21:41:36.586Z",
+      "bytes": 2080512,
+      "publisher_last_modified": "Sun, 20 Sep 2026 21:41:36 GMT",
+      "requested_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/YEM/ADM0/geoBoundaries-YEM-ADM0.geojson",
+      "resolved_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/YEM/ADM0/geoBoundaries-YEM-ADM0.geojson",
+      "sha256": "ff843c793c76687c99392196a85a0b066321fcf1a75f8b2565c3449942a86f4f"
+    },
+    {
+      "acquired_at": "2026-09-20T21:41:37.171Z",
+      "bytes": 161260,
+      "publisher_last_modified": "Sun, 20 Sep 2026 21:41:36 GMT",
+      "requested_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/YEM/ADM0/geoBoundaries-YEM-ADM0_simplified.geojson",
+      "resolved_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/YEM/ADM0/geoBoundaries-YEM-ADM0_simplified.geojson",
+      "sha256": "9085296623dfe25e44651f1c9e447024e20abaca3aeacfe128b1d1be94be0de7"
+    }
+  ],
+  "schema_version": 1,
+  "source_license": "Open Data Commons Open Database License 1.0",
+  "status": "candidate",
+  "vertices": 53608
+}

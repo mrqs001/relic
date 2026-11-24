@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-09-23T15:53:42.607Z",
+  "duration_ms": 121346.523525,
+  "environment": {
+    "cpu": "AMD Ryzen 7 7700 8-Core Processor",
+    "memory_bytes": 32693903360,
+    "node": "v26.8.1"
+  },
+  "fictional": true,
+  "initial_revisions": 50000,
+  "matching_reports": 10000,
+  "imported": 4900,
+  "measured": {
+    "/query": {
+      "samples": 154,
+      "p95_ms": 846.6471739999979,
+      "max_ms": 1628.923873000007,
+      "headers_p95_ms": 827.0390789999947,
+      "parse_p95_ms": 16.12648700000136
+    },
+    "/evidence": {
+      "samples": 361,
+      "p95_ms": 176.71333199999935,
+      "max_ms": 353.37137300000177,
+      "headers_p95_ms": 176.59616099999403,
+      "parse_p95_ms": 0.03716999999596737
+    },
+    "/imports": {
+      "samples": 49,
+      "p95_ms": 2293.829113,
+      "max_ms": 2941.857415999999,
+      "headers_p95_ms": 2293.7312519999978,
+      "parse_p95_ms": 0.01923000000533648
+    }
+  },
+  "failures": [],
+  "exact_original_preserved": true,
+  "limitations": [
+    "Two-minute HTTP/import soak, not complete release acceptance.",
+    "No live provider or model processing workload.",
+    "Browser feed/message/reload smoke checked; no rendering latency or concurrent model workload measured."
+  ],
+  "restart": {
+    "method": "SIGKILL of disposable server after committed imports, then same workspace restart",
+    "new_reports_visible": 4900,
+    "sqlite_quick_check": "ok",
+    "browser_exact_message_restored": true
+  }
+}

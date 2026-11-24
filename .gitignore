@@ -1,0 +1,35 @@
+# This folder remains private-safe when copied into a standalone repository.
+.env
+.env.*
+!.env.example
+private/
+# Workspaces and test scratch live here; only the folder itself is tracked.
+data/*
+!data/.gitkeep
+state/
+*.session
+*.session-journal
+*.session-wal
+*.session-shm
+*_accounts.txt
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+node_modules/
+build/
+dist/
+*.egg-info/
+
+target/
+
+# Local review captures may contain private live source content.
+shots/
+screenshots/
+
+*.tsbuildinfo
+
+# Private provider adapters: a separate repository checked out here.
+private-sources/

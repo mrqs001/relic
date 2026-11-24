@@ -1,0 +1,11 @@
+{
+  "fictional": true,
+  "messages": 10000,
+  "sites": 8000,
+  "queries": 24,
+  "p50_ms": 129.9198400010937,
+  "p95_ms": 179.11840800297796,
+  "max_ms": 235.9162530010508,
+  "provider_requests": 0,
+  "model_requests": 0
+}

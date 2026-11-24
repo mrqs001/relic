@@ -1,0 +1,407 @@
+{
+  "version": "relic.vessel-mentions.fixture.v1",
+  "fictional": true,
+  "purpose": "Authored fictional messages for the ship finder's evaluation gate (profile relic.vessel-mentions.v1). Every message, ship name, identifier, port and event here is invented for this evaluation; none is real message text, and the IMO and MMSI numbers were made up (IMO numbers carry a valid check digit). Najaf is named only as a place that contains the letters of a ship word. Expected mentions are gold expectations, not model output, and do not by themselves show model quality. These cases never enter the model prompt.",
+  "thresholds": {
+    "all_replies_decoded": true,
+    "recall_min": 0.9,
+    "precision_min": 0.9,
+    "negative_vessels_max": 0,
+    "identifier_errors_max": 0,
+    "stated_attributes_min": 0.8,
+    "latin_names_min": 0.9
+  },
+  "definitions": {
+    "all_replies_decoded": "Every case has an HTTP 200 reply from the pinned profile that the ship finder decodes: every quote copied exactly from its message and every name inside its quote. One failure fails the gate.",
+    "recall_min": "Expected vessels in positive cases matched by a returned vessel, divided by all expected vessels. Names compare without ship prefixes, punctuation or case; a vessel identified only by a number matches on that number.",
+    "precision_min": "Returned vessels in positive cases that match an expected vessel, divided by all vessels returned in positive cases. A second listing of a vessel already matched counts against precision.",
+    "negative_vessels_max": "Vessels returned for messages that name none (shipment, relationship, ins and outs, Najaf, a port or an airline named like a ship, a ship type with no name, a class, a company, aircraft).",
+    "identifier_errors_max": "On matched vessels, any IMO, MMSI, hull number or call sign that differs from the expectation, is missing, or is returned when none is written for that vessel.",
+    "stated_attributes_min": "Flags and vessel types the message states, returned as expected, divided by all stated flags and types of matched vessels.",
+    "latin_names_min": "Matched vessels whose written name is in another script and whose returned name_latin is in Latin letters, divided by all such vessels. Spellings in each case's latin list are reported, not required."
+  },
+  "cases": [
+    {
+      "id": "en_mv_bulk",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["prefix_mv", "type_written"],
+      "text": "The bulk carrier MV Silver Lantern reported a fire in its engine room 30 nautical miles off Port Azure. No injuries were reported.",
+      "expected": [
+        {"name": "MV Silver Lantern", "latin": ["SILVER LANTERN"], "quote": "The bulk carrier MV Silver Lantern reported a fire", "vessel_type": "bulk"}
+      ]
+    },
+    {
+      "id": "en_mt_imo",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["prefix_mt", "imo", "type_written"],
+      "text": "Armed men boarded the tanker M/T Coral Meridian (IMO 3456781) near Northport early on Sunday, the operator said.",
+      "expected": [
+        {"name": "M/T Coral Meridian", "latin": ["CORAL MERIDIAN"], "quote": "the tanker M/T Coral Meridian (IMO 3456781)", "imo": "3456781", "vessel_type": "tanker"}
+      ]
+    },
+    {
+      "id": "en_mmsi_flag",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["mmsi", "flag_written", "type_written"],
+      "text": "The Liberian-flagged container ship Amber Kestrel, MMSI 636091245, changed course toward Port Corvin after a warning.",
+      "expected": [
+        {"name": "Amber Kestrel", "latin": ["AMBER KESTREL"], "quote": "The Liberian-flagged container ship Amber Kestrel, MMSI 636091245", "mmsi": "636091245", "flag": "LR", "vessel_type": "container"}
+      ]
+    },
+    {
+      "id": "en_uss_hull",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["prefix_uss", "hull_number", "type_written"],
+      "text": "The destroyer USS Pellmont (DDG-131) intercepted two drones over the gulf on Tuesday night, the navy said.",
+      "expected": [
+        {"name": "USS Pellmont", "latin": ["PELLMONT"], "quote": "The destroyer USS Pellmont (DDG-131)", "hull_number": "DDG-131", "vessel_type": "warship"}
+      ]
+    },
+    {
+      "id": "en_hms",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["prefix_hms"],
+      "text": "HMS Quillmoor left Northport on Monday for a two-week patrol, a navy spokesperson said.",
+      "expected": [
+        {"name": "HMS Quillmoor", "latin": ["QUILLMOOR"], "quote": "HMS Quillmoor left Northport"}
+      ]
+    },
+    {
+      "id": "en_ins_pennant",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["prefix_ins", "hull_number", "type_written", "unnamed_vessels_too"],
+      "text": "The Indian Navy frigate INS Taranveer (F72) escorted three merchant ships through the channel.",
+      "expected": [
+        {"name": "INS Taranveer", "latin": ["TARANVEER"], "quote": "frigate INS Taranveer (F72)", "hull_number": "F72", "vessel_type": "warship"}
+      ]
+    },
+    {
+      "id": "en_iris",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["prefix_iris", "type_written"],
+      "text": "Iranian state media said the frigate IRIS Dalvand docked at Sepidar port after a month at sea.",
+      "expected": [
+        {"name": "IRIS Dalvand", "latin": ["DALVAND"], "quote": "the frigate IRIS Dalvand docked", "vessel_type": "warship"}
+      ]
+    },
+    {
+      "id": "en_three_ships",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["several_ships", "type_written"],
+      "text": "Three vessels were damaged in the storm: the tanker Velvet Harrow, the bulk carrier Pale Juniper and the tug Orrin 7.",
+      "expected": [
+        {"name": "Velvet Harrow", "latin": ["VELVET HARROW"], "quote": "the tanker Velvet Harrow", "vessel_type": "tanker"},
+        {"name": "Pale Juniper", "latin": ["PALE JUNIPER"], "quote": "the bulk carrier Pale Juniper", "vessel_type": "bulk"},
+        {"name": "Orrin 7", "latin": ["ORRIN 7"], "quote": "the tug Orrin 7", "vessel_type": "tug"}
+      ]
+    },
+    {
+      "id": "en_quoted_name",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["name_in_quotes", "type_written", "aircraft_too"],
+      "text": "Crew of the cargo ship \"Saffron Gull\" were evacuated by helicopter after the vessel listed heavily.",
+      "expected": [
+        {"name": "Saffron Gull", "latin": ["SAFFRON GULL"], "quote": "the cargo ship \"Saffron Gull\"", "vessel_type": "cargo"}
+      ]
+    },
+    {
+      "id": "en_twice",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["prefix_mv", "mentioned_twice"],
+      "text": "MV Copper Wren sent a distress call at dawn. By noon, Copper Wren was under tow toward Port Azure.",
+      "expected": [
+        {"name": "MV Copper Wren", "latin": ["COPPER WREN"], "quote": "MV Copper Wren sent a distress call"}
+      ]
+    },
+    {
+      "id": "en_imo_mmsi_flag",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["imo", "mmsi", "flag_written", "type_written"],
+      "text": "The Panama-flagged tanker Lumen Spire (IMO 3104522, MMSI 352001847) stopped transmitting its position near the strait.",
+      "expected": [
+        {"name": "Lumen Spire", "latin": ["LUMEN SPIRE"], "quote": "The Panama-flagged tanker Lumen Spire (IMO 3104522, MMSI 352001847)", "imo": "3104522", "mmsi": "352001847", "flag": "PA", "vessel_type": "tanker"}
+      ]
+    },
+    {
+      "id": "en_mmsi_only",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["mmsi", "identifier_only"],
+      "text": "AIS data shows a vessel with MMSI 538009132 loitering near the eastern anchorage for six hours.",
+      "expected": [
+        {"name": null, "quote": "a vessel with MMSI 538009132", "mmsi": "538009132"}
+      ]
+    },
+    {
+      "id": "en_two_and_unnamed",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["several_ships", "imo", "type_written", "unnamed_vessels_too"],
+      "text": "The tanker Rook Harbor (IMO 3221459) collided with the trawler Misty Fen at the harbour entrance; a third, unnamed ship helped with the rescue.",
+      "expected": [
+        {"name": "Rook Harbor", "latin": ["ROOK HARBOR"], "quote": "The tanker Rook Harbor (IMO 3221459)", "imo": "3221459", "vessel_type": "tanker"},
+        {"name": "Misty Fen", "latin": ["MISTY FEN"], "quote": "the trawler Misty Fen", "vessel_type": "fishing"}
+      ]
+    },
+    {
+      "id": "en_callsign",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["callsign", "type_written"],
+      "text": "The yacht Halcyon Drift, call sign V7QX9, has not been heard from since Friday.",
+      "expected": [
+        {"name": "Halcyon Drift", "latin": ["HALCYON DRIFT"], "quote": "The yacht Halcyon Drift, call sign V7QX9", "callsign": "V7QX9", "vessel_type": "yacht"}
+      ]
+    },
+    {
+      "id": "en_hull_only",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["hull_number", "identifier_only"],
+      "text": "A patrol boat with hull number P-418 was photographed beside the fuel pier at first light.",
+      "expected": [
+        {"name": null, "quote": "A patrol boat with hull number P-418", "hull_number": "P-418"}
+      ]
+    },
+    {
+      "id": "en_port_named_ship",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["named_like_a_port", "type_written"],
+      "text": "The ferry Port Halloran left Northport with 300 passengers aboard and arrived on schedule.",
+      "expected": [
+        {"name": "Port Halloran", "latin": ["PORT HALLORAN"], "quote": "The ferry Port Halloran", "vessel_type": "passenger"}
+      ]
+    },
+    {
+      "id": "en_carrier_and_tanker",
+      "kind": "positive",
+      "language": "en",
+      "tags": ["several_ships", "prefix_uss", "type_written", "aircraft_too", "port_too"],
+      "text": "A helicopter from the aircraft carrier USS Ardent Fjord hovered over the tanker Calloway Sun while Port Meridian closed its gates.",
+      "expected": [
+        {"name": "USS Ardent Fjord", "latin": ["ARDENT FJORD"], "quote": "the aircraft carrier USS Ardent Fjord", "vessel_type": "warship"},
+        {"name": "Calloway Sun", "latin": ["CALLOWAY SUN"], "quote": "the tanker Calloway Sun", "vessel_type": "tanker"}
+      ]
+    },
+    {
+      "id": "ar_quoted_tanker",
+      "kind": "positive",
+      "language": "ar",
+      "tags": ["name_in_quotes", "type_written", "non_latin_name"],
+      "text": "أعلنت السلطات احتجاز ناقلة النفط «سارية الريح» قرب ميناء الصفاء بعد مطاردة استمرت ساعتين.",
+      "expected": [
+        {"name": "سارية الريح", "latin": ["SARIYAT AL RIH", "SARIYAT AL-RIH", "SARIYA AL RIH", "SARIAT AL RIH", "SARIYAT ALRIH", "SARIYAT AR RIH"], "quote": "ناقلة النفط «سارية الريح»", "vessel_type": "tanker"}
+      ]
+    },
+    {
+      "id": "ar_imo",
+      "kind": "positive",
+      "language": "ar",
+      "tags": ["name_in_quotes", "imo", "non_latin_name", "aircraft_too"],
+      "text": "استهدفت طائرة مسيرة السفينة التجارية «غيمة الكهرمان» (IMO 3567891) في جنوب البحر الأحمر، وفق مصادر ملاحية.",
+      "expected": [
+        {"name": "غيمة الكهرمان", "latin": ["GHAYMAT AL KAHRAMAN", "GHAIMAT AL KAHRAMAN", "GHAYMA AL KAHRAMAN", "GHAIMA AL KAHRAMAN", "GHAYMAT ALKAHRAMAN"], "quote": "السفينة التجارية «غيمة الكهرمان» (IMO 3567891)", "imo": "3567891"}
+      ]
+    },
+    {
+      "id": "ar_two_ships",
+      "kind": "positive",
+      "language": "ar",
+      "tags": ["several_ships", "name_in_quotes", "non_latin_name"],
+      "text": "تعرضت السفينتان «أرجوان» و«سهيل الشمال» لأضرار طفيفة أثناء رسوهما في الميناء.",
+      "expected": [
+        {"name": "أرجوان", "latin": ["URJUWAN", "ARJUWAN", "ARJOWAN", "URJUAN", "ARGWAN", "ARJWAN"], "quote": "السفينتان «أرجوان»"},
+        {"name": "سهيل الشمال", "latin": ["SUHAIL AL SHAMAL", "SUHAYL AL SHAMAL", "SOHAIL AL SHAMAL", "SUHAIL ALSHAMAL", "SUHAIL ASH SHAMAL", "SUHAYL ASH SHAMAL"], "quote": "«سهيل الشمال»"}
+      ]
+    },
+    {
+      "id": "ar_latin_name",
+      "kind": "positive",
+      "language": "ar",
+      "tags": ["prefix_mv", "latin_name_in_other_script"],
+      "text": "أفادت هيئة الملاحة بأن السفينة MV Gray Osprey تعرضت لانفجار قرب مقدمتها دون إصابات.",
+      "expected": [
+        {"name": "MV Gray Osprey", "latin": ["GRAY OSPREY"], "quote": "السفينة MV Gray Osprey تعرضت لانفجار"}
+      ]
+    },
+    {
+      "id": "fa_corvette",
+      "kind": "positive",
+      "language": "fa",
+      "tags": ["name_in_quotes", "type_written", "non_latin_name"],
+      "text": "ناوچه «تندباد سبز» برای گشت‌زنی در نزدیکی جزیره خاکستری مستقر شد.",
+      "expected": [
+        {"name": "تندباد سبز", "latin": ["TONDBAD SABZ", "TONDBAD E SABZ", "TONDBADE SABZ", "TONDBAD-E SABZ", "TONDBAAD SABZ", "TUNDBAD SABZ"], "quote": "ناوچه «تندباد سبز»", "vessel_type": "warship"}
+      ]
+    },
+    {
+      "id": "fa_tanker_imo",
+      "kind": "positive",
+      "language": "fa",
+      "tags": ["name_in_quotes", "imo", "type_written", "non_latin_name", "zero_width_non_joiner"],
+      "text": "نفتکش «مهتاب شوره‌زار» با شماره IMO 3301821 در آب‌های جنوبی توقیف شد.",
+      "expected": [
+        {"name": "مهتاب شوره‌زار", "latin": ["MAHTAB SHOREZAR", "MAHTAB SHOUREZAR", "MAHTAB SHOUREHZAR", "MAHTAB SHOOREHZAR", "MAHTAB SHUREZAR", "MAHTAB SHUREHZAR", "MAHTAB-E SHOUREHZAR", "MAHTAB E SHOUREHZAR", "MAHTAB SHOURE ZAR"], "quote": "نفتکش «مهتاب شوره‌زار» با شماره IMO 3301821", "imo": "3301821", "vessel_type": "tanker"}
+      ]
+    },
+    {
+      "id": "he_tanker",
+      "kind": "positive",
+      "language": "he",
+      "tags": ["name_in_quotes", "type_written", "non_latin_name", "aircraft_too"],
+      "text": "מכלית הנפט \"עפרוני הים\" נפגעה מרחפן נפץ מול החוף, כך נמסר הבוקר.",
+      "expected": [
+        {"name": "עפרוני הים", "latin": ["EFRONI HAYAM", "EFRONI HA YAM", "EFRONI HAYYAM", "EFRONI HA-YAM", "EFRONEY HAYAM"], "quote": "מכלית הנפט \"עפרוני הים\"", "vessel_type": "tanker"}
+      ]
+    },
+    {
+      "id": "he_navy",
+      "kind": "positive",
+      "language": "he",
+      "tags": ["navy_prefix_hebrew", "name_in_quotes", "type_written", "non_latin_name"],
+      "text": "ספינת הטילים אח\"י \"ברק הכרמל\" יצאה לסיור לאורך החוף הצפוני.",
+      "expected": [
+        {"name": "ברק הכרמל", "also": ["אח\"י ברק הכרמל", "אח\"י \"ברק הכרמל\""], "latin": ["BARAK HACARMEL", "BARAK HAKARMEL", "BARAK HA CARMEL", "BARAK HA KARMEL", "BARAK HA-KARMEL", "BARAK HA-CARMEL"], "quote": "ספינת הטילים אח\"י \"ברק הכרמל\"", "vessel_type": "warship"}
+      ]
+    },
+    {
+      "id": "ru_tanker_imo",
+      "kind": "positive",
+      "language": "ru",
+      "tags": ["name_in_quotes", "imo", "type_written", "non_latin_name"],
+      "text": "Танкер «Ледяной Пеликан» (IMO 3405677) задержан пограничниками у мыса Полынный.",
+      "expected": [
+        {"name": "Ледяной Пеликан", "latin": ["LEDYANOY PELIKAN", "LEDYANOI PELIKAN", "LEDIANOI PELIKAN", "LEDYANOJ PELIKAN", "LEDYANOY PELICAN"], "quote": "Танкер «Ледяной Пеликан» (IMO 3405677)", "imo": "3405677", "vessel_type": "tanker"}
+      ]
+    },
+    {
+      "id": "ru_two_flag",
+      "kind": "positive",
+      "language": "ru",
+      "tags": ["several_ships", "name_in_quotes", "flag_written", "type_written", "non_latin_name"],
+      "text": "Сухогруз под флагом Мальты «Тихая Сойка» столкнулся с буксиром «Кремень-3» на рейде.",
+      "expected": [
+        {"name": "Тихая Сойка", "latin": ["TIKHAYA SOYKA", "TIKHAYA SOIKA", "TIHAYA SOYKA", "TIKHAJA SOJKA", "TIKHAIA SOIKA"], "quote": "Сухогруз под флагом Мальты «Тихая Сойка»", "flag": "MT", "vessel_type": ["cargo", "bulk"]},
+        {"name": "Кремень-3", "latin": ["KREMEN-3", "KREMEN 3", "KREMEN3"], "quote": "буксиром «Кремень-3»", "vessel_type": "tug"}
+      ]
+    },
+    {
+      "id": "ru_frigate",
+      "kind": "positive",
+      "language": "ru",
+      "tags": ["name_in_quotes", "type_written", "non_latin_name"],
+      "text": "Фрегат «Адмирал Вьюгин» вошёл в порт Северогорск после учений.",
+      "expected": [
+        {"name": "Адмирал Вьюгин", "latin": ["ADMIRAL VYUGIN", "ADMIRAL VIUGIN", "ADMIRAL VJUGIN", "ADMIRAL VYUGHIN"], "quote": "Фрегат «Адмирал Вьюгин»", "vessel_type": "warship"}
+      ]
+    },
+    {
+      "id": "en_shipment_relationship",
+      "kind": "negative",
+      "language": "en",
+      "tags": ["ship_inside_a_word"],
+      "text": "The shipment of grain cleared customs on Tuesday, and officials said the trading relationship with Northport remains strong.",
+      "expected": []
+    },
+    {
+      "id": "en_ins_and_outs",
+      "kind": "negative",
+      "language": "en",
+      "tags": ["prefix_as_ordinary_word"],
+      "text": "Analysts who know the ins and outs of the harbour budget said the iris scanners at the terminal will be replaced next year.",
+      "expected": []
+    },
+    {
+      "id": "ar_najaf",
+      "kind": "negative",
+      "language": "ar",
+      "tags": ["ship_word_inside_a_place"],
+      "text": "اختتم مؤتمر في النجف أعماله بعد مناقشة مشاريع الري الجديدة في المحافظة.",
+      "expected": []
+    },
+    {
+      "id": "en_port_named_like_ship",
+      "kind": "negative",
+      "language": "en",
+      "tags": ["port_named_like_a_ship"],
+      "text": "Cranes at Port Meridian Star resumed work after the storm, the harbour authority said.",
+      "expected": []
+    },
+    {
+      "id": "en_airline_named_like_ship",
+      "kind": "negative",
+      "language": "en",
+      "tags": ["airline_named_like_a_ship", "aircraft"],
+      "text": "Silver Albatross Airlines flight 402 landed safely at Corvin International after a bird strike.",
+      "expected": []
+    },
+    {
+      "id": "en_tanker_unnamed",
+      "kind": "negative",
+      "language": "en",
+      "tags": ["type_without_name"],
+      "text": "A tanker was struck by a projectile 40 nautical miles west of Port Azure; the vessel's name and flag were not disclosed.",
+      "expected": []
+    },
+    {
+      "id": "ar_ship_unnamed",
+      "kind": "negative",
+      "language": "ar",
+      "tags": ["type_without_name"],
+      "text": "أفادت مصادر بتعرض سفينة تجارية لهجوم قرب ميناء الصفاء، دون الكشف عن اسمها أو جنسيتها.",
+      "expected": []
+    },
+    {
+      "id": "fa_tanker_unnamed",
+      "kind": "negative",
+      "language": "fa",
+      "tags": ["type_without_name"],
+      "text": "یک نفتکش خارجی در نزدیکی بندر سپیدار توقیف شد و نام آن اعلام نشد.",
+      "expected": []
+    },
+    {
+      "id": "he_flotilla_unnamed",
+      "kind": "negative",
+      "language": "he",
+      "tags": ["type_without_name", "fleet"],
+      "text": "שתי ספינות טילים מהשייטת הצפונית יצאו לסיור ליד חוף הכרמל.",
+      "expected": []
+    },
+    {
+      "id": "ru_vessel_unnamed",
+      "kind": "negative",
+      "language": "ru",
+      "tags": ["type_without_name"],
+      "text": "Неизвестное судно подало сигнал бедствия у мыса Полынный; название судна не сообщается.",
+      "expected": []
+    },
+    {
+      "id": "en_company_and_class",
+      "kind": "negative",
+      "language": "en",
+      "tags": ["company", "ship_class"],
+      "text": "Blue Heron Shipping Lines ordered four new Kestrel-class container ships for delivery in 2029.",
+      "expected": []
+    },
+    {
+      "id": "en_aircraft_operation",
+      "kind": "negative",
+      "language": "en",
+      "tags": ["aircraft", "operation_name"],
+      "text": "During Operation Steel Tide, a fighter jet using the call sign VIPER 21 and two drones were tracked over the strait.",
+      "expected": []
+    }
+  ]
+}

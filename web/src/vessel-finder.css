@@ -1,0 +1,65 @@
+/* Ships named in a message: suggestions under the reading, quiet until used. */
+.vessel-finder { margin-top: 20px; border-top: 1px solid var(--line); padding-top: 14px; }
+.vessel-finder header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+.vessel-finder h3 { display: inline-flex; align-items: center; gap: 7px; margin: 0; font-size: 13px; font-weight: 650; color: var(--ink); }
+.vessel-finder h3 svg { color: #86c9d5; }
+.vessel-finder header small { color: var(--muted); font-size: 10.5px; }
+.vessel-note { margin: 4px 0 8px; font-size: 11px; line-height: 1.55; color: var(--muted); }
+.vessel-error { color: #d4ae83; }
+.vessel-offer { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
+.vessel-find { display: inline-flex; align-items: center; gap: 6px; padding: 6px 11px; border: 1px solid #7fd0e055; border-radius: 6px; background: #14303a; color: #cdeff4; font-size: 11.5px; cursor: pointer; }
+.vessel-find:hover:not(:disabled) { background: #1b3d49; }
+.vessel-find:disabled { opacity: .5; cursor: default; }
+.vessel-mention { padding: 8px 0 10px; border-bottom: 1px solid #8aa3b51a; }
+.vessel-mention:last-child { border-bottom: 0; }
+.vessel-quote { display: inline-block; border: 0; background: none; padding: 0; font-size: 13px; font-weight: 600; color: var(--ink); text-align: start; cursor: pointer; text-decoration: underline; text-decoration-color: #86c9d566; text-underline-offset: 3px; }
+span.vessel-quote { cursor: default; text-decoration: none; }
+.vessel-latin { display: block; font-size: 10.5px; color: var(--muted); margin-top: 1px; }
+.vessel-candidates { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.vessel-candidate { display: grid; grid-template-columns: 9px minmax(0, 1fr); gap: 9px; padding: 8px 9px; border: 1px solid #8aa3b526; border-radius: 7px; background: #0e1b2566; }
+.vessel-candidate > i { width: 9px; height: 9px; border-radius: 50%; margin-top: 4px; }
+.vessel-candidate.confirmed { border-color: #6fcf9a66; background: #12302666; }
+.vessel-candidate.rejected { opacity: .55; }
+.vessel-candidate strong { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 600; color: var(--ink); overflow-wrap: anywhere; }
+.vessel-candidate small { display: block; font-size: 10.5px; line-height: 1.5; color: var(--muted); margin-top: 1px; }
+.vessel-candidate small.vessel-near { color: #a6dccb; }
+.vessel-candidate small.vessel-disagrees { color: #d4ae83; }
+.vessel-state { display: inline-flex; align-items: center; gap: 3px; font-size: 10px; font-weight: 500; color: #8fd6b2; }
+.vessel-actions { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+.vessel-actions button { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border: 1px solid #8aa3b52b; border-radius: 5px; background: #0c1822; color: #a9c2cf; font-size: 10.5px; cursor: pointer; }
+.vessel-actions button:hover:not(:disabled) { border-color: #7fd0e066; color: #e0f1f5; }
+.vessel-actions button:disabled { opacity: .4; cursor: default; }
+.vessel-more { margin-top: 6px; }
+.vessel-more summary { cursor: pointer; font-size: 10.5px; color: #86c9d5; margin-bottom: 6px; }
+.vessel-basis { color: #a9c7d3 !important; }
+.vessel-link { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; padding: 0; border: 0; background: none; color: #86c9d5; font-size: 11px; cursor: pointer; }
+.vessel-link:hover { color: #c5eef5; text-decoration: underline; text-underline-offset: 3px; }
+.vessel-nearby { margin-top: 10px; padding-top: 8px; border-top: 1px dashed #8aa3b52e; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
+.vessel-nearby .vessel-mention { width: 100%; }
+/* Ships on feed rows: confirmed solid, suggested dashed with a "?". Chips
+   shrink, and wrap to their own line rather than squeezing the place label. */
+.evidence-row-footer:has(>.vessel-chip) { flex-wrap: wrap; row-gap: 4px; }
+.evidence-row-footer>.vessel-chip { display: inline-flex; align-items: center; gap: 4px; flex: 0 1 auto; min-width: 0; max-width: 150px; padding: 1px 7px 1px 6px; border-radius: 999px; font-size: 9.5px; line-height: 1.6; color: #dceef3; background: color-mix(in srgb, var(--ship) 16%, transparent); border: 1px solid color-mix(in srgb, var(--ship) 55%, transparent); }
+.evidence-row-footer>.vessel-chip svg { color: var(--ship); flex: none; }
+.evidence-row-footer>.vessel-chip.suggested { background: none; border-style: dashed; color: #b9ccd5; }
+.evidence-row-footer>.vessel-chip.more { --ship: #8aa3b5; flex: none; background: none; color: #a9c2cf; }
+.vessel-chip-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.vessel-chip-cue { flex: none; font-weight: 650; color: var(--ship); }
+.vessel-marks-error { color: #d4ae83; }
+.vessel-gap { color: #e9b98a; border-left: 2px solid #e9b98a88; padding-left: 8px; }
+/* Reader: which candidate is the suggestion, and where focus lands after a decision. */
+.vessel-finder header { flex-wrap: wrap; row-gap: 2px; }
+.vessel-candidate strong { flex-wrap: wrap; row-gap: 3px; }
+.vessel-name:focus { outline: none; }
+.vessel-name:focus-visible { outline: 1.5px solid #86c9d5; outline-offset: 2px; border-radius: 3px; }
+.vessel-tag { display: inline-flex; align-items: center; padding: 0 6px; border: 1px dashed #86c9d599; border-radius: 999px; font-size: 9.5px; font-weight: 500; line-height: 1.6; color: #b9e2ea; }
+.vessel-candidate small.vessel-suggestion { color: #9fc9d3; }
+.vessel-link:disabled { opacity: .5; cursor: default; }
+.vessel-link:disabled:hover { color: #86c9d5; text-decoration: none; }
+@media (max-width: 700px) {
+  /* Touch-sized decisions; the block reads top to bottom at phone width. */
+  .vessel-actions { gap: 6px; }
+  .vessel-actions button { padding: 6px 10px; font-size: 11px; }
+  .vessel-link { padding: 4px 0; }
+  .vessel-candidate { padding: 9px 10px; }
+}

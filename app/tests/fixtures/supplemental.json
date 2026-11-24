@@ -1,0 +1,133 @@
+[
+  {
+    "id": "fire",
+    "text": "Fictional test: A fire broke out at a warehouse in London this morning. Firefighters are responding.",
+    "expected": {
+      "kind": [
+        "event_report"
+      ],
+      "event_fire": [
+        "present"
+      ],
+      "claim_state": [
+        "reported"
+      ]
+    }
+  },
+  {
+    "id": "denial",
+    "text": "Fictional test: Officials deny reports that a missile struck the port. They say no attack occurred.",
+    "expected": {
+      "event_strike": [
+        "present"
+      ],
+      "claim_state": [
+        "denied"
+      ]
+    }
+  },
+  {
+    "id": "planned",
+    "text": "Fictional test: A protest is planned for next Friday. It has not happened yet.",
+    "expected": {
+      "event_protest": [
+        "present"
+      ],
+      "claim_state": [
+        "planned"
+      ]
+    }
+  },
+  {
+    "id": "outage",
+    "text": "اختبار خيالي: انقطعت الكهرباء في بيروت صباح اليوم وما زالت أعمال الإصلاح مستمرة.",
+    "expected": {
+      "event_infrastructure_disruption": [
+        "present"
+      ],
+      "translation": [
+        "needed"
+      ]
+    }
+  },
+  {
+    "id": "mixed",
+    "text": "Fictional test: A warehouse fire was reported today. Officials denied that the nearby bridge had collapsed. Buy our newsletter.",
+    "expected": {
+      "event_fire": [
+        "present"
+      ],
+      "event_structural_damage": [
+        "present"
+      ],
+      "claim_state": [
+        "mixed"
+      ]
+    }
+  },
+  {
+    "id": "media",
+    "text": "More footage.",
+    "expected": {
+      "context": [
+        "follow_up",
+        "media_required",
+        "uncertain"
+      ]
+    }
+  },
+  {
+    "id": "followup",
+    "text": "Fictional test: More images from that warehouse fire in London.",
+    "neighbours": [
+      {
+        "id": "fiction:earlier",
+        "revision": "v1",
+        "text": "Fictional test: A warehouse is on fire in London. Firefighters are responding.",
+        "source": "fiction:jev",
+        "published_at": "2026-09-21T10:00:00Z"
+      }
+    ],
+    "expected": {
+      "link_0": [
+        "continuation"
+      ]
+    }
+  },
+  {
+    "id": "place",
+    "text": "Fictional test: A fire broke out in Springfield, Queensland, Australia.",
+    "locations": [
+      {
+        "mention": "Springfield",
+        "quote": "A fire broke out in Springfield, Queensland, Australia.",
+        "role": "event",
+        "candidates_truncated": false,
+        "candidates": [
+          {
+            "id": "fixture:us",
+            "name": "Springfield",
+            "kind": "city",
+            "country_code": "US",
+            "country_name": "United States"
+          },
+          {
+            "id": "fixture:au",
+            "name": "Springfield",
+            "kind": "city",
+            "country_code": "AU",
+            "country_name": "Australia"
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "geo_0": [
+        "candidate_1"
+      ],
+      "event_fire": [
+        "present"
+      ]
+    }
+  }
+]

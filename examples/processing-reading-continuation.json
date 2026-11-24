@@ -1,0 +1,525 @@
+{
+  "version": "relic.reading-continuation.v1.1",
+  "fictional": true,
+  "purpose": "Eight development regressions for citation context, bilingual completeness, source denial and ambiguous event types. No original live messages; not independent accuracy.",
+  "cases": [
+    {
+      "id": "continuation_cross_sentence",
+      "split": "continuation",
+      "event_fixture": true,
+      "original": "Fictional report: a warehouse in Bristol caught fire. Crews extinguished the fire after 2 hours. No injuries were reported.",
+      "english_checks": [
+        [
+          "Bristol"
+        ],
+        [
+          "2"
+        ],
+        [
+          "no injuries",
+          "no casualties",
+          "no reported injuries"
+        ]
+      ],
+      "translation_checks": [
+        [
+          "Bristol"
+        ],
+        [
+          "2"
+        ],
+        [
+          "no injuries",
+          "no casualties",
+          "no reported injuries"
+        ]
+      ],
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "A warehouse fire in Bristol was extinguished after 2 hours, with no reported injuries.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "A warehouse fire in Bristol was extinguished after 2 hours, with no reported injuries.",
+            "quote": "Fictional report: a warehouse in Bristol caught fire. Crews extinguished the fire after 2 hours. No injuries were reported.",
+            "event_type": "fire",
+            "location_indices": [
+              0
+            ],
+            "state": "reported",
+            "time_text": "after 2 hours"
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Bristol",
+            "quote": "Fictional report: a warehouse in Bristol caught fire. Crews extinguished the fire after 2 hours. No injuries were reported.",
+            "role": "event",
+            "canonical_name": "Bristol",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "continuation_exact_whitespace",
+      "split": "continuation",
+      "event_fixture": true,
+      "original": "Fictional bulletin:\n\nA fire in  Oslo damaged a warehouse.\n\nNo injuries were reported.",
+      "english_checks": [
+        [
+          "Oslo"
+        ],
+        [
+          "no injuries",
+          "no casualties"
+        ]
+      ],
+      "translation_checks": [
+        [
+          "Oslo"
+        ],
+        [
+          "no injuries",
+          "no casualties"
+        ]
+      ],
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "A fire damaged a warehouse in Oslo; no injuries were reported.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "A fire damaged a warehouse in Oslo; no injuries were reported.",
+            "quote": "Fictional bulletin:\n\nA fire in  Oslo damaged a warehouse.\n\nNo injuries were reported.",
+            "event_type": "fire",
+            "location_indices": [
+              0
+            ],
+            "state": "reported",
+            "time_text": null
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Oslo",
+            "quote": "Fictional bulletin:\n\nA fire in  Oslo damaged a warehouse.\n\nNo injuries were reported.",
+            "role": "event",
+            "canonical_name": "Oslo",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "continuation_separate_sites",
+      "split": "continuation",
+      "event_fixture": true,
+      "original": "Fictional report: a fire was reported in Lyon. A separate power outage was reported in Madrid.",
+      "english_checks": [
+        [
+          "Lyon"
+        ],
+        [
+          "Madrid"
+        ],
+        [
+          "fire"
+        ],
+        [
+          "power",
+          "outage"
+        ]
+      ],
+      "translation_checks": [
+        [
+          "Lyon"
+        ],
+        [
+          "Madrid"
+        ],
+        [
+          "fire"
+        ],
+        [
+          "power",
+          "outage"
+        ]
+      ],
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "A fire was reported in Lyon.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "A fire was reported in Lyon.",
+            "quote": "Fictional report: a fire was reported in Lyon.",
+            "event_type": "fire",
+            "location_indices": [
+              0
+            ],
+            "state": "reported",
+            "time_text": null
+          },
+          {
+            "text": "A separate power outage was reported in Madrid.",
+            "quote": "A separate power outage was reported in Madrid.",
+            "event_type": "infrastructure_disruption",
+            "location_indices": [
+              1
+            ],
+            "state": "reported",
+            "time_text": null
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Lyon",
+            "quote": "Fictional report: a fire was reported in Lyon.",
+            "role": "event",
+            "canonical_name": "Lyon",
+            "country_code": null
+          },
+          {
+            "mention": "Madrid",
+            "quote": "A separate power outage was reported in Madrid.",
+            "role": "event",
+            "canonical_name": "Madrid",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "continuation_fa_context",
+      "split": "continuation",
+      "event_fixture": true,
+      "original": "گزارش فرضی: آتش‌سوزی در شیراز رخ داد. آتش‌نشانان آتش را مهار کردند. هیچ‌کس زخمی نشد.",
+      "english_checks": [
+        [
+          "Shiraz"
+        ],
+        [
+          "contained",
+          "extinguished",
+          "under control"
+        ],
+        [
+          "no one",
+          "nobody",
+          "no injuries",
+          "no casualties"
+        ]
+      ],
+      "translation_checks": [
+        [
+          "Shiraz"
+        ],
+        [
+          "contained",
+          "extinguished",
+          "under control"
+        ],
+        [
+          "no one",
+          "nobody",
+          "no injuries",
+          "no casualties"
+        ]
+      ],
+      "gold": {
+        "language": "fa",
+        "translation": "Fictional English reference; semantic checks below.",
+        "headline": "A fire occurred in Shiraz and firefighters contained it; nobody was injured.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "A fire occurred in Shiraz and firefighters contained it; nobody was injured.",
+            "quote": "گزارش فرضی: آتش‌سوزی در شیراز رخ داد. آتش‌نشانان آتش را مهار کردند. هیچ‌کس زخمی نشد.",
+            "event_type": "fire",
+            "location_indices": [
+              0
+            ],
+            "state": "reported",
+            "time_text": null
+          }
+        ],
+        "locations": [
+          {
+            "mention": "شیراز",
+            "quote": "گزارش فرضی: آتش‌سوزی در شیراز رخ داد. آتش‌نشانان آتش را مهار کردند. هیچ‌کس زخمی نشد.",
+            "role": "event",
+            "canonical_name": "Shiraz",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "continuation_bilingual_duplicate",
+      "split": "continuation",
+      "event_fixture": true,
+      "original": "Fictional exercise: the bridge in Porto reopened.\n\nترجمه خودکار فارسی\nپل در پورتو دوباره باز شد.",
+      "english_checks": [
+        [
+          "Porto"
+        ],
+        [
+          "reopened"
+        ]
+      ],
+      "translation_checks": [
+        [
+          "fictional"
+        ],
+        [
+          "Porto"
+        ],
+        [
+          "reopened"
+        ]
+      ],
+      "gold": {
+        "language": "mul",
+        "translation": "Fictional English reference; semantic checks below.",
+        "headline": "The bridge in Porto reopened.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "The bridge in Porto reopened.",
+            "quote": "Fictional exercise: the bridge in Porto reopened.\n\nترجمه خودکار فارسی\nپل در پورتو دوباره باز شد.",
+            "event_type": "transport_disruption",
+            "location_indices": [
+              0
+            ],
+            "state": "reported",
+            "time_text": null
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Porto",
+            "quote": "Fictional exercise: the bridge in Porto reopened.\n\nترجمه خودکار فارسی\nپل در پورتو دوباره باز شد.",
+            "role": "event",
+            "canonical_name": "Porto",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "continuation_bilingual_additions",
+      "split": "continuation",
+      "event_fixture": true,
+      "original": "Fictional exercise: a fire damaged a warehouse in Paris.\n\nتوضیح تکمیلی: دو نفر زخمی شدند. علت آتش‌سوزی هنوز مشخص نیست.",
+      "english_checks": [
+        [
+          "Paris"
+        ],
+        [
+          "two"
+        ],
+        [
+          "unknown",
+          "unclear",
+          "not known",
+          "not yet known"
+        ]
+      ],
+      "translation_checks": [
+        [
+          "two"
+        ],
+        [
+          "injured"
+        ],
+        [
+          "unknown",
+          "unclear",
+          "not known",
+          "not yet known"
+        ]
+      ],
+      "gold": {
+        "language": "mul",
+        "translation": "Fictional English reference; semantic checks below.",
+        "headline": "A fire damaged a warehouse in Paris; two people were injured and the cause remains unknown.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "A fire damaged a warehouse in Paris; two people were injured and the cause remains unknown.",
+            "quote": "Fictional exercise: a fire damaged a warehouse in Paris.\n\nتوضیح تکمیلی: دو نفر زخمی شدند. علت آتش‌سوزی هنوز مشخص نیست.",
+            "event_type": "fire",
+            "location_indices": [
+              0
+            ],
+            "state": "reported",
+            "time_text": null
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Paris",
+            "quote": "Fictional exercise: a fire damaged a warehouse in Paris.\n\nتوضیح تکمیلی: دو نفر زخمی شدند. علت آتش‌سوزی هنوز مشخص نیست.",
+            "role": "event",
+            "canonical_name": "Paris",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "continuation_ambiguous_airspace",
+      "split": "continuation",
+      "event_fixture": true,
+      "original": "تقرير افتراضي: اضطرابات غير محددة في المجال الجوي فوق الرياض. السبب غير معروف.",
+      "english_checks": [
+        [
+          "Riyadh"
+        ],
+        [
+          "disturbance"
+        ],
+        [
+          "unknown",
+          "unclear",
+          "not known"
+        ]
+      ],
+      "translation_checks": [
+        [
+          "Riyadh"
+        ],
+        [
+          "disturbance"
+        ],
+        [
+          "unknown",
+          "unclear",
+          "not known"
+        ]
+      ],
+      "gold": {
+        "language": "ar",
+        "translation": "Fictional English reference; semantic checks below.",
+        "headline": "Unspecified disturbances were reported in the airspace over Riyadh; the cause is unknown.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "Unspecified disturbances were reported in the airspace over Riyadh; the cause is unknown.",
+            "quote": "تقرير افتراضي: اضطرابات غير محددة في المجال الجوي فوق الرياض. السبب غير معروف.",
+            "event_type": "other",
+            "location_indices": [
+              0
+            ],
+            "state": "reported",
+            "time_text": null
+          }
+        ],
+        "locations": [
+          {
+            "mention": "الرياض",
+            "quote": "تقرير افتراضي: اضطرابات غير محددة في المجال الجوي فوق الرياض. السبب غير معروف.",
+            "role": "event",
+            "canonical_name": "Riyadh",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "continuation_denial_alternative",
+      "split": "continuation",
+      "event_fixture": true,
+      "original": "Fictional report: earlier claims that a missile struck the hospital in York are FALSE. The local authority says an electrical fire damaged a warehouse in Leeds.",
+      "english_checks": [
+        [
+          "denied",
+          "false"
+        ],
+        [
+          "Leeds"
+        ],
+        [
+          "fire"
+        ]
+      ],
+      "translation_checks": [
+        [
+          "denied",
+          "false"
+        ],
+        [
+          "Leeds"
+        ],
+        [
+          "fire"
+        ]
+      ],
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Claims of a missile strike on the hospital in York are denied.",
+        "kind": "event",
+        "claim_status": "denied",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "Claims of a missile strike on the hospital in York are denied.",
+            "quote": "Fictional report: earlier claims that a missile struck the hospital in York are FALSE.",
+            "event_type": "strike",
+            "location_indices": [
+              0
+            ],
+            "state": "denied",
+            "time_text": null
+          },
+          {
+            "text": "The local authority says an electrical fire damaged a warehouse in Leeds.",
+            "quote": "The local authority says an electrical fire damaged a warehouse in Leeds.",
+            "event_type": "fire",
+            "location_indices": [
+              1
+            ],
+            "state": "reported",
+            "time_text": null
+          }
+        ],
+        "locations": [
+          {
+            "mention": "York",
+            "quote": "Fictional report: earlier claims that a missile struck the hospital in York are FALSE.",
+            "role": "event",
+            "canonical_name": "York",
+            "country_code": null
+          },
+          {
+            "mention": "Leeds",
+            "quote": "The local authority says an electrical fire damaged a warehouse in Leeds.",
+            "role": "event",
+            "canonical_name": "Leeds",
+            "country_code": null
+          }
+        ]
+      }
+    }
+  ],
+  "review_note": "The cross-sentence gold omitted the explicit original time phrase after 2 hours. Restore that phrase; the exact quoted source, single fire event, status, location and no-injuries gates are unchanged. Earlier reports retained."
+}

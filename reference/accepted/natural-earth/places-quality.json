@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "outcome": "passed_for_globe_place_navigation_only",
+  "commit": "f1890d9f152c896d250a77557a5751a93d494776",
+  "count": 410,
+  "countries": 210,
+  "cities": 200,
+  "publisher_flagged_capitals_selected": 167,
+  "source_counts": {
+    "countries": 177,
+    "tiny_country_points": 37,
+    "populated_places": 243
+  },
+  "duplicates_by_publisher_ne_id": [
+    {
+      "ne_id": "1159321421",
+      "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+      "source_feature_index": 0,
+      "kept_path": "raw/ne_110m_admin_0_countries.geojson"
+    },
+    {
+      "ne_id": "1159320631",
+      "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+      "source_feature_index": 1,
+      "kept_path": "raw/ne_110m_admin_0_countries.geojson"
+    },
+    {
+      "ne_id": "1159321321",
+      "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+      "source_feature_index": 9,
+      "kept_path": "raw/ne_110m_admin_0_countries.geojson"
+    },
+    {
+      "ne_id": "1159320451",
+      "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+      "source_feature_index": 18,
+      "kept_path": "raw/ne_110m_admin_0_countries.geojson"
+    }
+  ],
+  "cities_omitted_by_rank_limit": 43,
+  "rejected_invalid_records": 0,
+  "closed_source_polygon_rings": 289,
+  "valid_source_coordinates": 10934,
+  "bytes": 199358,
+  "sha256": "155161e6439811d54001b289b25387dc39549318ea7fd912281128cd01e866c6",
+  "schema": "{id:string,name:string,kind:\"country\"|\"city\",country?:string,aliases:string[],longitude:number,latitude:number,zoom:number}[]",
+  "city_selection": "SCALERANK ascending, ADM0CAP descending, POP_MAX descending, NE_ID lexicographic; first 200 of 243 publisher places.",
+  "country_selection": "All 177 countries plus 33 additional tiny-country points; deduplicate only identical publisher NE_ID, preserving country-layer label where both exist.",
+  "city_country_policy": "Retain each city source record ADM0NAME directly; omit the field if unavailable. Do not crosswalk ADM0_A3 through country/tiny-country layers or substitute sovereignty labels.",
+  "city_country_records_checked": 200,
+  "representative_city_country_checks": [
+    {
+      "query": "Lisbon",
+      "country": "Portugal"
+    },
+    {
+      "query": "Lisboa",
+      "country": "Portugal"
+    },
+    {
+      "query": "Madrid",
+      "country": "Spain"
+    },
+    {
+      "query": "Oslo",
+      "country": "Norway"
+    },
+    {
+      "query": "London",
+      "country": "United Kingdom"
+    },
+    {
+      "query": "Paris",
+      "country": "France"
+    },
+    {
+      "query": "New York",
+      "country": "United States of America"
+    }
+  ],
+  "requested_places_absent_from_source": [
+    "Porto",
+    "Funchal"
+  ],
+  "coordinate_policy": "Use publisher LABEL_X/LABEL_Y for country navigation, unchanged source GeoJSON point for cities; never infer report/evidence geography.",
+  "zoom_policy": "Camera presentation preference only: country extent from largest polygon shell, clamped 1.6–6.5; tiny-country points 6; cities 6.2 for publisher POP_MAX>=5m else7. No population value is exposed as current evidence.",
+  "limitations": [
+    "Pinned 2022 repository release; underlying label/position vintage may be older or unknown.",
+    "The country enum includes publisher-defined countries/territories, not a legal recognition assertion.",
+    "Not complete city/capital coverage; 43 source places omitted by explicit rank limit.",
+    "Aliases are publisher values, not reconciled current official names.",
+    "Label points and suggested zoom are for camera navigation only; never use them to locate evidence, test analytical scope or assert geography."
+  ]
+}

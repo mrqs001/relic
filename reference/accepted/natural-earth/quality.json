@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "outcome": "passed_for_small_scale_locator_display",
+  "validator": "validation/check_natural_earth.mjs",
+  "source_commit": "f1890d9f152c896d250a77557a5751a93d494776",
+  "checks": [
+    "publisher byte count",
+    "SHA-256",
+    "Git blob SHA-1",
+    "CRS",
+    "geometry types",
+    "coordinate shape/range/finiteness",
+    "closed polygon rings",
+    "release-local identity uniqueness",
+    "unchanged display coordinates and properties"
+  ],
+  "identity": "The raw GeoJSON has no stable per-feature publisher IDs. Derived IDs qualify zero-based raw feature rows by dataset and pinned release. They are display IDs, not cross-release physical entities.",
+  "transformation": "Preserve every feature, coordinate and property; add release-local display IDs, omit legacy top-level crs/name metadata and recompute display bbox from actual coordinates. Raw bytes remain unchanged.",
+  "findings": [
+    "The coastline publisher bbox carries finer precision than the rounded coordinates, including east 180.00000044181. Actual coordinates are within range; the derived bbox uses those actual coordinates.",
+    "One coastline feature has publisher featurecla=Country. It is retained as publisher metadata and does not create a political or analytical boundary assertion."
+  ],
+  "limitations": [
+    "Generalized 1:110m locator geometry; not navigation or surveyed detail.",
+    "Coordinate/ring checks do not prove topology, world accuracy or completeness.",
+    "No legal/administrative membership, geocoding, incident association or evidence support may use this display asset.",
+    "Release date is known; per-feature real-world observation dates are not supplied."
+  ],
+  "datasets": [
+    {
+      "layer": "land",
+      "raw_path": "raw/ne_110m_land.geojson",
+      "raw_bytes": 138160,
+      "raw_sha256": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+      "feature_count": 127,
+      "geometry_type": "Polygon",
+      "coordinate_count": 5143,
+      "closed_polygon_rings": 128,
+      "nonfinite_coordinates": 0,
+      "out_of_range_coordinates": 0,
+      "unclosed_polygon_rings": 0,
+      "rejected_records": 0,
+      "excluded_records": 0,
+      "coordinate_order": "longitude, latitude",
+      "coordinate_reference_system": "OGC CRS84 (WGS84 degrees)",
+      "coordinate_bbox": [
+        -180,
+        -90,
+        180,
+        83.64513
+      ],
+      "publisher_bbox": [
+        -180,
+        -90,
+        180,
+        83.64513
+      ],
+      "publisher_bbox_matches_coordinates": true,
+      "display_path": "display/land.geojson",
+      "display_bytes": 144175,
+      "display_sha256": "193d9bd6cee5d8fc8fe7e33c6e5b1cdb6e3dadcb6cfa23277f89591465b1c80d"
+    },
+    {
+      "layer": "coastline",
+      "raw_path": "raw/ne_110m_coastline.geojson",
+      "raw_bytes": 139907,
+      "raw_sha256": "851f581ff5ffb844deed8ae1a9ce22e3c4bb3d74fa342cadb5d8e39b41ae7c3c",
+      "feature_count": 134,
+      "geometry_type": "LineString",
+      "coordinate_count": 5128,
+      "closed_polygon_rings": 0,
+      "nonfinite_coordinates": 0,
+      "out_of_range_coordinates": 0,
+      "unclosed_polygon_rings": 0,
+      "rejected_records": 0,
+      "excluded_records": 0,
+      "coordinate_order": "longitude, latitude",
+      "coordinate_reference_system": "OGC CRS84 (WGS84 degrees)",
+      "coordinate_bbox": [
+        -180,
+        -85.609038,
+        180,
+        83.64513
+      ],
+      "publisher_bbox": [
+        -180,
+        -85.6090377745977,
+        180.00000044181,
+        83.64513
+      ],
+      "publisher_bbox_matches_coordinates": false,
+      "display_path": "display/coastline.geojson",
+      "display_bytes": 146911,
+      "display_sha256": "61432c8f55695174ac6963aa1cfaf8f720652cb79bf3a87f8d13f544a8515e78"
+    }
+  ]
+}

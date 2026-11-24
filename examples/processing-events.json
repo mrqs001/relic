@@ -1,0 +1,762 @@
+{
+  "version": "relic.message-events.fixture.v1",
+  "fictional": true,
+  "purpose": "Owned held-out event type, state and exact place/time association cases. No source claims are real. Not prompt examples.",
+  "cases": [
+    {
+      "id": "event_strike",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: a drone strike hit a warehouse in London this morning.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: a drone strike hit a warehouse in London this morning.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "conflict",
+        "claims": [
+          {
+            "text": "Fictional: a drone strike hit a warehouse in London this morning.",
+            "quote": "Fictional: a drone strike hit a warehouse in London this morning.",
+            "state": "reported",
+            "event_type": "strike",
+            "time_text": "this morning",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "London",
+            "canonical_name": "London",
+            "quote": "Fictional: a drone strike hit a warehouse in London this morning.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_armed_attack_ar",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "تقرير خيالي: أطلق مسلحون النار على حافلة في باريس اليوم.",
+      "gold": {
+        "language": "ar",
+        "translation": "Fictional report: gunmen opened fire on a bus in Paris today.",
+        "headline": "Fictional report: gunmen opened fire on a bus in Paris today.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "conflict",
+        "claims": [
+          {
+            "text": "Fictional report: gunmen opened fire on a bus in Paris today.",
+            "quote": "تقرير خيالي: أطلق مسلحون النار على حافلة في باريس اليوم.",
+            "state": "reported",
+            "event_type": "armed_attack",
+            "time_text": "اليوم",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "باريس",
+            "canonical_name": "Paris",
+            "quote": "تقرير خيالي: أطلق مسلحون النار على حافلة في باريس اليوم.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_explosion_he",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "תרחיש בדיוני: פיצוץ נשמע בתל אביב הבוקר. הסיבה אינה ידועה.",
+      "gold": {
+        "language": "he",
+        "translation": "Fictional scenario: an explosion was heard in Tel Aviv this morning. The cause is unknown.",
+        "headline": "Fictional scenario: an explosion was heard in Tel Aviv this morning",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional scenario: an explosion was heard in Tel Aviv this morning. The cause is unknown.",
+            "quote": "תרחיש בדיוני: פיצוץ נשמע בתל אביב הבוקר. הסיבה אינה ידועה.",
+            "state": "reported",
+            "event_type": "explosion",
+            "time_text": "הבוקר",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "תל אביב",
+            "canonical_name": "Tel Aviv",
+            "quote": "תרחיש בדיוני: פיצוץ נשמע בתל אביב הבוקר. הסיבה אינה ידועה.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_air_defense_fa",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "گزارش خیالی: پدافند هوایی یک پهپاد را بر فراز تهران امروز رهگیری کرد.",
+      "gold": {
+        "language": "fa",
+        "translation": "Fictional report: air defenses intercepted a drone over Tehran today.",
+        "headline": "Fictional report: air defenses intercepted a drone over Tehran today.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "conflict",
+        "claims": [
+          {
+            "text": "Fictional report: air defenses intercepted a drone over Tehran today.",
+            "quote": "گزارش خیالی: پدافند هوایی یک پهپاد را بر فراز تهران امروز رهگیری کرد.",
+            "state": "reported",
+            "event_type": "air_defense",
+            "time_text": "امروز",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "تهران",
+            "canonical_name": "Tehran",
+            "quote": "گزارش خیالی: پدافند هوایی یک پهپاد را بر فراز تهران امروز رهگیری کرد.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_fire",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: a fire broke out at a warehouse in Rome overnight.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: a fire broke out at a warehouse in Rome overnight.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: a fire broke out at a warehouse in Rome overnight.",
+            "quote": "Fictional: a fire broke out at a warehouse in Rome overnight.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": "overnight",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Rome",
+            "canonical_name": "Rome",
+            "quote": "Fictional: a fire broke out at a warehouse in Rome overnight.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_protest",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: protesters gathered outside city hall in Madrid today.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: protesters gathered outside city hall in Madrid today.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "politics",
+        "claims": [
+          {
+            "text": "Fictional: protesters gathered outside city hall in Madrid today.",
+            "quote": "Fictional: protesters gathered outside city hall in Madrid today.",
+            "state": "reported",
+            "event_type": "protest",
+            "time_text": "today",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Madrid",
+            "canonical_name": "Madrid",
+            "quote": "Fictional: protesters gathered outside city hall in Madrid today.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_movement",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: an army convoy entered Berlin this morning.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: an army convoy entered Berlin this morning.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "conflict",
+        "claims": [
+          {
+            "text": "Fictional: an army convoy entered Berlin this morning.",
+            "quote": "Fictional: an army convoy entered Berlin this morning.",
+            "state": "reported",
+            "event_type": "military_movement",
+            "time_text": "this morning",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Berlin",
+            "canonical_name": "Berlin",
+            "quote": "Fictional: an army convoy entered Berlin this morning.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_outage",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: Tehran lost electrical power for 2 hours today.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: Tehran lost electrical power for 2 hours today.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "Fictional: Tehran lost electrical power for 2 hours today.",
+            "quote": "Fictional: Tehran lost electrical power for 2 hours today.",
+            "state": "reported",
+            "event_type": "infrastructure_disruption",
+            "time_text": "today",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Tehran",
+            "canonical_name": "Tehran",
+            "quote": "Fictional: Tehran lost electrical power for 2 hours today.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_accident",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: 2 passenger trains collided in Tokyo this morning.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: 2 passenger trains collided in Tokyo this morning.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: 2 passenger trains collided in Tokyo this morning.",
+            "quote": "Fictional: 2 passenger trains collided in Tokyo this morning.",
+            "state": "reported",
+            "event_type": "accident",
+            "time_text": "this morning",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Tokyo",
+            "canonical_name": "Tokyo",
+            "quote": "Fictional: 2 passenger trains collided in Tokyo this morning.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_disaster",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: an earthquake struck Jakarta today.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: an earthquake struck Jakarta today.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: an earthquake struck Jakarta today.",
+            "quote": "Fictional: an earthquake struck Jakarta today.",
+            "state": "reported",
+            "event_type": "disaster",
+            "time_text": "today",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Jakarta",
+            "canonical_name": "Jakarta",
+            "quote": "Fictional: an earthquake struck Jakarta today.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_other",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: 3 prisoners escaped from a prison in Oslo last night.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: 3 prisoners escaped from a prison in Oslo last night.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: 3 prisoners escaped from a prison in Oslo last night.",
+            "quote": "Fictional: 3 prisoners escaped from a prison in Oslo last night.",
+            "state": "reported",
+            "event_type": "other",
+            "time_text": "last night",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Oslo",
+            "canonical_name": "Oslo",
+            "quote": "Fictional: 3 prisoners escaped from a prison in Oslo last night.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_denial_ar",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "تقرير خيالي: نفت السلطات وقوع غارة جوية على لندن اليوم.",
+      "gold": {
+        "language": "ar",
+        "translation": "Fictional report: authorities denied that an airstrike hit London today.",
+        "headline": "Fictional report: authorities denied that an airstrike hit London today.",
+        "kind": "statement",
+        "claim_status": "denied",
+        "topic": "conflict",
+        "claims": [
+          {
+            "text": "Fictional report: authorities denied that an airstrike hit London today.",
+            "quote": "تقرير خيالي: نفت السلطات وقوع غارة جوية على لندن اليوم.",
+            "state": "denied",
+            "event_type": "strike",
+            "time_text": "اليوم",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "لندن",
+            "canonical_name": "London",
+            "quote": "تقرير خيالي: نفت السلطات وقوع غارة جوية على لندن اليوم.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_plan_fa",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "گزارش خیالی: برگزارکنندگان گفتند فردا در تهران تظاهرات برگزار خواهند کرد.",
+      "gold": {
+        "language": "fa",
+        "translation": "Fictional report: organizers said they will hold a protest in Tehran tomorrow.",
+        "headline": "Fictional report: organizers said they will hold a protest in Tehran tomorrow.",
+        "kind": "statement",
+        "claim_status": "planned",
+        "topic": "politics",
+        "claims": [
+          {
+            "text": "Fictional report: organizers said they will hold a protest in Tehran tomorrow.",
+            "quote": "گزارش خیالی: برگزارکنندگان گفتند فردا در تهران تظاهرات برگزار خواهند کرد.",
+            "state": "planned",
+            "event_type": "protest",
+            "time_text": "فردا",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "تهران",
+            "canonical_name": "Tehran",
+            "quote": "گزارش خیالی: برگزارکنندگان گفتند فردا در تهران تظاهرات برگزار خواهند کرد.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_history",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional archive: a warehouse burned in Paris in 2020. This is not a report of a current fire.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional archive: a warehouse burned in Paris in 2020",
+        "kind": "statement",
+        "claim_status": "historical",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional archive: a warehouse burned in Paris in 2020. This is not a report of a current fire.",
+            "quote": "Fictional archive: a warehouse burned in Paris in 2020. This is not a report of a current fire.",
+            "state": "historical",
+            "event_type": "fire",
+            "time_text": "in 2020",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Paris",
+            "canonical_name": "Paris",
+            "quote": "Fictional archive: a warehouse burned in Paris in 2020. This is not a report of a current fire.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_unclear_he",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "תרחיש בדיוני: האם היה פיצוץ בתל אביב? אין דיווח מאומת.",
+      "gold": {
+        "language": "he",
+        "translation": "Fictional scenario: was there an explosion in Tel Aviv? There is no verified report.",
+        "headline": "Fictional scenario: was there an explosion in Tel Aviv? There is no verified report.",
+        "kind": "other",
+        "claim_status": "unclear",
+        "topic": "safety",
+        "claims": [],
+        "locations": []
+      }
+    },
+    {
+      "id": "event_non_event",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: a minister in London said that international cooperation is important.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: a minister in London said that international cooperation is important.",
+        "kind": "statement",
+        "claim_status": "reported",
+        "topic": "diplomacy",
+        "claims": [
+          {
+            "text": "Fictional: a minister in London said that international cooperation is important.",
+            "quote": "Fictional: a minister in London said that international cooperation is important.",
+            "state": "reported",
+            "event_type": null,
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": [
+          {
+            "mention": "London",
+            "canonical_name": "London",
+            "quote": "Fictional: a minister in London said that international cooperation is important.",
+            "role": "issuer",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_mixed_states",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: a missile strike hit London today. Authorities denied an armed attack in Paris.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: a missile strike hit London today",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "conflict",
+        "claims": [
+          {
+            "text": "Fictional: a missile strike hit London today.",
+            "quote": "Fictional: a missile strike hit London today.",
+            "state": "reported",
+            "event_type": "strike",
+            "time_text": "today",
+            "location_indices": [
+              0
+            ]
+          },
+          {
+            "text": "Authorities denied an armed attack in Paris.",
+            "quote": "Authorities denied an armed attack in Paris.",
+            "state": "denied",
+            "event_type": "armed_attack",
+            "time_text": null,
+            "location_indices": [
+              1
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "London",
+            "canonical_name": "London",
+            "quote": "Fictional: a missile strike hit London today.",
+            "role": "event",
+            "country_code": null
+          },
+          {
+            "mention": "Paris",
+            "canonical_name": "Paris",
+            "quote": "Authorities denied an armed attack in Paris.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_two_sites",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: a warehouse caught fire in London today. A separate fire broke out in Paris yesterday.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: a warehouse caught fire in London today",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: a warehouse caught fire in London today.",
+            "quote": "Fictional: a warehouse caught fire in London today.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": "today",
+            "location_indices": [
+              0
+            ]
+          },
+          {
+            "text": "A separate fire broke out in Paris yesterday.",
+            "quote": "A separate fire broke out in Paris yesterday.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": "yesterday",
+            "location_indices": [
+              1
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "London",
+            "canonical_name": "London",
+            "quote": "Fictional: a warehouse caught fire in London today.",
+            "role": "event",
+            "country_code": null
+          },
+          {
+            "mention": "Paris",
+            "canonical_name": "Paris",
+            "quote": "A separate fire broke out in Paris yesterday.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_no_time",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: an explosion was reported in London. The cause is unknown.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: an explosion was reported in London",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: an explosion was reported in London. The cause is unknown.",
+            "quote": "Fictional: an explosion was reported in London. The cause is unknown.",
+            "state": "reported",
+            "event_type": "explosion",
+            "time_text": null,
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "London",
+            "canonical_name": "London",
+            "quote": "Fictional: an explosion was reported in London. The cause is unknown.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_speaker_location",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional: speaking from London, an official reported a drone strike in Paris today.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: speaking from London, an official reported a drone strike in Paris today.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "conflict",
+        "claims": [
+          {
+            "text": "Fictional: speaking from London, an official reported a drone strike in Paris today.",
+            "quote": "Fictional: speaking from London, an official reported a drone strike in Paris today.",
+            "state": "reported",
+            "event_type": "strike",
+            "time_text": "today",
+            "location_indices": [
+              1
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "London",
+            "canonical_name": "London",
+            "quote": "Fictional: speaking from London, an official reported a drone strike in Paris today.",
+            "role": "issuer",
+            "country_code": null
+          },
+          {
+            "mention": "Paris",
+            "canonical_name": "Paris",
+            "quote": "Fictional: speaking from London, an official reported a drone strike in Paris today.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "event_unverified_he",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "תרחיש בדיוני: דיווח לא מאומת טוען שהיה פיצוץ בתל אביב.",
+      "gold": {
+        "language": "he",
+        "translation": "Fictional scenario: an unverified report claims there was an explosion in Tel Aviv.",
+        "headline": "Unverified report claims an explosion in Tel Aviv",
+        "kind": "event",
+        "claim_status": "unclear",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "An unverified report claims an explosion in Tel Aviv.",
+            "quote": "תרחיש בדיוני: דיווח לא מאומת טוען שהיה פיצוץ בתל אביב.",
+            "state": "unclear",
+            "event_type": "explosion",
+            "time_text": null,
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "תל אביב",
+            "canonical_name": "Tel Aviv",
+            "quote": "תרחיש בדיוני: דיווח לא מאומת טוען שהיה פיצוץ בתל אביב.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    }
+  ]
+}

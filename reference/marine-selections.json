@@ -1,0 +1,318 @@
+{
+ "version": "relic.marine-selections.v3",
+ "product": "Marine Regions SeaVoX v19 (2023)",
+ "review": "Exact English, Arabic and Persian marine names reviewed for the current coverage gap. These are Relic alias decisions, not asserted publisher translations. No generic gulf, sea, strait or country aliases. v2 (27 September 2026) adds 23 SeaVoX sub-regions covering the seas reported by current sources. \"South China Sea\" names the publisher's broader South China and Eastern Archipelagic Seas area. Generic \"Mediterranean\", \"Baltic Sea\" and \"the Gulf\" stay unaliased because they would name more than one area. v3 (27 September 2026) adds the Gulf of Finland, named in current reports. The Atlantic Ocean stays unaliased because SeaVoX splits it into four sub-regions; Bab el-Mandeb has no SeaVoX area.",
+ "areas": [
+  {
+   "mrgid": "24076",
+   "publisher_name": "STRAIT OF HORMUZ",
+   "label": "Strait of Hormuz",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/5_7/",
+   "aliases": [
+    "Strait of Hormuz",
+    "Hormuz Strait",
+    "مضيق هرمز",
+    "تنگه هرمز",
+    "تنگۀ هرمز",
+    "تنگهٔ هرمز"
+   ]
+  },
+  {
+   "mrgid": "24074",
+   "publisher_name": "ARABIAN SEA",
+   "label": "Arabian Sea",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/5_9/",
+   "aliases": [
+    "Arabian Sea",
+    "بحر العرب",
+    "دریای عرب"
+   ]
+  },
+  {
+   "mrgid": "24080",
+   "publisher_name": "PERSIAN GULF",
+   "label": "Persian Gulf",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/5_6/",
+   "aliases": [
+    "Persian Gulf",
+    "Arabian Gulf",
+    "الخليج العربي",
+    "الخليج الفارسي",
+    "خلیج فارس",
+    "המפרץ הפרסי"
+   ]
+  },
+  {
+   "mrgid": "24075",
+   "publisher_name": "GULF OF OMAN",
+   "label": "Gulf of Oman",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/5_8/",
+   "aliases": [
+    "Gulf of Oman",
+    "Sea of Oman",
+    "Oman Sea",
+    "خليج عمان",
+    "بحر عمان",
+    "دریای عمان",
+    "خلیج عمان"
+   ]
+  },
+  {
+   "mrgid": "24077",
+   "publisher_name": "RED SEA",
+   "label": "Red Sea",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/5_4/",
+   "aliases": [
+    "Red Sea",
+    "البحر الأحمر",
+    "البحر الاحمر",
+    "دریای سرخ",
+    "ים סוף",
+    "הים האדום"
+   ]
+  },
+  {
+   "mrgid": "24071",
+   "publisher_name": "GULF OF ADEN",
+   "label": "Gulf of Aden",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/5_5/",
+   "aliases": [
+    "Gulf of Aden",
+    "خليج عدن",
+    "خلیج عدن"
+   ]
+  },
+  {
+   "mrgid": "24078",
+   "publisher_name": "GULF OF AQABA",
+   "label": "Gulf of Aqaba",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/5_3/",
+   "aliases": [
+    "Gulf of Aqaba",
+    "Gulf of Eilat",
+    "خليج العقبة",
+    "מפרץ אילת"
+   ]
+  },
+  {
+   "mrgid": "24079",
+   "publisher_name": "GULF OF SUEZ",
+   "label": "Gulf of Suez",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/5_2/",
+   "aliases": [
+    "Gulf of Suez",
+    "خليج السويس"
+   ]
+  },
+  {
+   "mrgid": "24083",
+   "publisher_name": "MEDITERRANEAN SEA, EASTERN BASIN",
+   "label": "Eastern Mediterranean",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/3_1_2/",
+   "aliases": [
+    "Eastern Mediterranean",
+    "Eastern Mediterranean Sea",
+    "East Mediterranean",
+    "Levantine Sea",
+    "شرق المتوسط",
+    "شرق البحر المتوسط",
+    "شرق البحر الأبيض المتوسط",
+    "مدیترانه شرقی"
+   ]
+  },
+  {
+   "mrgid": "24090",
+   "publisher_name": "MEDITERRANEAN SEA, WESTERN BASIN",
+   "label": "Western Mediterranean",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/3_1_1/",
+   "aliases": [
+    "Western Mediterranean",
+    "Western Mediterranean Sea"
+   ]
+  },
+  {
+   "mrgid": "24093",
+   "publisher_name": "BLACK SEA",
+   "label": "Black Sea",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/3_3/",
+   "aliases": [
+    "Black Sea",
+    "Чёрное море",
+    "Черное море",
+    "Чорне море",
+    "البحر الأسود",
+    "البحر الاسود",
+    "دریای سیاه",
+    "Karadeniz"
+   ]
+  },
+  {
+   "mrgid": "24094",
+   "publisher_name": "SEA OF AZOV",
+   "label": "Sea of Azov",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/3_4/",
+   "aliases": [
+    "Sea of Azov",
+    "Azov Sea",
+    "Азовское море",
+    "Азовське море",
+    "بحر آزوف"
+   ]
+  },
+  {
+   "mrgid": "24175",
+   "publisher_name": "CASPIAN SEA",
+   "label": "Caspian Sea",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/SVX00007/",
+   "aliases": [
+    "Caspian Sea",
+    "دریای خزر",
+    "دریای کاسپین",
+    "بحر قزوين",
+    "Каспийское море"
+   ]
+  },
+  {
+   "mrgid": "24069",
+   "publisher_name": "INDIAN OCEAN",
+   "label": "Indian Ocean",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/5/",
+   "aliases": [
+    "Indian Ocean",
+    "المحيط الهندي",
+    "اقیانوس هند"
+   ]
+  },
+  {
+   "mrgid": "24144",
+   "publisher_name": "SOUTH CHINA AND EASTERN ARCHIPELAGIC SEAS",
+   "label": "South China and Eastern Archipelagic Seas",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/6/",
+   "aliases": [
+    "South China Sea",
+    "بحر الصين الجنوبي",
+    "دریای چین جنوبی"
+   ]
+  },
+  {
+   "mrgid": "24107",
+   "publisher_name": "EAST CHINA SEA",
+   "label": "East China Sea",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/7_3/",
+   "aliases": [
+    "East China Sea",
+    "بحر الصين الشرقي"
+   ]
+  },
+  {
+   "mrgid": "24109",
+   "publisher_name": "PHILIPPINE SEA",
+   "label": "Philippine Sea",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/7_1/",
+   "aliases": [
+    "Philippine Sea"
+   ]
+  },
+  {
+   "mrgid": "24110",
+   "publisher_name": "YELLOW SEA",
+   "label": "Yellow Sea",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/7_4/",
+   "aliases": [
+    "Yellow Sea"
+   ]
+  },
+  {
+   "mrgid": "24113",
+   "publisher_name": "JAPAN SEA",
+   "label": "Sea of Japan",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/7_6/",
+   "aliases": [
+    "Sea of Japan",
+    "Japan Sea"
+   ]
+  },
+  {
+   "mrgid": "24087",
+   "publisher_name": "SEA OF MARMARA",
+   "label": "Sea of Marmara",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/3_2/",
+   "aliases": [
+    "Sea of Marmara",
+    "Marmara Sea",
+    "Marmara Denizi"
+   ]
+  },
+  {
+   "mrgid": "24086",
+   "publisher_name": "AEGEAN SEA",
+   "label": "Aegean Sea",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/3_1_2_4/",
+   "aliases": [
+    "Aegean Sea",
+    "Ege Denizi",
+    "بحر إيجة"
+   ]
+  },
+  {
+   "mrgid": "24073",
+   "publisher_name": "BAY OF BENGAL",
+   "label": "Bay of Bengal",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/5_13/",
+   "aliases": [
+    "Bay of Bengal"
+   ]
+  },
+  {
+   "mrgid": "24085",
+   "publisher_name": "IONIAN SEA",
+   "label": "Ionian Sea",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/3_1_2_3/",
+   "aliases": [
+    "Ionian Sea"
+   ]
+  },
+  {
+   "mrgid": "24092",
+   "publisher_name": "ADRIATIC SEA",
+   "label": "Adriatic Sea",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/3_1_2_1/",
+   "aliases": [
+    "Adriatic Sea"
+   ]
+  },
+  {
+   "mrgid": "24089",
+   "publisher_name": "TYRRHENIAN SEA",
+   "label": "Tyrrhenian Sea",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/3_1_1_5/",
+   "aliases": [
+    "Tyrrhenian Sea"
+   ]
+  },
+  {
+   "mrgid": "24052",
+   "publisher_name": "GULF OF FINLAND",
+   "label": "Gulf of Finland",
+   "vocabulary_uri": "http://vocab.nerc.ac.uk/collection/C19/current/2_3/",
+   "aliases": [
+    "Gulf of Finland",
+    "Финский залив",
+    "Suomenlahti",
+    "Soome laht",
+    "خليج فنلندا",
+    "خلیج فنلاند"
+   ]
+  }
+ ],
+ "rights_review": {
+  "reviewed_at": "2026-09-23",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_url": "https://www.marineregions.org/disclaimer.php",
+  "product_url": "https://www.marineregions.org/downloads.php",
+  "attribution": "Flanders Marine Institute, Marine Regions; SeaVoX v19 (2023).",
+  "use": "Scientific geographic reference; no legal, resource-exploration or navigational authority. Refer users to the publisher for source downloads."
+ },
+ "identity_note": "MRGID values here belong to the SeaVoX sub-region layer, including alternative gazetteer classifications; do not substitute preferred IHO/gazetteer IDs into this product."
+}

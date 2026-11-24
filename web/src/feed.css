@@ -1,0 +1,79 @@
+/* Feed rows as an incident ticker: when, what colour on the map, where, what.
+   Place and event lead; the headline follows in two lines; the source closes
+   the row in small print. The marker repeats the map point (fill, dark rim,
+   faint halo) so the list and the map read as one picture. */
+.evidence-list button.evidence-row.feed-row {
+  --event: #6f8796;
+  display: grid;
+  grid-template-columns: 38px 12px minmax(0, 1fr);
+  column-gap: 8px;
+  row-gap: 3px;
+  align-items: center;
+  padding: 9px 14px 10px 9px;
+  border: 0;
+  border-left: 3px solid transparent;
+  background: transparent;
+  text-align: start;
+  transition: background .12s;
+}
+.evidence-list button.evidence-row.feed-row:hover { background: #ffffff08; }
+.evidence-list button.evidence-row.feed-row.selected { background: #1f3542; border-left-color: #89cdda; }
+.evidence-list button.evidence-row.feed-row:focus-visible { outline: 2px solid #89cdda; outline-offset: -2px; }
+
+.feed-row .feed-time {
+  grid-column: 1; grid-row: 1;
+  font-size: 10.5px; line-height: 1; color: #7e97a6;
+  font-variant-numeric: tabular-nums; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.feed-row .feed-mark {
+  grid-column: 2; grid-row: 1; justify-self: center;
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--event);
+  box-shadow: 0 0 0 1.5px #123b47, 0 0 0 4.5px color-mix(in srgb, var(--event) 20%, transparent);
+}
+.feed-row .feed-mark.none { width: 7px; height: 7px; background: transparent; box-shadow: inset 0 0 0 1.5px #5f7887; }
+
+.feed-row .feed-head { grid-column: 3; grid-row: 1; display: flex; align-items: center; gap: 7px; min-width: 0; }
+.feed-row .feed-place {
+  min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-size: 13px; font-weight: 620; letter-spacing: -.1px; color: #eef4f7;
+}
+.feed-row .feed-reports {
+  flex: none; padding: 1px 6px; border-radius: 999px;
+  border: 1px solid #6fd3b85c; color: #a3e6cf; font-size: 9.5px; line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+.feed-row .feed-type {
+  margin-left: auto; flex: none; max-width: 46%;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-size: 11px; color: #8ea6b4;
+}
+.feed-row .feed-type small { font-size: 10px; color: #6f8796; }
+
+.feed-row .feed-text {
+  grid-column: 3; grid-row: 2;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  font-size: 12px; line-height: 1.45; color: #b5c6d0; overflow-wrap: anywhere; text-align: start;
+}
+.feed-row .feed-meta {
+  grid-column: 3; grid-row: 3;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap; min-width: 0;
+  font-size: 10.5px; color: #6c8594;
+}
+.feed-row .feed-meta:empty { display: none; }
+.feed-row .feed-source { min-width: 0; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* One rule under each item, so linked reports and album members read as part
+   of their row and line up under the headline. */
+.evidence-list .feed-item { border-bottom: 1px solid #ffffff0f; }
+.evidence-list .feed-item .event-members, .evidence-list .feed-item .album-members { padding: 0 14px 9px 70px; }
+.evidence-list .feed-item .event-members > summary { margin-top: -2px; padding: 0 0 2px; }
+
+@media (prefers-reduced-motion: reduce) { .evidence-list button.evidence-row.feed-row { transition: none; } }
+
+/* A possible event (Jev's suggestion, not the main reading): the same colour
+   as a hollow dashed ring, so it never reads as a reviewed report. */
+.feed-row .feed-mark.possible { box-sizing: border-box; background: transparent; box-shadow: none; border: 1.5px dashed var(--event); }
+
+/* The country beside the place, quieter: "Dar'a  Syria". */
+.feed-row .feed-place .feed-country { margin-left: 6px; font-weight: 450; color: #8ea6b4; }

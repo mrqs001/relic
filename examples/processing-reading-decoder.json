@@ -1,0 +1,652 @@
+{
+  "version": "relic.reading-decoder.fixture.v1",
+  "fictional": true,
+  "decoder_version": "relic.reading-decoder.v8",
+  "purpose": "Authored fictional replies with known presentation deviations (styled letters, Unicode hyphens, curly outer quotes, Hebrew article elision, Persian letters in Arabic mentions). Decoded offline exactly as retained responses; no model call. These replies are not model outputs and are not evidence of model quality. Positive cases must return exact original slices; negative cases must stay rejected.",
+  "cases": [
+    {
+      "id": "decoder_styled_letters_english",
+      "repair": "a",
+      "split": "decoder",
+      "original": "Fictional bulletin from the harbour office, issued for a training exercise only.\n𝐓𝐡𝐞 𝐞𝐚𝐬𝐭 𝐩𝐢𝐞𝐫 𝐢𝐧 𝐋𝐨𝐰𝐦𝐚𝐫𝐬𝐡 𝐰𝐢𝐥𝐥 𝐫𝐞𝐦𝐚𝐢𝐧 𝐜𝐥𝐨𝐬𝐞𝐝 𝐭𝐨 𝐟𝐞𝐫𝐫𝐲 𝐭𝐫𝐚𝐟𝐟𝐢𝐜 𝐮𝐧𝐭𝐢𝐥 𝐅𝐫𝐢𝐝𝐚𝐲 𝐚𝐟𝐭𝐞𝐫 𝐬𝐭𝐨𝐫𝐦 𝐝𝐚𝐦𝐚𝐠𝐞.",
+      "reply": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional harbour office says the Lowmarsh east pier stays closed until Friday",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "A fictional harbour office bulletin was issued for a training exercise.",
+            "quote": "Fictional bulletin from the harbour office, issued for a training exercise only.",
+            "state": "reported",
+            "event_type": null,
+            "time_text": null,
+            "location_indices": []
+          },
+          {
+            "text": "The fictional east pier in Lowmarsh remains closed to ferry traffic until Friday after storm damage.",
+            "quote": "𝐓𝐡𝐞 𝐞𝐚𝐬𝐭 𝐩𝐢𝐞𝐫 𝐢𝐧 Lowmarsh 𝐰𝐢𝐥𝐥 𝐫𝐞𝐦𝐚𝐢𝐧 𝐜𝐥𝐨𝐬𝐞𝐝 𝐭𝐨 𝐟𝐞𝐫𝐫𝐲 𝐭𝐫𝐚𝐟𝐟𝐢𝐜 until Friday 𝐚𝐟𝐭𝐞𝐫 𝐬𝐭𝐨𝐫𝐦 𝐝𝐚𝐦𝐚𝐠𝐞.",
+            "state": "reported",
+            "event_type": "transport_disruption",
+            "time_text": "until Friday",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Lowmarsh",
+            "quote": "𝐓𝐡𝐞 𝐞𝐚𝐬𝐭 𝐩𝐢𝐞𝐫 𝐢𝐧 Lowmarsh 𝐰𝐢𝐥𝐥 𝐫𝐞𝐦𝐚𝐢𝐧 𝐜𝐥𝐨𝐬𝐞𝐝 𝐭𝐨 𝐟𝐞𝐫𝐫𝐲 𝐭𝐫𝐚𝐟𝐟𝐢𝐜 until Friday 𝐚𝐟𝐭𝐞𝐫 𝐬𝐭𝐨𝐫𝐦 𝐝𝐚𝐦𝐚𝐠𝐞.",
+            "role": "event",
+            "canonical_name": "Lowmarsh",
+            "country_code": null
+          }
+        ]
+      },
+      "expect": {
+        "accepted": true,
+        "language": "en",
+        "claim_quotes": [
+          "Fictional bulletin from the harbour office, issued for a training exercise only.",
+          "𝐓𝐡𝐞 𝐞𝐚𝐬𝐭 𝐩𝐢𝐞𝐫 𝐢𝐧 𝐋𝐨𝐰𝐦𝐚𝐫𝐬𝐡 𝐰𝐢𝐥𝐥 𝐫𝐞𝐦𝐚𝐢𝐧 𝐜𝐥𝐨𝐬𝐞𝐝 𝐭𝐨 𝐟𝐞𝐫𝐫𝐲 𝐭𝐫𝐚𝐟𝐟𝐢𝐜 𝐮𝐧𝐭𝐢𝐥 𝐅𝐫𝐢𝐝𝐚𝐲 𝐚𝐟𝐭𝐞𝐫 𝐬𝐭𝐨𝐫𝐦 𝐝𝐚𝐦𝐚𝐠𝐞."
+        ],
+        "time_texts": [
+          null,
+          "𝐮𝐧𝐭𝐢𝐥 𝐅𝐫𝐢𝐝𝐚𝐲"
+        ],
+        "location_indices": [
+          [],
+          [
+            0
+          ]
+        ],
+        "location_quotes": [
+          "𝐓𝐡𝐞 𝐞𝐚𝐬𝐭 𝐩𝐢𝐞𝐫 𝐢𝐧 𝐋𝐨𝐰𝐦𝐚𝐫𝐬𝐡 𝐰𝐢𝐥𝐥 𝐫𝐞𝐦𝐚𝐢𝐧 𝐜𝐥𝐨𝐬𝐞𝐝 𝐭𝐨 𝐟𝐞𝐫𝐫𝐲 𝐭𝐫𝐚𝐟𝐟𝐢𝐜 𝐮𝐧𝐭𝐢𝐥 𝐅𝐫𝐢𝐝𝐚𝐲 𝐚𝐟𝐭𝐞𝐫 𝐬𝐭𝐨𝐫𝐦 𝐝𝐚𝐦𝐚𝐠𝐞."
+        ],
+        "mentions": [
+          "𝐋𝐨𝐰𝐦𝐚𝐫𝐬𝐡"
+        ],
+        "normalizations": [
+          "styled_letters_read_as_latin_script",
+          "exact_source_variant_alignment:claim:1",
+          "exact_source_variant_alignment:location:0",
+          "exact_mention_alignment:0",
+          "exact_time_variant_alignment:1"
+        ]
+      }
+    },
+    {
+      "id": "decoder_styled_letters_never_replace_plain_source",
+      "repair": "a",
+      "split": "decoder",
+      "original": "Fictional notice: the west gate of the Lowmarsh depot is closed today for inspection.",
+      "reply": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional depot gate closed for inspection",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "A fictional depot gate is closed today for inspection.",
+            "quote": "Fictional notice: the west gate of the 𝐋𝐨𝐰𝐦𝐚𝐫𝐬𝐡 depot is closed today for inspection.",
+            "state": "reported",
+            "event_type": "transport_disruption",
+            "time_text": "today",
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      },
+      "expect": {
+        "accepted": false,
+        "error_kind": "unsupported_quote",
+        "detail": "claims[0].quote"
+      }
+    },
+    {
+      "id": "decoder_styled_letters_repeated_passage_is_ambiguous",
+      "repair": "a",
+      "split": "decoder",
+      "original": "Fictional repeated bulletin.\n𝐓𝐡𝐞 𝐞𝐚𝐬𝐭 𝐩𝐢𝐞𝐫 𝐢𝐧 𝐋𝐨𝐰𝐦𝐚𝐫𝐬𝐡 𝐰𝐢𝐥𝐥 𝐫𝐞𝐦𝐚𝐢𝐧 𝐜𝐥𝐨𝐬𝐞𝐝 𝐭𝐨 𝐟𝐞𝐫𝐫𝐲 𝐭𝐫𝐚𝐟𝐟𝐢𝐜 𝐮𝐧𝐭𝐢𝐥 𝐅𝐫𝐢𝐝𝐚𝐲 𝐚𝐟𝐭𝐞𝐫 𝐬𝐭𝐨𝐫𝐦 𝐝𝐚𝐦𝐚𝐠𝐞.\n𝐓𝐡𝐞 𝐞𝐚𝐬𝐭 𝐩𝐢𝐞𝐫 𝐢𝐧 𝐋𝐨𝐰𝐦𝐚𝐫𝐬𝐡 𝐰𝐢𝐥𝐥 𝐫𝐞𝐦𝐚𝐢𝐧 𝐜𝐥𝐨𝐬𝐞𝐝 𝐭𝐨 𝐟𝐞𝐫𝐫𝐲 𝐭𝐫𝐚𝐟𝐟𝐢𝐜 𝐮𝐧𝐭𝐢𝐥 𝐅𝐫𝐢𝐝𝐚𝐲 𝐚𝐟𝐭𝐞𝐫 𝐬𝐭𝐨𝐫𝐦 𝐝𝐚𝐦𝐚𝐠𝐞.",
+      "reply": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional pier closure repeated",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "The fictional east pier remains closed.",
+            "quote": "The east pier in Lowmarsh will remain closed to ferry traffic until Friday after storm damage.",
+            "state": "reported",
+            "event_type": "transport_disruption",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      },
+      "expect": {
+        "accepted": false,
+        "error_kind": "ambiguous_quote",
+        "detail": "claims[0].quote"
+      }
+    },
+    {
+      "id": "decoder_styled_letters_with_persian_prose_still_needs_translation",
+      "repair": "a",
+      "split": "decoder",
+      "original": "𝐓𝐡𝐞 𝐞𝐚𝐬𝐭 𝐩𝐢𝐞𝐫 𝐢𝐧 𝐋𝐨𝐰𝐦𝐚𝐫𝐬𝐡 𝐰𝐢𝐥𝐥 𝐫𝐞𝐦𝐚𝐢𝐧 𝐜𝐥𝐨𝐬𝐞𝐝 𝐭𝐨 𝐟𝐞𝐫𝐫𝐲 𝐭𝐫𝐚𝐟𝐟𝐢𝐜 𝐮𝐧𝐭𝐢𝐥 𝐅𝐫𝐢𝐝𝐚𝐲 𝐚𝐟𝐭𝐞𝐫 𝐬𝐭𝐨𝐫𝐦 𝐝𝐚𝐦𝐚𝐠𝐞.\nاین یک گزارش فرضی است که می‌گوید اسکله شرقی تا روز جمعه به دلیل آسیب طوفان بسته می‌ماند.",
+      "reply": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional pier closure",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "The fictional east pier remains closed until Friday.",
+            "quote": "𝐓𝐡𝐞 𝐞𝐚𝐬𝐭 𝐩𝐢𝐞𝐫 𝐢𝐧 𝐋𝐨𝐰𝐦𝐚𝐫𝐬𝐡 𝐰𝐢𝐥𝐥 𝐫𝐞𝐦𝐚𝐢𝐧 𝐜𝐥𝐨𝐬𝐞𝐝 𝐭𝐨 𝐟𝐞𝐫𝐫𝐲 𝐭𝐫𝐚𝐟𝐟𝐢𝐜 𝐮𝐧𝐭𝐢𝐥 𝐅𝐫𝐢𝐝𝐚𝐲 𝐚𝐟𝐭𝐞𝐫 𝐬𝐭𝐨𝐫𝐦 𝐝𝐚𝐦𝐚𝐠𝐞.",
+            "state": "reported",
+            "event_type": "transport_disruption",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      },
+      "expect": {
+        "accepted": false,
+        "error_kind": "invalid_output",
+        "detail": null
+      }
+    },
+    {
+      "id": "decoder_non_breaking_hyphen_quote_and_time",
+      "repair": "b",
+      "split": "decoder",
+      "original": "Fictional ferry services between Northport and Southport resume on 12‑14 October after repairs, the port office said.",
+      "reply": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional ferry services to resume on 12-14 October",
+        "kind": "event",
+        "claim_status": "planned",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "Fictional ferry services between Northport and Southport will resume on 12-14 October after repairs.",
+            "quote": "Fictional ferry services between Northport and Southport resume on 12-14 October after repairs, the port office said.",
+            "state": "planned",
+            "event_type": "transport_disruption",
+            "time_text": "12-14 October",
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      },
+      "expect": {
+        "accepted": true,
+        "claim_quotes": [
+          "Fictional ferry services between Northport and Southport resume on 12‑14 October after repairs, the port office said."
+        ],
+        "time_texts": [
+          "12‑14 October"
+        ],
+        "normalizations": [
+          "exact_source_variant_alignment:claim:0",
+          "exact_time_variant_alignment:0"
+        ]
+      }
+    },
+    {
+      "id": "decoder_en_dash_is_not_a_hyphen_variant",
+      "repair": "b",
+      "split": "decoder",
+      "original": "Fictional ferry services between Northport and Southport resume on 12‑14 October after repairs, the port office said.",
+      "reply": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional ferry services to resume",
+        "kind": "event",
+        "claim_status": "planned",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "Fictional ferry services will resume on 12-14 October.",
+            "quote": "Fictional ferry services between Northport and Southport resume on 12–14 October after repairs, the port office said.",
+            "state": "planned",
+            "event_type": "transport_disruption",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      },
+      "expect": {
+        "accepted": false,
+        "error_kind": "unsupported_quote",
+        "detail": "claims[0].quote"
+      }
+    },
+    {
+      "id": "decoder_hyphen_variant_repeated_passage_is_ambiguous",
+      "repair": "b",
+      "split": "decoder",
+      "original": "Fictional notice: the north ferry resumes on 12‑14 October. Fictional notice: the north ferry resumes on 12‑14 October.",
+      "reply": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional ferry resumes",
+        "kind": "event",
+        "claim_status": "planned",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "The fictional north ferry resumes on 12-14 October.",
+            "quote": "Fictional notice: the north ferry resumes on 12-14 October.",
+            "state": "planned",
+            "event_type": "transport_disruption",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      },
+      "expect": {
+        "accepted": false,
+        "error_kind": "ambiguous_quote",
+        "detail": "claims[0].quote"
+      }
+    },
+    {
+      "id": "decoder_added_curly_opening_quote",
+      "repair": "c",
+      "split": "decoder",
+      "original": "Fictional statement from the Lowmarsh council: “Repairs began this morning. The east bridge will stay closed to traffic until Friday.” No injuries were reported.",
+      "reply": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional council says the east bridge stays closed until Friday",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "The fictional east bridge will stay closed to traffic until Friday.",
+            "quote": "“The east bridge will stay closed to traffic until Friday.”",
+            "state": "reported",
+            "event_type": "transport_disruption",
+            "time_text": "until Friday",
+            "location_indices": []
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Lowmarsh",
+            "quote": "Fictional statement from the Lowmarsh council:",
+            "role": "issuer",
+            "canonical_name": "Lowmarsh",
+            "country_code": null
+          }
+        ]
+      },
+      "expect": {
+        "accepted": true,
+        "claim_quotes": [
+          "The east bridge will stay closed to traffic until Friday.”"
+        ],
+        "location_quotes": [
+          "Fictional statement from the Lowmarsh council:"
+        ],
+        "mentions": [
+          "Lowmarsh"
+        ],
+        "normalizations": [
+          "exact_quote_presentation_alignment:claims:0"
+        ]
+      }
+    },
+    {
+      "id": "decoder_curly_quote_does_not_excuse_changed_words",
+      "repair": "c",
+      "split": "decoder",
+      "original": "Fictional statement from the Lowmarsh council: “Repairs began this morning. The east bridge will stay closed to traffic until Friday.” No injuries were reported.",
+      "reply": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional bridge closure",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "The fictional east bridge will stay closed until Friday.",
+            "quote": "“The east bridge will stay closed until Friday.”",
+            "state": "reported",
+            "event_type": "transport_disruption",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      },
+      "expect": {
+        "accepted": false,
+        "error_kind": "unsupported_quote",
+        "detail": "claims[0].quote"
+      }
+    },
+    {
+      "id": "decoder_curly_quote_kept_when_the_slice_has_that_mark",
+      "repair": "c",
+      "split": "decoder",
+      "original": "Fictional notice: the council said the “east bridge” will stay closed until Friday, officials added.",
+      "reply": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional bridge closure",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "The fictional east bridge will stay closed until Friday.",
+            "quote": "“the council said the “east bridge” will stay closed until Friday",
+            "state": "reported",
+            "event_type": "transport_disruption",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      },
+      "expect": {
+        "accepted": false,
+        "error_kind": "unsupported_quote",
+        "detail": "claims[0].quote"
+      }
+    },
+    {
+      "id": "decoder_hebrew_article_restored_without_prefix",
+      "repair": "d",
+      "split": "decoder",
+      "original": "דיווח בדיוני: שריפה פרצה הבוקר בעמק הירוק. לא דווח על נפגעים.",
+      "reply": {
+        "language": "he",
+        "translation": "Fictional report: A fire broke out this morning in the Green Valley. No casualties were reported.",
+        "headline": "Fictional report of a fire in the Green Valley this morning",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "disaster",
+        "claims": [
+          {
+            "text": "A fictional fire broke out this morning in the Green Valley; no casualties were reported.",
+            "quote": "שריפה פרצה הבוקר בעמק הירוק. לא דווח על נפגעים.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": "הבוקר",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "העמק הירוק",
+            "quote": "שריפה פרצה הבוקר בעמק הירוק.",
+            "role": "event",
+            "canonical_name": "Green Valley",
+            "country_code": null
+          }
+        ]
+      },
+      "expect": {
+        "accepted": true,
+        "claim_quotes": [
+          "שריפה פרצה הבוקר בעמק הירוק. לא דווח על נפגעים."
+        ],
+        "location_indices": [
+          [
+            0
+          ]
+        ],
+        "mentions": [
+          "בעמק הירוק"
+        ],
+        "normalizations": [
+          "exact_hebrew_attached_preposition:0"
+        ]
+      }
+    },
+    {
+      "id": "decoder_hebrew_article_restored_after_prefix",
+      "repair": "d",
+      "split": "decoder",
+      "original": "דיווח בדיוני: שריפה פרצה הבוקר בעמק הירוק. לא דווח על נפגעים.",
+      "reply": {
+        "language": "he",
+        "translation": "Fictional report: A fire broke out this morning in the Green Valley. No casualties were reported.",
+        "headline": "Fictional report of a fire in the Green Valley this morning",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "disaster",
+        "claims": [
+          {
+            "text": "A fictional fire broke out this morning in the Green Valley; no casualties were reported.",
+            "quote": "שריפה פרצה הבוקר בעמק הירוק. לא דווח על נפגעים.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": "הבוקר",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "בהעמק הירוק",
+            "quote": "שריפה פרצה הבוקר בעמק הירוק.",
+            "role": "event",
+            "canonical_name": "Green Valley",
+            "country_code": null
+          }
+        ]
+      },
+      "expect": {
+        "accepted": true,
+        "claim_quotes": [
+          "שריפה פרצה הבוקר בעמק הירוק. לא דווח על נפגעים."
+        ],
+        "location_indices": [
+          [
+            0
+          ]
+        ],
+        "mentions": [
+          "בעמק הירוק"
+        ],
+        "normalizations": [
+          "exact_hebrew_attached_preposition:0"
+        ]
+      }
+    },
+    {
+      "id": "decoder_hebrew_article_repair_requires_one_attached_form",
+      "repair": "d",
+      "split": "decoder",
+      "original": "דיווח בדיוני: שריפה פרצה הבוקר בעמק הירוק, והכבאים נסעו לעמק הירוק.",
+      "reply": {
+        "language": "he",
+        "translation": "Fictional report: A fire broke out this morning in the Green Valley, and firefighters travelled to the Green Valley.",
+        "headline": "Fictional fire in the Green Valley",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "disaster",
+        "claims": [
+          {
+            "text": "A fictional fire broke out this morning in the Green Valley.",
+            "quote": "שריפה פרצה הבוקר בעמק הירוק, והכבאים נסעו לעמק הירוק.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": "הבוקר",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "העמק הירוק",
+            "quote": "שריפה פרצה הבוקר בעמק הירוק, והכבאים נסעו לעמק הירוק.",
+            "role": "event",
+            "canonical_name": "Green Valley",
+            "country_code": null
+          }
+        ]
+      },
+      "expect": {
+        "accepted": false,
+        "error_kind": "invalid_output",
+        "detail": "locations[0]"
+      }
+    },
+    {
+      "id": "decoder_persian_letters_in_arabic_mention",
+      "repair": "e",
+      "split": "decoder",
+      "original": "تقرير خيالي: اندلع حريق صباح اليوم في وادي السكينة، ولم تسجل إصابات.",
+      "reply": {
+        "language": "ar",
+        "translation": "Fictional report: A fire broke out this morning in Wadi al-Sakina, and no injuries were recorded.",
+        "headline": "Fictional report of a fire in Wadi al-Sakina this morning",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "disaster",
+        "claims": [
+          {
+            "text": "A fictional fire broke out this morning in Wadi al-Sakina; no injuries were recorded.",
+            "quote": "اندلع حريق صباح اليوم في وادي السكينة، ولم تسجل إصابات.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": "صباح اليوم",
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "وادی السکینة",
+            "quote": "اندلع حريق صباح اليوم في وادي السكينة، ولم تسجل إصابات.",
+            "role": "event",
+            "canonical_name": "Wadi al-Sakina",
+            "country_code": null
+          }
+        ]
+      },
+      "expect": {
+        "accepted": true,
+        "claim_quotes": [
+          "اندلع حريق صباح اليوم في وادي السكينة، ولم تسجل إصابات."
+        ],
+        "location_indices": [
+          [
+            0
+          ]
+        ],
+        "mentions": [
+          "وادي السكينة"
+        ],
+        "normalizations": [
+          "exact_mention_letter_variant:0"
+        ]
+      }
+    },
+    {
+      "id": "decoder_persian_letters_never_align_a_quote",
+      "repair": "e",
+      "split": "decoder",
+      "original": "تقرير خيالي: اندلع حريق صباح اليوم في وادي السكينة، ولم تسجل إصابات.",
+      "reply": {
+        "language": "ar",
+        "translation": "Fictional report: A fire broke out this morning in Wadi al-Sakina, and no injuries were recorded.",
+        "headline": "Fictional fire in Wadi al-Sakina",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "disaster",
+        "claims": [
+          {
+            "text": "A fictional fire broke out this morning in Wadi al-Sakina.",
+            "quote": "اندلع حريق صباح اليوم في وادي السكينة، ولم تسجل إصابات.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": "صباح اليوم",
+            "location_indices": []
+          }
+        ],
+        "locations": [
+          {
+            "mention": "وادی السکینة",
+            "quote": "اندلع حريق صباح اليوم في وادی السکینة، ولم تسجل إصابات.",
+            "role": "event",
+            "canonical_name": "Wadi al-Sakina",
+            "country_code": null
+          }
+        ]
+      },
+      "expect": {
+        "accepted": false,
+        "error_kind": "unsupported_quote",
+        "detail": "locations[0].quote"
+      }
+    },
+    {
+      "id": "decoder_persian_mention_fold_must_be_unique",
+      "repair": "e",
+      "split": "decoder",
+      "original": "تقرير خيالي: اندلع حريق في وادي السكينة، وانتقلت فرق الإطفاء إلى وادي السكينة.",
+      "reply": {
+        "language": "ar",
+        "translation": "Fictional report: A fire broke out in Wadi al-Sakina, and fire crews moved to Wadi al-Sakina.",
+        "headline": "Fictional fire in Wadi al-Sakina",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "disaster",
+        "claims": [
+          {
+            "text": "A fictional fire broke out in Wadi al-Sakina.",
+            "quote": "اندلع حريق في وادي السكينة، وانتقلت فرق الإطفاء إلى وادي السكينة.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": null,
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "وادی السکینة",
+            "quote": "اندلع حريق في وادي السكينة، وانتقلت فرق الإطفاء إلى وادي السكينة.",
+            "role": "event",
+            "canonical_name": "Wadi al-Sakina",
+            "country_code": null
+          }
+        ]
+      },
+      "expect": {
+        "accepted": false,
+        "error_kind": "invalid_output",
+        "detail": "locations[0]"
+      }
+    }
+  ]
+}

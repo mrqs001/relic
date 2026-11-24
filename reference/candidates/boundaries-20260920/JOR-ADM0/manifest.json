@@ -1,0 +1,54 @@
+{
+  "assets": {
+    "display.geojson": {
+      "bytes": 15618,
+      "sha256": "88e50e3dabc8c561549c4c4ec9588529046967639dce1ad790de091cb63e6444"
+    },
+    "full.geojson": {
+      "bytes": 39570,
+      "sha256": "9234e16ba454e5f5ffc43d34a5941c2f98c7727f2d559c4195006f7d86b72c7d"
+    },
+    "metadata.json": {
+      "bytes": 1779,
+      "sha256": "1a494dcfcb7dc5c30158569cbfaae070932dbf07f7fcf91d3c583953c37d164f"
+    }
+  },
+  "attribution": "geoBoundaries / William & Mary; gbOpen CC BY 4.0-compatible; original publisher and licence retained in metadata",
+  "boundary_id": "JOR-ADM0-64752131",
+  "collection": "gbOpen",
+  "country": "JOR",
+  "features": 1,
+  "level": "ADM0",
+  "publisher": "geoBoundaries",
+  "represented_time": "2016",
+  "requests": [
+    {
+      "acquired_at": "2026-09-20T21:42:12.050Z",
+      "bytes": 1779,
+      "publisher_last_modified": "Sat, 24 Feb 2024 10:31:10 GMT",
+      "requested_url": "https://www.geoboundaries.org/api/current/gbOpen/JOR/ADM0/",
+      "resolved_url": "https://www.geoboundaries.org/api/current/gbOpen/JOR/ADM0/",
+      "sha256": "1a494dcfcb7dc5c30158569cbfaae070932dbf07f7fcf91d3c583953c37d164f"
+    },
+    {
+      "acquired_at": "2026-09-20T21:42:12.737Z",
+      "bytes": 39570,
+      "publisher_last_modified": "Sun, 20 Sep 2026 21:42:12 GMT",
+      "requested_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/JOR/ADM0/geoBoundaries-JOR-ADM0.geojson",
+      "resolved_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/JOR/ADM0/geoBoundaries-JOR-ADM0.geojson",
+      "sha256": "9234e16ba454e5f5ffc43d34a5941c2f98c7727f2d559c4195006f7d86b72c7d"
+    },
+    {
+      "acquired_at": "2026-09-20T21:42:13.319Z",
+      "bytes": 15618,
+      "publisher_last_modified": "Sun, 20 Sep 2026 21:42:13 GMT",
+      "requested_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/JOR/ADM0/geoBoundaries-JOR-ADM0_simplified.geojson",
+      "resolved_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/JOR/ADM0/geoBoundaries-JOR-ADM0_simplified.geojson",
+      "sha256": "88e50e3dabc8c561549c4c4ec9588529046967639dce1ad790de091cb63e6444"
+    }
+  ],
+  "schema_version": 1,
+  "source_license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "status": "candidate",
+  "vertices": 895
+}

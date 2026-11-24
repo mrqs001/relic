@@ -1,0 +1,407 @@
+{
+  "schema": "relic.semantic-evaluation.v1",
+  "fictional": true,
+  "meaning": "Possible related claim context, never verified incident identity or independent confirmation. Authored before model calls.",
+  "cases": [
+    {
+      "id": "same-warehouse",
+      "a": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "Northport: the North Pier grain warehouse is on fire.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": true
+    },
+    {
+      "id": "update-fire",
+      "a": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "Firefighters have contained the fire at Northport’s North Pier grain warehouse.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": true
+    },
+    {
+      "id": "different-venue",
+      "a": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "A fire broke out at the school on Cedar Street in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": false
+    },
+    {
+      "id": "different-city",
+      "a": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Southport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:southport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": false
+    },
+    {
+      "id": "different-day",
+      "a": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-24T12:00:00Z",
+        "time_text": null
+      },
+      "related": false
+    },
+    {
+      "id": "historical",
+      "a": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "Last year a fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "historical",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": false
+    },
+    {
+      "id": "planned-drill",
+      "a": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "A fire drill is planned at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "planned",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": false
+    },
+    {
+      "id": "unresolved",
+      "a": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": null,
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": false
+    },
+    {
+      "id": "missing-time",
+      "a": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": null,
+        "time_text": null
+      },
+      "related": false
+    },
+    {
+      "id": "denial-context",
+      "a": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "The fire service denies reports of a fire at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "denied",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": true
+    },
+    {
+      "id": "separate-fire",
+      "a": {
+        "text": "A car caught fire in the Northport central market parking lot.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "A shop caught fire inside the Northport central market.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": false
+    },
+    {
+      "id": "outage-update",
+      "a": {
+        "text": "A power outage has affected the eastern districts of Northport.",
+        "type": "power_outage",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "Electricity has been restored to Northport’s eastern districts after the outage.",
+        "type": "power_outage",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": true
+    },
+    {
+      "id": "same-bridge",
+      "a": {
+        "text": "The Riverside bridge in Northport has collapsed.",
+        "type": "infrastructure_damage",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "Northport’s Riverside bridge collapsed this afternoon.",
+        "type": "infrastructure_damage",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": true
+    },
+    {
+      "id": "different-bridge",
+      "a": {
+        "text": "The Riverside bridge in Northport has collapsed.",
+        "type": "infrastructure_damage",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "The Meadow bridge in Northport has collapsed.",
+        "type": "infrastructure_damage",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": false
+    },
+    {
+      "id": "different-type",
+      "a": {
+        "text": "An explosion was reported at the East Gate depot in Northport.",
+        "type": "explosion",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "A protest was reported at the East Gate depot in Northport.",
+        "type": "protest",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": false
+    },
+    {
+      "id": "same-strike",
+      "a": {
+        "text": "An airstrike hit the West Ridge radar station outside Northport.",
+        "type": "strike",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "The radar station on West Ridge near Northport was struck from the air.",
+        "type": "strike",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": true
+    },
+    {
+      "id": "opposite-depot",
+      "a": {
+        "text": "An airstrike hit the East Gate ammunition depot in Northport.",
+        "type": "strike",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "An airstrike hit the West Gate ammunition depot in Northport.",
+        "type": "strike",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": false
+    },
+    {
+      "id": "hospital-vs-warehouse",
+      "a": {
+        "text": "A fire damaged Northport’s grain warehouse.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "A fire damaged Northport’s main hospital.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": false
+    },
+    {
+      "id": "different-occurrence-time",
+      "a": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": "today"
+      },
+      "b": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": "yesterday"
+      },
+      "related": false
+    },
+    {
+      "id": "copy-does-not-confirm",
+      "a": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:00:00Z",
+        "time_text": null
+      },
+      "b": {
+        "text": "A fire broke out at the grain warehouse on North Pier in Northport.",
+        "type": "fire",
+        "state": "reported",
+        "place": "fixture:northport",
+        "published_at": "2026-09-23T12:10:00Z",
+        "time_text": null
+      },
+      "related": true
+    }
+  ]
+}

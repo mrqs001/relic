@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-09-10T21:12:22.319Z",
+  "repository": "https://github.com/nvkelso/natural-earth-vector",
+  "tag": "v5.1.2",
+  "commit": "f1890d9f152c896d250a77557a5751a93d494776",
+  "discovery_urls": [
+    "https://api.github.com/repos/nvkelso/natural-earth-vector/contents?ref=v5.1.2",
+    "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/geojson?ref=v5.1.2",
+    "https://api.github.com/repos/nvkelso/natural-earth-vector/git/ref/tags/v5.1.2"
+  ],
+  "release": {
+    "id": 66862463,
+    "name": "v5.1.2",
+    "tag_name": "v5.1.2",
+    "published_at": "2022-05-13T23:24:34Z",
+    "html_url": "https://github.com/nvkelso/natural-earth-vector/releases/tag/v5.1.2"
+  },
+  "selected_files": [
+    {
+      "path": "geojson/ne_110m_land.geojson",
+      "bytes": 138160,
+      "sha256": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+      "git_blob_sha": "04811d72fff2701ec67587e30ad8942675b511e3",
+      "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/geojson/ne_110m_land.geojson?ref=f1890d9f152c896d250a77557a5751a93d494776",
+      "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_110m_land.geojson"
+    },
+    {
+      "path": "geojson/ne_110m_coastline.geojson",
+      "bytes": 139907,
+      "sha256": "851f581ff5ffb844deed8ae1a9ce22e3c4bb3d74fa342cadb5d8e39b41ae7c3c",
+      "git_blob_sha": "0dde16b6687ab562b2ca8864bb1b8828b4093c99",
+      "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/geojson/ne_110m_coastline.geojson?ref=f1890d9f152c896d250a77557a5751a93d494776",
+      "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_110m_coastline.geojson"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 4636,
+      "sha256": "2631b5b39b6d1acc56de75235109b5af2dbb4b0ac5a127b6f06185977247fd4b",
+      "git_blob_sha": "9dfbc3d55a4ab1dd758c253b2ee339888f632889",
+      "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/LICENSE.md?ref=f1890d9f152c896d250a77557a5751a93d494776",
+      "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/LICENSE.md"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 6,
+      "sha256": "0c9a9d43610d66f4cc3f42da08cae044483de25894a9daf9dc6a76ff75ca9327",
+      "git_blob_sha": "61fcc87350341bc51d640aa9161073ce615703ce",
+      "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/VERSION?ref=f1890d9f152c896d250a77557a5751a93d494776",
+      "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/VERSION"
+    }
+  ]
+}

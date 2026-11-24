@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+relic_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+if [[ ! -f "$relic_root/web/dist/index.html" ]]; then
+  echo 'Build the interface first: make build' >&2
+  exit 1
+fi
+cd "$relic_root"
+# A checkout of the private provider adapters, when present, builds the full
+# binary; otherwise the public core runs with Telegram as its message source.
+manifest="$relic_root/app/Cargo.toml"
+if [[ -f "$relic_root/private-sources/Cargo.toml" ]]; then
+  manifest="$relic_root/private-sources/Cargo.toml"
+fi
+exec cargo run --manifest-path "$manifest" --locked --release --bin relic -- --root "$relic_root" "$@"

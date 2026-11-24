@@ -1,0 +1,50 @@
+import assert from 'node:assert/strict';
+import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
+const require = createRequire(new URL('../web/package.json', import.meta.url));
+const {build} = require('esbuild');
+const result = await build({entryPoints:[fileURLToPath(new URL('../web/src/components/reading-display.ts',import.meta.url))],bundle:true,write:false,format:'esm',platform:'browser'});
+const {readingUsesSummary,mixedScriptParagraphs,untranslatedCopy,cleanReadingText,readingPreview,placeLabel,countryPlace,relativeAge,feedPlace}=await import(`data:text/javascript;base64,${Buffer.from(result.outputFiles[0].text).toString('base64')}`);
+const original='Fictional explosion reported in Aleppo.\n\n@wfwitness\n\n💧 Rainbet.com the #1 Non-KYC Crypto Casino & Sportsbook @rainbetcom +18';
+const evidence={text:original,interpretation:null};
+assert.equal(readingPreview(evidence),'Fictional explosion reported in Aleppo.');
+assert.equal(evidence.text,original);
+assert.equal(cleanReadingText('The regulator discussed Rainbet.com advertising.'),'The regulator discussed Rainbet.com advertising.');
+assert.equal(cleanReadingText('Other @handles are evidence.'),'Other @handles are evidence.');
+assert.equal(readingPreview({...evidence,text:'مثال',interpretation:{translation:'Fictional translated report.'}}),'Fictional translated report.');
+assert.equal(countryPlace('Aleppo','SY'),'Syria, Aleppo');
+assert.equal(countryPlace('Syria','SY'),'Syria');
+assert.equal(countryPlace('Unknown place'), 'Unknown place');
+const reading={locations:[],events:[{locations:[{selected_candidate_id:'place:a',candidates:[{id:'place:b',country_code:'RU'},{id:'place:a',country_code:'UA'}]}]}]};
+assert.equal(placeLabel({id:'place:a',label:'Fictional City'},reading),'Ukraine, Fictional City');
+assert.equal(placeLabel({id:'place:z',label:'Unknown'},reading),'Unknown');
+assert.equal(relativeAge('2026-09-21T00:00:00Z',Date.parse('2026-09-21T02:00:00Z')),'2h ago');
+assert.equal(relativeAge('2026-09-21T02:01:00Z',Date.parse('2026-09-21T02:00:00Z')),'just now');
+assert.equal(relativeAge('2026-09-21T02:02:00Z',Date.parse('2026-09-21T02:00:00Z')),'in the future');
+// Feed place: the most specific site first, its country beside it, no repeats.
+const syria={id:'gb:SYR',label:'Syria',bounds:[35,32,42,37],level:'ADM0',country_code:'SY'};
+const daraa={id:'gb:Daraa',label:"Dar'a",bounds:[35,32,37,33],level:'ADM1',country_code:'SY'};
+assert.deepEqual(feedPlace({map_locations:[],map_areas:[syria,daraa],interpretation:null}),{place:"Dar'a",country:'Syria',more:0});
+assert.deepEqual(feedPlace({map_locations:[],map_areas:[syria],interpretation:null}),{place:'Syria',country:null,more:0});
+const jordan={id:'gb:JOR',label:'Jordan',bounds:[35,29,39,33],level:'ADM0',country_code:'JO'};
+assert.deepEqual(feedPlace({map_locations:[],map_areas:[syria,daraa,jordan],interpretation:null}),{place:"Dar'a",country:'Syria',more:1});
+assert.equal(feedPlace({map_locations:[],map_areas:[],interpretation:null}),null);
+console.log('Passed: translation, exact originals, narrow footer removal, selected-place country, relative age, feed place.');
+
+const untranslated={text:'الصواريخ تتطاير على المناطق في حلب',interpretation:{language:'ar',translation:'الصواريخ تتطاير على المناطق في حلب',headline:'Report: Rockets fly over areas in Aleppo'}};
+assert.equal(untranslatedCopy(untranslated),true);
+assert.equal(readingPreview(untranslated),untranslated.interpretation.headline);
+assert.equal(untranslated.text,untranslated.interpretation.translation);
+
+const bilingualText = 'Fictional report: a warehouse fire was contained by crews in London.\n\nگزارش فرضی: آتش‌سوزی در یک انبار رخ داد و آتش‌نشانان آتش را مهار کردند.';
+const bilingual = {text:bilingualText,interpretation:{language:'en',translation:null,headline:'Warehouse fire contained in London.'}};
+assert.equal(mixedScriptParagraphs(bilingualText),true);
+assert.equal(readingUsesSummary(bilingual),true);
+assert.equal(readingPreview(bilingual),bilingual.interpretation.headline);
+assert.equal(bilingual.text,bilingualText);
+assert.equal(readingUsesSummary({...bilingual,interpretation:{...bilingual.interpretation,language:'mul',translation:'Complete English reading, including the additional details.'}}),false);
+assert.equal(mixedScriptParagraphs('Fictional report: a warehouse fire was contained by crews in London.\nعلی'),false);
+assert.equal(readingUsesSummary({...bilingual,interpretation:null}),false);
+assert.equal(readingPreview({...bilingual,interpretation:null}),bilingualText);
+
+assert.equal(mixedScriptParagraphs('Fictional report: a warehouse fire was contained by crews in London.\n'+'بَ'.repeat(20)),true);

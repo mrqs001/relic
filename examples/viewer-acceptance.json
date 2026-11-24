@@ -1,0 +1,140 @@
+{
+  "version": "relic.visibility-ui.v1",
+  "fictional": true,
+  "fixture": "app/examples/ui_processing_fixture.rs",
+  "message": "fiction:persian_current_event",
+  "revision": "v1",
+  "default_view": {
+    "body_count": 1,
+    "source": "Local Bulletin",
+    "translation_switch": "Translated · Original",
+    "visible_actions": [
+      "Message options",
+      "Tehran Approx.",
+      "1 related ↗"
+    ],
+    "absent": [
+      "Source support",
+      "Processing details",
+      "Analysis tools",
+      "Assessment",
+      "Save & assess",
+      "Brief",
+      "Revisions (1)"
+    ],
+    "short_message_height_below_px_at_1280x720": 380
+  },
+  "original": {
+    "start_character": 23,
+    "end_character": 78,
+    "path": [
+      "Message options",
+      "Lineage",
+      "Read",
+      "Show passage"
+    ]
+  },
+  "lineage": {
+    "menu": [
+      "Original",
+      "Lineage"
+    ],
+    "steps": [
+      "Fictional Local Bulletin",
+      "Collected",
+      "Read",
+      "Located",
+      "In the feed"
+    ],
+    "default_step": "Read",
+    "branches": {
+      "versions": "Collected",
+      "jev": "Read",
+      "related": "In the feed"
+    },
+    "one_card_for_selected_step": true,
+    "shared_steps_expanded": false,
+    "missing_records": "dashed gap",
+    "record_details_collapsed": true,
+    "keyboard": [
+      "ArrowUp",
+      "ArrowDown",
+      "ArrowRight",
+      "ArrowLeft",
+      "Home",
+      "End"
+    ],
+    "reduced_motion": "static",
+    "escape_returns_focus_to": "Message options"
+  },
+  "navigation": {
+    "primary": [
+      "Feed",
+      "Sources"
+    ],
+    "more": [
+      "Filter feed",
+      "Processing"
+    ],
+    "manual_workflows": false
+  },
+  "scope": {
+    "all_messages": 9,
+    "signals": 8,
+    "related": 2,
+    "related_unlocated": 0
+  },
+  "processing": {
+    "actions": [
+      "Resume",
+      "Pause"
+    ],
+    "coverage_bar": [
+      "Read",
+      "Waiting",
+      "No text",
+      "Removed",
+      "Not selected",
+      "Too long"
+    ],
+    "lanes": [
+      "Reading",
+      "Jev",
+      "Event links"
+    ],
+    "activity_merges_consecutive_batches": true,
+    "provenance_dialog": false
+  },
+  "map_controls": {
+    "menu": "Map navigation",
+    "placement": "above the map controls, clear of the timeline",
+    "actions": [
+      "Fit reports",
+      "View the world"
+    ],
+    "preserves_selected_time_window": true
+  },
+  "preservation": [
+    "exact originals",
+    "revisions",
+    "existing analyst records",
+    "source proxy boundaries",
+    "publication snapshots"
+  ],
+  "live_pagination": {
+    "publication_change_between_pages": true,
+    "continuation_pins_first_publication": true,
+    "continuation_omits_map_and_timeline": true,
+    "errors_visible": true
+  },
+  "media": {
+    "one_gallery": true,
+    "album_parts_tagged": false,
+    "companion_tags": [
+      "Reply",
+      "Follow-up"
+    ],
+    "load_images_queue": "one transfer at a time",
+    "status_readout_opens_dialog": false
+  }
+}

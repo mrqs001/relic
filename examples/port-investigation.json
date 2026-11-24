@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "fictional": true,
+  "title": "Fictional Port Selene reporting change",
+  "sources": [
+    {
+      "id": "demo:local",
+      "label": "Fictional local reporter",
+      "family": "authored_report"
+    },
+    {
+      "id": "demo:repost",
+      "label": "Fictional aggregator",
+      "family": "authored_report"
+    },
+    {
+      "id": "demo:authority",
+      "label": "Fictional port authority",
+      "family": "institutional_advisory"
+    },
+    {
+      "id": "demo:observer",
+      "label": "Fictional unplaced observer",
+      "family": "authored_report"
+    }
+  ],
+  "evidence_revisions": [
+    {
+      "id": "demo:report-1",
+      "revision": "v1",
+      "source": "demo:local",
+      "published_at": "2026-01-10T09:00:00Z",
+      "acquired_at": "2026-01-10T09:02:00Z",
+      "text": "Unconfirmed report: a loud noise was heard near fictional Port Selene. The eastern access road may be closed. No cause is established.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.2,
+          12.1
+        ]
+      },
+      "location_precision": "approximate_locality",
+      "origin_group": "demo:origin-1",
+      "language": "en",
+      "fictional": true,
+      "availability": "available",
+      "citation": {
+        "evidence_id": "demo:report-1",
+        "revision": "v1",
+        "start_character": 0,
+        "end_character": 134
+      }
+    },
+    {
+      "id": "demo:report-2",
+      "revision": "v1",
+      "source": "demo:repost",
+      "published_at": "2026-01-10T09:03:00Z",
+      "acquired_at": "2026-01-10T09:04:00Z",
+      "text": "Repeating the local reporter: possible access-road closure near fictional Port Selene.",
+      "geometry": null,
+      "location_precision": "unresolved",
+      "origin_group": "demo:origin-1",
+      "copies_from": {
+        "id": "demo:report-1",
+        "revision": "v1"
+      },
+      "language": "en",
+      "fictional": true,
+      "availability": "available",
+      "citation": {
+        "evidence_id": "demo:report-2",
+        "revision": "v1",
+        "start_character": 0,
+        "end_character": 86
+      }
+    },
+    {
+      "id": "demo:report-3",
+      "revision": "v1",
+      "source": "demo:authority",
+      "published_at": "2026-01-10T09:08:00Z",
+      "acquired_at": "2026-01-10T09:25:00Z",
+      "text": "The fictional eastern access road is temporarily closed for a planned inspection. No incident or damage has been confirmed.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.2,
+          12.1
+        ]
+      },
+      "location_precision": "approximate_locality",
+      "origin_group": "demo:origin-2",
+      "language": "en",
+      "fictional": true,
+      "availability": "available",
+      "citation": {
+        "evidence_id": "demo:report-3",
+        "revision": "v1",
+        "start_character": 0,
+        "end_character": 123
+      }
+    },
+    {
+      "id": "demo:report-1",
+      "revision": "v2",
+      "source": "demo:local",
+      "published_at": "2026-01-10T09:00:00Z",
+      "source_edited_at": "2026-01-10T09:30:00Z",
+      "acquired_at": "2026-01-10T09:32:00Z",
+      "text": "Correction: the access-road closure was a planned inspection. We have no evidence establishing the cause of the reported noise.",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.2,
+          12.1
+        ]
+      },
+      "location_precision": "approximate_locality",
+      "origin_group": "demo:origin-1",
+      "supersedes": {
+        "id": "demo:report-1",
+        "revision": "v1"
+      },
+      "language": "en",
+      "fictional": true,
+      "availability": "available",
+      "citation": {
+        "evidence_id": "demo:report-1",
+        "revision": "v2",
+        "start_character": 0,
+        "end_character": 127
+      }
+    },
+    {
+      "id": "demo:report-4",
+      "revision": "v1",
+      "source": "demo:observer",
+      "published_at": "2026-01-10T09:12:00Z",
+      "acquired_at": "2026-01-10T09:13:00Z",
+      "text": "A witness reports a brief traffic queue, but the location cannot yet be established.",
+      "geometry": null,
+      "location_precision": "unresolved",
+      "origin_group": null,
+      "dependence": "unknown",
+      "language": "en",
+      "fictional": true,
+      "availability": "available",
+      "citation": {
+        "evidence_id": "demo:report-4",
+        "revision": "v1",
+        "start_character": 0,
+        "end_character": 84
+      }
+    }
+  ],
+  "observations": [
+    {
+      "id": "demo:ship-fix-1",
+      "entity_id": "demo:vessel-1",
+      "family": "maritime_position",
+      "observed_at": "2026-01-10T08:55:00Z",
+      "received_at": "2026-01-10T08:56:00Z",
+      "acquired_at": "2026-01-10T08:57:00Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.3,
+          12.1
+        ]
+      },
+      "provenance": "fictional_fixture"
+    },
+    {
+      "id": "demo:ship-fix-2",
+      "entity_id": "demo:vessel-1",
+      "family": "maritime_position",
+      "observed_at": "2026-01-10T09:35:00Z",
+      "received_at": "2026-01-10T09:36:00Z",
+      "acquired_at": "2026-01-10T09:37:00Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.25,
+          12.11
+        ]
+      },
+      "gap_before_seconds": 2400,
+      "provenance": "fictional_fixture"
+    },
+    {
+      "id": "demo:thermal-1",
+      "family": "thermal_observation",
+      "observed_at": "2026-01-10T09:10:00Z",
+      "acquired_at": "2026-01-10T09:20:00Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -29.21,
+          12.11
+        ]
+      },
+      "interpretation": "nearby observation; cause unknown",
+      "provenance": "fictional_fixture"
+    }
+  ],
+  "investigation": {
+    "id": "demo:investigation-1",
+    "question": "What does the reporting support about access disruption at fictional Port Selene?",
+    "scope": {
+      "source_ids": [
+        "demo:local",
+        "demo:repost",
+        "demo:authority",
+        "demo:observer"
+      ],
+      "include_unlocated": true,
+      "mode": "replay",
+      "id": "demo:scope-1",
+      "revision": "v1",
+      "time_basis": "publication_time",
+      "time_interval": [
+        "2026-01-10T08:00:00Z",
+        "2026-01-10T10:00:00Z"
+      ]
+    },
+    "candidate_incident_id": "demo:incident-1",
+    "assessment": "insufficiently_supported",
+    "review_status": "in_review"
+  },
+  "watch_draft": {
+    "id": "demo:watch-1",
+    "question": "What materially changes the assessment of the access-road closure?",
+    "baseline_cutoff": "2026-01-10T09:15:00Z",
+    "conditions": [
+      "new observed origin",
+      "contradiction",
+      "source correction"
+    ],
+    "notification": "in_app_digest",
+    "activate": false
+  },
+  "baseline_brief": {
+    "id": "demo:brief-1",
+    "revision": "v1",
+    "knowledge_cutoff": "2026-01-10T09:15:00Z",
+    "finding": "One originating account reports an unconfirmed access disruption; the second publication repeats that account. The cause is unresolved.",
+    "citations": [
+      {
+        "evidence_id": "demo:report-1",
+        "revision": "v1",
+        "start_character": 0,
+        "end_character": 134
+      },
+      {
+        "evidence_id": "demo:report-2",
+        "revision": "v1",
+        "start_character": 0,
+        "end_character": 86
+      }
+    ],
+    "assessment": "insufficiently_supported",
+    "limitations": [
+      "The witness location is unresolved.",
+      "Information acquired after this saved cutoff is excluded."
+    ],
+    "investigation_id": "demo:investigation-1",
+    "scope": {
+      "source_ids": [
+        "demo:local",
+        "demo:repost",
+        "demo:authority",
+        "demo:observer"
+      ],
+      "include_unlocated": true,
+      "mode": "replay",
+      "id": "demo:scope-1",
+      "revision": "v1",
+      "time_basis": "publication_time",
+      "time_interval": [
+        "2026-01-10T08:00:00Z",
+        "2026-01-10T10:00:00Z"
+      ]
+    },
+    "input_snapshot": {
+      "id": "demo:snapshot-1",
+      "evidence_revisions": [
+        {
+          "id": "demo:report-1",
+          "revision": "v1"
+        },
+        {
+          "id": "demo:report-2",
+          "revision": "v1"
+        },
+        {
+          "id": "demo:report-4",
+          "revision": "v1"
+        }
+      ],
+      "meaning": "Frozen reporting membership available at the saved cutoff; contextual observations are separate."
+    }
+  },
+  "expected_assertions": [
+    "At the 09:15 knowledge cutoff, the 09:08 authority statement is absent because it was acquired at 09:25.",
+    "The baseline brief always opens report-1 v1, even after v2 is acquired.",
+    "Two repeating publications remain one observed origin group; unknown dependence stays unknown.",
+    "Report-4 stays searchable and readable without map coordinates.",
+    "A map/list/brief with the same applied scope uses the same eligible evidence.",
+    "The source correction can update a watch episode without erasing its original match.",
+    "Neither vessel proximity nor a thermal point establishes cause, damage or attack.",
+    "The forty-minute vessel observation gap is not shown as an observed continuous route.",
+    "Evidence arriving later does not rewrite the saved baseline brief."
+  ],
+  "lineage_example": {
+    "fictional": true,
+    "meaning": "Expected illustrative lineage for the existing fixture; no actual recipe execution or model call has taken place. Not a required storage schema.",
+    "view_mode": "selected_run",
+    "run_id": "demo:lineage-run-1",
+    "nodes": [
+      {
+        "id": "demo:local",
+        "kind": "source_instance",
+        "label": "Fictional local reporter"
+      },
+      {
+        "id": "demo:observer",
+        "kind": "source_instance",
+        "label": "Fictional unplaced observer"
+      },
+      {
+        "id": "demo:repost",
+        "kind": "source_instance",
+        "label": "Fictional aggregator"
+      },
+      {
+        "id": "demo:report-1@v1",
+        "kind": "evidence_revision",
+        "label": "demo:report-1@v1",
+        "evidence_id": "demo:report-1",
+        "revision": "v1"
+      },
+      {
+        "id": "demo:report-2@v1",
+        "kind": "evidence_revision",
+        "label": "demo:report-2@v1",
+        "evidence_id": "demo:report-2",
+        "revision": "v1"
+      },
+      {
+        "id": "demo:report-4@v1",
+        "kind": "evidence_revision",
+        "label": "demo:report-4@v1",
+        "evidence_id": "demo:report-4",
+        "revision": "v1"
+      },
+      {
+        "id": "demo:scope-membership-step",
+        "kind": "run_step",
+        "label": "Freeze reporting membership",
+        "recipe_id": "demo:lineage-recipe",
+        "recipe_revision": "v1",
+        "run_id": "demo:lineage-run-1",
+        "status": "succeeded",
+        "operation": "select retained revisions available at the saved cutoff",
+        "input_records": 3,
+        "output_records": 3,
+        "model_calls": 0
+      },
+      {
+        "id": "demo:snapshot-1",
+        "kind": "dataset_revision",
+        "label": "Reporting snapshot at 09:15",
+        "revision": "v1",
+        "record_count": 3
+      },
+      {
+        "id": "demo:scope-index-step",
+        "kind": "run_step",
+        "label": "Prepare scoped list and map",
+        "recipe_id": "demo:lineage-recipe",
+        "recipe_revision": "v1",
+        "run_id": "demo:lineage-run-1",
+        "status": "succeeded",
+        "input_records": 3,
+        "output_records": 3,
+        "located_records": 1,
+        "unlocated_records": 2,
+        "model_calls": 0
+      },
+      {
+        "id": "demo:publication-1",
+        "kind": "publication",
+        "label": "Published reporting view",
+        "revision": "v1",
+        "status": "active",
+        "scope_revision": "v1"
+      },
+      {
+        "id": "demo:map-list-1",
+        "kind": "view_use",
+        "label": "Coordinated map and list",
+        "eligible_reports": 3,
+        "placed_reports": 1,
+        "unlocated_reports": 2
+      },
+      {
+        "id": "demo:brief-1",
+        "kind": "brief_revision",
+        "label": "Saved baseline brief",
+        "revision": "v1"
+      }
+    ],
+    "edges": [
+      {
+        "source": "demo:local",
+        "target": "demo:report-1@v1",
+        "relationship": "acquired_from"
+      },
+      {
+        "source": "demo:report-1@v1",
+        "target": "demo:scope-membership-step",
+        "relationship": "input_record",
+        "evidence_revision": {
+          "id": "demo:report-1",
+          "revision": "v1"
+        }
+      },
+      {
+        "source": "demo:repost",
+        "target": "demo:report-2@v1",
+        "relationship": "acquired_from"
+      },
+      {
+        "source": "demo:report-2@v1",
+        "target": "demo:scope-membership-step",
+        "relationship": "input_record",
+        "evidence_revision": {
+          "id": "demo:report-2",
+          "revision": "v1"
+        }
+      },
+      {
+        "source": "demo:observer",
+        "target": "demo:report-4@v1",
+        "relationship": "acquired_from"
+      },
+      {
+        "source": "demo:report-4@v1",
+        "target": "demo:scope-membership-step",
+        "relationship": "input_record",
+        "evidence_revision": {
+          "id": "demo:report-4",
+          "revision": "v1"
+        }
+      },
+      {
+        "source": "demo:scope-membership-step",
+        "target": "demo:snapshot-1",
+        "relationship": "produced"
+      },
+      {
+        "source": "demo:snapshot-1",
+        "target": "demo:scope-index-step",
+        "relationship": "input_dataset",
+        "revision": "v1"
+      },
+      {
+        "source": "demo:scope-index-step",
+        "target": "demo:publication-1",
+        "relationship": "published"
+      },
+      {
+        "source": "demo:publication-1",
+        "target": "demo:map-list-1",
+        "relationship": "renders"
+      },
+      {
+        "source": "demo:report-1@v1",
+        "target": "demo:brief-1",
+        "relationship": "cited_by",
+        "citation": {
+          "evidence_id": "demo:report-1",
+          "revision": "v1",
+          "start_character": 0,
+          "end_character": 134
+        }
+      },
+      {
+        "source": "demo:report-2@v1",
+        "target": "demo:brief-1",
+        "relationship": "cited_by",
+        "citation": {
+          "evidence_id": "demo:report-2",
+          "revision": "v1",
+          "start_character": 0,
+          "end_character": 86
+        }
+      },
+      {
+        "source": "demo:snapshot-1",
+        "target": "demo:brief-1",
+        "relationship": "frozen_scope_membership"
+      },
+      {
+        "source": "demo:report-1@v1",
+        "target": "demo:report-2@v1",
+        "relationship": "repeated_by",
+        "meaning": "Shared report origin, not a second independent confirmation or a processing execution"
+      }
+    ],
+    "record_trace": {
+      "selected_evidence": {
+        "id": "demo:report-1",
+        "revision": "v1"
+      },
+      "path": [
+        "demo:local",
+        "demo:report-1@v1",
+        "demo:scope-membership-step",
+        "demo:snapshot-1",
+        "demo:scope-index-step",
+        "demo:publication-1",
+        "demo:map-list-1"
+      ],
+      "field_mappings": [
+        {
+          "step": "demo:scope-index-step",
+          "input_field": "text",
+          "output_field": "text",
+          "operation": "preserve"
+        },
+        {
+          "step": "demo:scope-index-step",
+          "input_field": "geometry",
+          "output_field": "geometry",
+          "operation": "preserve without inventing absent coordinates"
+        }
+      ]
+    },
+    "expected_interactions": [
+      "Selecting the map report follows its exact v1 record back to the local source.",
+      "Selecting the brief shows its exact v1 citations even after report-1 v2 arrives.",
+      "The shared-origin link is distinct from processing and citation edges.",
+      "The viewer and accessible list both show three eligible reports and only one map-placed report.",
+      "Viewing or rearranging this flow produces zero model calls and no acquisition."
+    ]
+  }
+}

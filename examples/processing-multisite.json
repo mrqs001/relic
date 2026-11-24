@@ -1,0 +1,197 @@
+{
+  "version": "relic.multisite.fixture.v1",
+  "fictional": true,
+  "purpose": "Authored cases for site membership, type filters, partial geography and independent source coordinates. No model requests.",
+  "cases": [
+    {
+      "id": "different_types",
+      "original": "Fictional: fire reported in London. Fictional: explosion reported in Paris.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: fire reported in London. Fictional: explosion reported in Paris.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: fire reported in London.",
+            "quote": "Fictional: fire reported in London.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": null,
+            "location_indices": [
+              0
+            ]
+          },
+          {
+            "text": "Fictional: explosion reported in Paris.",
+            "quote": "Fictional: explosion reported in Paris.",
+            "state": "reported",
+            "event_type": "explosion",
+            "time_text": null,
+            "location_indices": [
+              1
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "London",
+            "canonical_name": "London",
+            "quote": "Fictional: fire reported in London.",
+            "role": "event",
+            "country_code": null
+          },
+          {
+            "mention": "Paris",
+            "canonical_name": "Paris",
+            "quote": "Fictional: explosion reported in Paris.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "same_city",
+      "original": "Fictional: fire reported in London. Fictional: explosion reported in London.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: fire reported in London. Fictional: explosion reported in London.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: fire reported in London.",
+            "quote": "Fictional: fire reported in London.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": null,
+            "location_indices": [
+              0
+            ]
+          },
+          {
+            "text": "Fictional: explosion reported in London.",
+            "quote": "Fictional: explosion reported in London.",
+            "state": "reported",
+            "event_type": "explosion",
+            "time_text": null,
+            "location_indices": [
+              1
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "London",
+            "canonical_name": "London",
+            "quote": "Fictional: fire reported in London.",
+            "role": "event",
+            "country_code": null
+          },
+          {
+            "mention": "London",
+            "canonical_name": "London",
+            "quote": "Fictional: explosion reported in London.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "partial",
+      "original": "Fictional: fire reported in London. Fictional: fire reported in Fictional Bay.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: fire reported in London. Fictional: fire reported in Fictional Bay.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: fire reported in London.",
+            "quote": "Fictional: fire reported in London.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": null,
+            "location_indices": [
+              0
+            ]
+          },
+          {
+            "text": "Fictional: fire reported in Fictional Bay.",
+            "quote": "Fictional: fire reported in Fictional Bay.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": null,
+            "location_indices": [
+              1
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "London",
+            "canonical_name": "London",
+            "quote": "Fictional: fire reported in London.",
+            "role": "event",
+            "country_code": null
+          },
+          {
+            "mention": "Fictional Bay",
+            "canonical_name": "Fictional Bay",
+            "quote": "Fictional: fire reported in Fictional Bay.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "source_geotag",
+      "original": "Fictional: strike planned in London.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: strike planned in London.",
+        "kind": "event",
+        "claim_status": "planned",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: strike planned in London.",
+            "quote": "Fictional: strike planned in London.",
+            "state": "planned",
+            "event_type": "strike",
+            "time_text": null,
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "London",
+            "canonical_name": "London",
+            "quote": "Fictional: strike planned in London.",
+            "role": "event",
+            "country_code": null
+          }
+        ]
+      },
+      "source_geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.5,
+          10
+        ]
+      }
+    }
+  ]
+}

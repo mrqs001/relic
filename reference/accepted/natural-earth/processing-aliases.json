@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "relic-natural-earth-city-aliases:v1",
+  "status": "accepted_for_bounded_exact_city_matching",
+  "reviewed_at": "2026-09-11",
+  "reviewed_by": "Relic implementation review; not independent analyst calibration",
+  "rules": [
+    {
+      "alias": "תל אביב",
+      "language": "he",
+      "target_id": "natural-earth:v5.1.2:city:1159151417",
+      "publisher_name_field": "NAME_HE",
+      "publisher_value": "תל אביב-יפו",
+      "rationale": "Conventional Hebrew short form for the publisher city whose English name is Tel Aviv. Scoped to this exact city record; no general suffix-removal rule."
+    },
+    {
+      "alias": "تل ابيب",
+      "language": "ar",
+      "target_id": "natural-earth:v5.1.2:city:1159151417",
+      "publisher_name_field": "NAME_AR",
+      "publisher_value": "تل أبيب",
+      "rationale": "Unhamzated Arabic spelling of this exact publisher city name. No general Arabic-character substitution rule."
+    },
+    {
+      "alias": "تل آویو",
+      "language": "fa",
+      "target_id": "natural-earth:v5.1.2:city:1159151417",
+      "publisher_name_field": "NAME_FA",
+      "publisher_value": "تلآویو",
+      "rationale": "Spaced Persian spelling of this exact publisher name. No general word-splitting rule."
+    }
+  ]
+}

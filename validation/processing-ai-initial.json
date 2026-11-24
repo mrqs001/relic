@@ -1,0 +1,101 @@
+{
+  "attempted": 8,
+  "cases": [
+    {
+      "cost_credits": 0.000286528,
+      "failures": [],
+      "id": "english_denial",
+      "mapped_locations": 0,
+      "passed": true,
+      "response_hash": "79cabeb23aaf648bfa9d6c05a4c2fcd5d78831f42902d8252dc13ef49c4a5aae",
+      "split": "baseline"
+    },
+    {
+      "cost_credits": 0.0001850528,
+      "failures": [
+        "claim_status",
+        "topic",
+        "supported_claim_0",
+        "supported_claim_1"
+      ],
+      "id": "portuguese_plan_not_observation",
+      "mapped_locations": 0,
+      "passed": false,
+      "response_hash": "08f54cac41161d1dc6c810c3fca386e429ee860e76b50ba8799fc4f79dc41d3b",
+      "split": "baseline"
+    },
+    {
+      "error_kind": "unsupported_quote",
+      "id": "arabic_denial",
+      "passed": false,
+      "split": "baseline"
+    },
+    {
+      "cost_credits": 0.0001639328,
+      "failures": [
+        "kind",
+        "topic",
+        "location_role_0"
+      ],
+      "id": "russian_historical",
+      "mapped_locations": 0,
+      "passed": false,
+      "response_hash": "cbb2c95a3afda4e716200b931c46ce21c40ba20b68d299f28f6767739a0d0e96",
+      "split": "baseline"
+    },
+    {
+      "cost_credits": 0.0002100448,
+      "failures": [
+        "topic",
+        "supported_claim_1"
+      ],
+      "id": "ukrainian_number_correction",
+      "mapped_locations": 0,
+      "passed": false,
+      "response_hash": "3ddf167b67a31c3d1142299693a162774fd33dfddbe43c3e13400af4e740e060",
+      "split": "held_out"
+    },
+    {
+      "cost_credits": 0.0001644608,
+      "failures": [
+        "supported_claim_1",
+        "location_role_0"
+      ],
+      "id": "persian_current_event",
+      "mapped_locations": 1,
+      "passed": false,
+      "response_hash": "094fec3b05d94963e7595eaa488fcf27615003aeaeff164d30ac0afd82383bff",
+      "split": "baseline"
+    },
+    {
+      "cost_credits": 0.0001461568,
+      "failures": [
+        "location_role_0"
+      ],
+      "id": "hebrew_current_event",
+      "mapped_locations": 0,
+      "passed": false,
+      "response_hash": "60236529afdb582c8e9d06421b27adb1e86ec6c2c461bc32283a7279c15153cf",
+      "split": "held_out"
+    },
+    {
+      "error_kind": "invalid_output",
+      "id": "source_prompt_injection",
+      "passed": false,
+      "split": "held_out"
+    }
+  ],
+  "expected": 8,
+  "fictional": true,
+  "fixture_sha256": "26a2ab1769cca7444d99c8147d08c4396b6cddbe100f4677e07d226796deb9a8",
+  "fixture_version": "relic.message-analysis.fixture.v1",
+  "known_cost_credits": 0.0014282496,
+  "limitations": "Eight fictional text cases and deterministic semantic gates; not a universal translation-quality claim. Review private audits before copying this gate to another workspace.",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "passed": false,
+  "positive_current_city_mapping": true,
+  "prompt_version": "relic.message-analysis.v1",
+  "recipe": "message-reading-v1",
+  "spend_stop_credits": 0.4,
+  "unknown_billing": false
+}

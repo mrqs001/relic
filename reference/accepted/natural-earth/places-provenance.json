@@ -1,0 +1,5322 @@
+[
+  {
+    "id": "natural-earth:v5.1.2:city:1159149469",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 21,
+    "publisher_ne_id": "1159149469",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "QAT",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159149869",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 30,
+    "publisher_ne_id": "1159149869",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "DJI",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150469",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 45,
+    "publisher_ne_id": "1159150469",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "URY",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150535",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 46,
+    "publisher_ne_id": "1159150535",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "TGO",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150537",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 47,
+    "publisher_ne_id": "1159150537",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "TUN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150565",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 48,
+    "publisher_ne_id": "1159150565",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ARE",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150567",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 49,
+    "publisher_ne_id": "1159150567",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "TKM",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150571",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 50,
+    "publisher_ne_id": "1159150571",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ZMB",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150573",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 51,
+    "publisher_ne_id": "1159150573",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ZWE",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150577",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 52,
+    "publisher_ne_id": "1159150577",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "TLS",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150579",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 53,
+    "publisher_ne_id": "1159150579",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "VUT",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150583",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 54,
+    "publisher_ne_id": "1159150583",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "HND",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150585",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 55,
+    "publisher_ne_id": "1159150585",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "GUY",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150587",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 56,
+    "publisher_ne_id": "1159150587",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ISL",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150589",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 57,
+    "publisher_ne_id": "1159150589",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "HTI",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150593",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 58,
+    "publisher_ne_id": "1159150593",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "UGA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150597",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 59,
+    "publisher_ne_id": "1159150597",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SUR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150605",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 60,
+    "publisher_ne_id": "1159150605",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "NER",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150609",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 61,
+    "publisher_ne_id": "1159150609",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "TJK",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150621",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 62,
+    "publisher_ne_id": "1159150621",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "PRY",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150623",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 63,
+    "publisher_ne_id": "1159150623",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "NIC",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150625",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 64,
+    "publisher_ne_id": "1159150625",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SLE",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150645",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 65,
+    "publisher_ne_id": "1159150645",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "PAK",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150655",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 66,
+    "publisher_ne_id": "1159150655",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "NPL",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150659",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 67,
+    "publisher_ne_id": "1159150659",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ZAF",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150661",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 68,
+    "publisher_ne_id": "1159150661",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ZAF",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150663",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 69,
+    "publisher_ne_id": "1159150663",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "PNG",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150665",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 70,
+    "publisher_ne_id": "1159150665",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SLB",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150667",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 71,
+    "publisher_ne_id": "1159150667",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "PAN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150673",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 72,
+    "publisher_ne_id": "1159150673",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MAR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150677",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 73,
+    "publisher_ne_id": "1159150677",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MDA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150683",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 74,
+    "publisher_ne_id": "1159150683",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MOZ",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150715",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 75,
+    "publisher_ne_id": "1159150715",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SOM",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150717",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 76,
+    "publisher_ne_id": "1159150717",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "OMN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150719",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 77,
+    "publisher_ne_id": "1159150719",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "LKA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150781",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 78,
+    "publisher_ne_id": "1159150781",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MNG",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150785",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 79,
+    "publisher_ne_id": "1159150785",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "NAM",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150799",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 80,
+    "publisher_ne_id": "1159150799",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "NGA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150803",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 81,
+    "publisher_ne_id": "1159150803",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "GNB",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150807",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 82,
+    "publisher_ne_id": "1159150807",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "JOR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150809",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 83,
+    "publisher_ne_id": "1159150809",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "LTU",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150811",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 84,
+    "publisher_ne_id": "1159150811",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "LVA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150813",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 85,
+    "publisher_ne_id": "1159150813",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "KGZ",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150831",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 86,
+    "publisher_ne_id": "1159150831",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "LSO",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150835",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 87,
+    "publisher_ne_id": "1159150835",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MDG",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150847",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 88,
+    "publisher_ne_id": "1159150847",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ECU",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150849",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 89,
+    "publisher_ne_id": "1159150849",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CRI",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150853",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 90,
+    "publisher_ne_id": "1159150853",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SLV",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150855",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 91,
+    "publisher_ne_id": "1159150855",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "JAM",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150863",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 92,
+    "publisher_ne_id": "1159150863",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "TCD",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150867",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 93,
+    "publisher_ne_id": "1159150867",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "GNQ",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150873",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 94,
+    "publisher_ne_id": "1159150873",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ERI",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150875",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 95,
+    "publisher_ne_id": "1159150875",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "HRV",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150877",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 96,
+    "publisher_ne_id": "1159150877",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "EST",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150907",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 97,
+    "publisher_ne_id": "1159150907",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MWI",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150909",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 98,
+    "publisher_ne_id": "1159150909",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "GTM",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150913",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 99,
+    "publisher_ne_id": "1159150913",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "GAB",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150917",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 100,
+    "publisher_ne_id": "1159150917",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "FJI",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150931",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 101,
+    "publisher_ne_id": "1159150931",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CHL",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150943",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 102,
+    "publisher_ne_id": "1159150943",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MRT",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150945",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 103,
+    "publisher_ne_id": "1159150945",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MLI",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150957",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 104,
+    "publisher_ne_id": "1159150957",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "LBN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150961",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 105,
+    "publisher_ne_id": "1159150961",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "GEO",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150965",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 106,
+    "publisher_ne_id": "1159150965",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "KAZ",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150991",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 107,
+    "publisher_ne_id": "1159150991",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "LAO",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150993",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 108,
+    "publisher_ne_id": "1159150993",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "COG",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150997",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 109,
+    "publisher_ne_id": "1159150997",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "GIN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159150999",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 110,
+    "publisher_ne_id": "1159150999",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CIV",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151059",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 111,
+    "publisher_ne_id": "1159151059",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CAN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151079",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 112,
+    "publisher_ne_id": "1159151079",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SRB",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151083",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 113,
+    "publisher_ne_id": "1159151083",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BRN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151095",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 114,
+    "publisher_ne_id": "1159151095",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BOL",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151109",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 115,
+    "publisher_ne_id": "1159151109",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BLZ",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151111",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 116,
+    "publisher_ne_id": "1159151111",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CAF",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151115",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 117,
+    "publisher_ne_id": "1159151115",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CMR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151117",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 118,
+    "publisher_ne_id": "1159151117",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ALB",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151119",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 119,
+    "publisher_ne_id": "1159151119",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ARM",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151123",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 120,
+    "publisher_ne_id": "1159151123",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "AZE",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151127",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 121,
+    "publisher_ne_id": "1159151127",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "KHM",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151133",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 122,
+    "publisher_ne_id": "1159151133",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BOL",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151141",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 123,
+    "publisher_ne_id": "1159151141",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BEN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151147",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 124,
+    "publisher_ne_id": "1159151147",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BGR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151149",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 125,
+    "publisher_ne_id": "1159151149",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BLR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151151",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 126,
+    "publisher_ne_id": "1159151151",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BTN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151153",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 127,
+    "publisher_ne_id": "1159151153",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BWA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151161",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 128,
+    "publisher_ne_id": "1159151161",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "AUS",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151173",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 129,
+    "publisher_ne_id": "1159151173",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BFA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151177",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 130,
+    "publisher_ne_id": "1159151177",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BIH",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151179",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 131,
+    "publisher_ne_id": "1159151179",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MMR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151187",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 132,
+    "publisher_ne_id": "1159151187",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "TON",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151189",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 133,
+    "publisher_ne_id": "1159151189",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SOL",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151191",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 134,
+    "publisher_ne_id": "1159151191",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SYC",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151195",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 135,
+    "publisher_ne_id": "1159151195",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "STP",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151197",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 136,
+    "publisher_ne_id": "1159151197",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "WSM",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151199",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 137,
+    "publisher_ne_id": "1159151199",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MLT",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151201",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 138,
+    "publisher_ne_id": "1159151201",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MDV",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151203",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 139,
+    "publisher_ne_id": "1159151203",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ISR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151205",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 140,
+    "publisher_ne_id": "1159151205",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CPV",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151207",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 141,
+    "publisher_ne_id": "1159151207",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BHS",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151209",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 142,
+    "publisher_ne_id": "1159151209",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CYP",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151251",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 144,
+    "publisher_ne_id": "1159151251",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "VNM",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151255",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 145,
+    "publisher_ne_id": "1159151255",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "TUR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151257",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 146,
+    "publisher_ne_id": "1159151257",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "HUN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151259",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 147,
+    "publisher_ne_id": "1159151259",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "YEM",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151263",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 148,
+    "publisher_ne_id": "1159151263",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ROU",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151269",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 149,
+    "publisher_ne_id": "1159151269",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SYR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151273",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 150,
+    "publisher_ne_id": "1159151273",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "PRT",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151275",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 151,
+    "publisher_ne_id": "1159151275",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SDN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151281",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 152,
+    "publisher_ne_id": "1159151281",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "NOR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151299",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 153,
+    "publisher_ne_id": "1159151299",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "POL",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151303",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 154,
+    "publisher_ne_id": "1159151303",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "PRK",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151305",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 155,
+    "publisher_ne_id": "1159151305",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "TZA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151309",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 156,
+    "publisher_ne_id": "1159151309",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "IRL",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151311",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 157,
+    "publisher_ne_id": "1159151311",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "LBR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151317",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 158,
+    "publisher_ne_id": "1159151317",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MYS",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151347",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 159,
+    "publisher_ne_id": "1159151347",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CUB",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151359",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 160,
+    "publisher_ne_id": "1159151359",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CZE",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151361",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 161,
+    "publisher_ne_id": "1159151361",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "KWT",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151401",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 162,
+    "publisher_ne_id": "1159151401",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "DOM",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151403",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 163,
+    "publisher_ne_id": "1159151403",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "GHA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151415",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 164,
+    "publisher_ne_id": "1159151415",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "LBY",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151417",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 165,
+    "publisher_ne_id": "1159151417",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ISR",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151419",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 166,
+    "publisher_ne_id": "1159151419",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "FIN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151437",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 167,
+    "publisher_ne_id": "1159151437",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "DNK",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151439",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 168,
+    "publisher_ne_id": "1159151439",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CIV",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151443",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 169,
+    "publisher_ne_id": "1159151443",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BRA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151465",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 170,
+    "publisher_ne_id": "1159151465",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BEL",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151467",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 171,
+    "publisher_ne_id": "1159151467",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BGD",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151469",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 172,
+    "publisher_ne_id": "1159151469",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "AGO",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151471",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 173,
+    "publisher_ne_id": "1159151471",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "DZA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151477",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 174,
+    "publisher_ne_id": "1159151477",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MMR",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151479",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 175,
+    "publisher_ne_id": "1159151479",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "USA",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151483",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 176,
+    "publisher_ne_id": "1159151483",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "USA",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151485",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 177,
+    "publisher_ne_id": "1159151485",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "USA",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151487",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 178,
+    "publisher_ne_id": "1159151487",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "USA",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151489",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 179,
+    "publisher_ne_id": "1159151489",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "USA",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151491",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 180,
+    "publisher_ne_id": "1159151491",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "USA",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151493",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 181,
+    "publisher_ne_id": "1159151493",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "VEN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151495",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 182,
+    "publisher_ne_id": "1159151495",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "UKR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151497",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 183,
+    "publisher_ne_id": "1159151497",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ARE",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151501",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 184,
+    "publisher_ne_id": "1159151501",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "UZB",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151503",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 185,
+    "publisher_ne_id": "1159151503",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ESP",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151505",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 186,
+    "publisher_ne_id": "1159151505",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CHE",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151507",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 187,
+    "publisher_ne_id": "1159151507",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SWE",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151509",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 188,
+    "publisher_ne_id": "1159151509",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "THA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151511",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 189,
+    "publisher_ne_id": "1159151511",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "PER",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151513",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 190,
+    "publisher_ne_id": "1159151513",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SEN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151515",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 191,
+    "publisher_ne_id": "1159151515",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ZAF",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151519",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 192,
+    "publisher_ne_id": "1159151519",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "NLD",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151521",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 193,
+    "publisher_ne_id": "1159151521",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MAR",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151523",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 194,
+    "publisher_ne_id": "1159151523",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "KOR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151525",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 195,
+    "publisher_ne_id": "1159151525",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "PHL",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151527",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 196,
+    "publisher_ne_id": "1159151527",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MEX",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151529",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 197,
+    "publisher_ne_id": "1159151529",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "DEU",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151531",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 198,
+    "publisher_ne_id": "1159151531",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CHN",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151533",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 199,
+    "publisher_ne_id": "1159151533",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CHN",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151537",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 200,
+    "publisher_ne_id": "1159151537",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "JPN",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151539",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 201,
+    "publisher_ne_id": "1159151539",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "COD",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151541",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 202,
+    "publisher_ne_id": "1159151541",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "IND",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151543",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 203,
+    "publisher_ne_id": "1159151543",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "IND",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151545",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 204,
+    "publisher_ne_id": "1159151545",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "GRC",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151547",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 205,
+    "publisher_ne_id": "1159151547",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "IRQ",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151549",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 206,
+    "publisher_ne_id": "1159151549",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ETH",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151551",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 207,
+    "publisher_ne_id": "1159151551",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "IRN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151555",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 208,
+    "publisher_ne_id": "1159151555",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CAN",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151557",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 209,
+    "publisher_ne_id": "1159151557",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CAN",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151559",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 210,
+    "publisher_ne_id": "1159151559",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ARG",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151561",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 211,
+    "publisher_ne_id": "1159151561",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "AFG",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151563",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 212,
+    "publisher_ne_id": "1159151563",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "AUT",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151565",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 213,
+    "publisher_ne_id": "1159151565",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "AUS",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151567",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 214,
+    "publisher_ne_id": "1159151567",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "TWN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151569",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 216,
+    "publisher_ne_id": "1159151569",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "USA",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151573",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 217,
+    "publisher_ne_id": "1159151573",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "USA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151575",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 218,
+    "publisher_ne_id": "1159151575",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "USA",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151577",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 219,
+    "publisher_ne_id": "1159151577",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "GBR",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151579",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 220,
+    "publisher_ne_id": "1159151579",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "TUR",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151581",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 221,
+    "publisher_ne_id": "1159151581",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SAU",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151583",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 222,
+    "publisher_ne_id": "1159151583",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ZAF",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151585",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 223,
+    "publisher_ne_id": "1159151585",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "RUS",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151587",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 224,
+    "publisher_ne_id": "1159151587",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "MEX",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151591",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 225,
+    "publisher_ne_id": "1159151591",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "NGA",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151593",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 226,
+    "publisher_ne_id": "1159151593",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "ITA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151595",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 227,
+    "publisher_ne_id": "1159151595",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CHN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151597",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 228,
+    "publisher_ne_id": "1159151597",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "KEN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151599",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 229,
+    "publisher_ne_id": "1159151599",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "IDN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151601",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 230,
+    "publisher_ne_id": "1159151601",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "COL",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151603",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 231,
+    "publisher_ne_id": "1159151603",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "EGY",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151605",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 232,
+    "publisher_ne_id": "1159151605",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CHN",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151609",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 233,
+    "publisher_ne_id": "1159151609",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "JPN",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151611",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 234,
+    "publisher_ne_id": "1159151611",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "IND",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151613",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 235,
+    "publisher_ne_id": "1159151613",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "FRA",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151615",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 236,
+    "publisher_ne_id": "1159151615",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "CHL",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151617",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 237,
+    "publisher_ne_id": "1159151617",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "IND",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151619",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 238,
+    "publisher_ne_id": "1159151619",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BRA",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151621",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 239,
+    "publisher_ne_id": "1159151621",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "BRA",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151623",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 240,
+    "publisher_ne_id": "1159151623",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "AUS",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151627",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 241,
+    "publisher_ne_id": "1159151627",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "SGP",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151629",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 242,
+    "publisher_ne_id": "1159151629",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "HKG",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151699",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 143,
+    "publisher_ne_id": "1159151699",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "NZL",
+    "publisher_capital_flag": 1
+  },
+  {
+    "id": "natural-earth:v5.1.2:city:1159151703",
+    "source_path": "raw/ne_110m_populated_places.geojson",
+    "source_feature_index": 215,
+    "publisher_ne_id": "1159151703",
+    "coordinate_fields": [
+      "geometry.coordinates[0]",
+      "geometry.coordinates[1]"
+    ],
+    "name_field": "NAME_EN",
+    "country_field": "ADM0NAME",
+    "publisher_adm0_a3": "NZL",
+    "publisher_capital_flag": 0
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320319",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 103,
+    "publisher_ne_id": "1159320319",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "AFG"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320323",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 74,
+    "publisher_ne_id": "1159320323",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "AGO"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320325",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 125,
+    "publisher_ne_id": "1159320325",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ALB"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320329",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 84,
+    "publisher_ne_id": "1159320329",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ARE"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320331",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 9,
+    "publisher_ne_id": "1159320331",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ARG"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320333",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 109,
+    "publisher_ne_id": "1159320333",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ARM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320335",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 159,
+    "publisher_ne_id": "1159320335",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ATA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320355",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 137,
+    "publisher_ne_id": "1159320355",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "AUS"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320379",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 114,
+    "publisher_ne_id": "1159320379",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "AUT"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320381",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 145,
+    "publisher_ne_id": "1159320381",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "AZE"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320387",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 75,
+    "publisher_ne_id": "1159320387",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BDI"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320389",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 129,
+    "publisher_ne_id": "1159320389",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BEL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320399",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 54,
+    "publisher_ne_id": "1159320399",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BEN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320405",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 65,
+    "publisher_ne_id": "1159320405",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BFA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320407",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 99,
+    "publisher_ne_id": "1159320407",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BGD"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320409",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 122,
+    "publisher_ne_id": "1159320409",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BGR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320413",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 14,
+    "publisher_ne_id": "1159320413",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BHR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320415",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 19,
+    "publisher_ne_id": "1159320415",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BHS"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320417",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 170,
+    "publisher_ne_id": "1159320417",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BIH"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320427",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 111,
+    "publisher_ne_id": "1159320427",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BLR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320431",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 39,
+    "publisher_ne_id": "1159320431",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BLZ"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320439",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 30,
+    "publisher_ne_id": "1159320439",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BOL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320441",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 29,
+    "publisher_ne_id": "1159320441",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BRA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320449",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 8,
+    "publisher_ne_id": "1159320449",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BRB"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320451",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 149,
+    "publisher_ne_id": "1159320451",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BRN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320453",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 100,
+    "publisher_ne_id": "1159320453",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BTN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320461",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 49,
+    "publisher_ne_id": "1159320461",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BWA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320463",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 66,
+    "publisher_ne_id": "1159320463",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "CAF"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320467",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 3,
+    "publisher_ne_id": "1159320467",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "CAN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320471",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 139,
+    "publisher_ne_id": "1159320471",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "CHN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320491",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 127,
+    "publisher_ne_id": "1159320491",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "CHE"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320493",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 10,
+    "publisher_ne_id": "1159320493",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "CHL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320507",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 60,
+    "publisher_ne_id": "1159320507",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "CIV"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320509",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 57,
+    "publisher_ne_id": "1159320509",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "CMR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320513",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 11,
+    "publisher_ne_id": "1159320513",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "COD"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320515",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 67,
+    "publisher_ne_id": "1159320515",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "COG"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320517",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 32,
+    "publisher_ne_id": "1159320517",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "COL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320521",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 28,
+    "publisher_ne_id": "1159320521",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "COM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320525",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 34,
+    "publisher_ne_id": "1159320525",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "CRI"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320527",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 47,
+    "publisher_ne_id": "1159320527",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "CUB"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320531",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 160,
+    "publisher_ne_id": "1159320531",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "CYN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320533",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 161,
+    "publisher_ne_id": "1159320533",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "CYP"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320535",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 153,
+    "publisher_ne_id": "1159320535",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "CZE"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320539",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 121,
+    "publisher_ne_id": "1159320539",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "DEU"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320541",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 166,
+    "publisher_ne_id": "1159320541",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "DJI"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320547",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 142,
+    "publisher_ne_id": "1159320547",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "DNK"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320549",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 29,
+    "publisher_ne_id": "1159320549",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "FRO"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320551",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 22,
+    "publisher_ne_id": "1159320551",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GRL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320563",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 17,
+    "publisher_ne_id": "1159320563",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "DOM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320565",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 82,
+    "publisher_ne_id": "1159320565",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "DZA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320567",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 44,
+    "publisher_ne_id": "1159320567",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ECU"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320575",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 163,
+    "publisher_ne_id": "1159320575",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "EGY"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320581",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 154,
+    "publisher_ne_id": "1159320581",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ERI"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320587",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 132,
+    "publisher_ne_id": "1159320587",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ESP"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320589",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 34,
+    "publisher_ne_id": "1159320589",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ESP"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320615",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 120,
+    "publisher_ne_id": "1159320615",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "EST"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320617",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 165,
+    "publisher_ne_id": "1159320617",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ETH"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320623",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 151,
+    "publisher_ne_id": "1159320623",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "FIN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320625",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 0,
+    "publisher_ne_id": "1159320625",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "FJI"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320631",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 23,
+    "publisher_ne_id": "1159320631",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ATF"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320637",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 43,
+    "publisher_ne_id": "1159320637",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "FRA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320641",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 134,
+    "publisher_ne_id": "1159320641",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "NCL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320643",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 6,
+    "publisher_ne_id": "1159320643",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PYF"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320647",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 31,
+    "publisher_ne_id": "1159320647",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SPM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320691",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 22,
+    "publisher_ne_id": "1159320691",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "FSM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320693",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 68,
+    "publisher_ne_id": "1159320693",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GAB"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320705",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 32,
+    "publisher_ne_id": "1159320705",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "BMU"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320711",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 20,
+    "publisher_ne_id": "1159320711",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "FLK"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320713",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 143,
+    "publisher_ne_id": "1159320713",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GBR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320723",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 16,
+    "publisher_ne_id": "1159320723",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "IOT"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320729",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 7,
+    "publisher_ne_id": "1159320729",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PCN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320731",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 36,
+    "publisher_ne_id": "1159320731",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SGS"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320733",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 12,
+    "publisher_ne_id": "1159320733",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SHN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320737",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 2,
+    "publisher_ne_id": "1159320737",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TCA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320751",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 11,
+    "publisher_ne_id": "1159320751",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SHN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320779",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 146,
+    "publisher_ne_id": "1159320779",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GEO"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320793",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 59,
+    "publisher_ne_id": "1159320793",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GHA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320795",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 61,
+    "publisher_ne_id": "1159320795",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GIN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320797",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 80,
+    "publisher_ne_id": "1159320797",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GMB"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320799",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 62,
+    "publisher_ne_id": "1159320799",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GNB"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320801",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 69,
+    "publisher_ne_id": "1159320801",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GNQ"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320811",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 123,
+    "publisher_ne_id": "1159320811",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GRC"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320815",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 38,
+    "publisher_ne_id": "1159320815",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GTM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320817",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 41,
+    "publisher_ne_id": "1159320817",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GUY"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320827",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 36,
+    "publisher_ne_id": "1159320827",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "HND"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320833",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 126,
+    "publisher_ne_id": "1159320833",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "HRV"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320839",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 16,
+    "publisher_ne_id": "1159320839",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "HTI"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320841",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 115,
+    "publisher_ne_id": "1159320841",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "HUN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320845",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 8,
+    "publisher_ne_id": "1159320845",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "IDN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320847",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 98,
+    "publisher_ne_id": "1159320847",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "IND"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320877",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 133,
+    "publisher_ne_id": "1159320877",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "IRL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320881",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 107,
+    "publisher_ne_id": "1159320881",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "IRN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320887",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 87,
+    "publisher_ne_id": "1159320887",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "IRQ"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320895",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 76,
+    "publisher_ne_id": "1159320895",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ISR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320899",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 79,
+    "publisher_ne_id": "1159320899",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PSX"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320917",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 144,
+    "publisher_ne_id": "1159320917",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ISL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320919",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 141,
+    "publisher_ne_id": "1159320919",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ITA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320931",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 46,
+    "publisher_ne_id": "1159320931",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "JAM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320935",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 83,
+    "publisher_ne_id": "1159320935",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "JOR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320937",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 155,
+    "publisher_ne_id": "1159320937",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "JPN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320967",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 5,
+    "publisher_ne_id": "1159320967",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "KAZ"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320971",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 13,
+    "publisher_ne_id": "1159320971",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "KEN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320977",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 105,
+    "publisher_ne_id": "1159320977",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "KGZ"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320979",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 90,
+    "publisher_ne_id": "1159320979",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "KHM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320981",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 24,
+    "publisher_ne_id": "1159320981",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "KIR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159320985",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 96,
+    "publisher_ne_id": "1159320985",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "KOR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321007",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 174,
+    "publisher_ne_id": "1159321007",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "KOS"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321009",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 86,
+    "publisher_ne_id": "1159321009",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "KWT"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321011",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 92,
+    "publisher_ne_id": "1159321011",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "LAO"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321013",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 77,
+    "publisher_ne_id": "1159321013",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "LBN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321015",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 63,
+    "publisher_ne_id": "1159321015",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "LBR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321017",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 164,
+    "publisher_ne_id": "1159321017",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "LBY"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321025",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 138,
+    "publisher_ne_id": "1159321025",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "LKA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321027",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 26,
+    "publisher_ne_id": "1159321027",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "LSO"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321029",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 118,
+    "publisher_ne_id": "1159321029",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "LTU"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321031",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 128,
+    "publisher_ne_id": "1159321031",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "LUX"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321033",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 119,
+    "publisher_ne_id": "1159321033",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "LVA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321035",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 162,
+    "publisher_ne_id": "1159321035",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MAR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321045",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 116,
+    "publisher_ne_id": "1159321045",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MDA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321051",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 78,
+    "publisher_ne_id": "1159321051",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MDG"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321053",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 15,
+    "publisher_ne_id": "1159321053",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MDV"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321055",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 27,
+    "publisher_ne_id": "1159321055",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MEX"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321057",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 23,
+    "publisher_ne_id": "1159321057",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MHL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321061",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 171,
+    "publisher_ne_id": "1159321061",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MKD"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321063",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 52,
+    "publisher_ne_id": "1159321063",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MLI"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321065",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 13,
+    "publisher_ne_id": "1159321065",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MLT"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321067",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 93,
+    "publisher_ne_id": "1159321067",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MMR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321069",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 173,
+    "publisher_ne_id": "1159321069",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MNE"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321071",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 97,
+    "publisher_ne_id": "1159321071",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MNG"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321073",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 72,
+    "publisher_ne_id": "1159321073",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MOZ"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321075",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 53,
+    "publisher_ne_id": "1159321075",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MRT"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321079",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 27,
+    "publisher_ne_id": "1159321079",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MUS"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321081",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 71,
+    "publisher_ne_id": "1159321081",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MWI"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321083",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 148,
+    "publisher_ne_id": "1159321083",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MYS"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321085",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 50,
+    "publisher_ne_id": "1159321085",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "NAM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321087",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 55,
+    "publisher_ne_id": "1159321087",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "NER"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321089",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 56,
+    "publisher_ne_id": "1159321089",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "NGA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321091",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 35,
+    "publisher_ne_id": "1159321091",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "NIC"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321101",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 130,
+    "publisher_ne_id": "1159321101",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "NLD"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321109",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 21,
+    "publisher_ne_id": "1159321109",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "NOR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321115",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 30,
+    "publisher_ne_id": "1159321115",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "NOR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321121",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 101,
+    "publisher_ne_id": "1159321121",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "NPL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321123",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 25,
+    "publisher_ne_id": "1159321123",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "NRU"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321129",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 3,
+    "publisher_ne_id": "1159321129",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "COK"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321135",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 136,
+    "publisher_ne_id": "1159321135",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "NZL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321151",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 88,
+    "publisher_ne_id": "1159321151",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "OMN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321153",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 102,
+    "publisher_ne_id": "1159321153",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PAK"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321161",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 33,
+    "publisher_ne_id": "1159321161",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PAN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321163",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 31,
+    "publisher_ne_id": "1159321163",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PER"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321169",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 147,
+    "publisher_ne_id": "1159321169",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PHL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321171",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 19,
+    "publisher_ne_id": "1159321171",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PLW"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321173",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 7,
+    "publisher_ne_id": "1159321173",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PNG"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321179",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 113,
+    "publisher_ne_id": "1159321179",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "POL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321181",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 95,
+    "publisher_ne_id": "1159321181",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PRK"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321187",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 131,
+    "publisher_ne_id": "1159321187",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PRT"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321189",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 33,
+    "publisher_ne_id": "1159321189",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PRT"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321191",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 35,
+    "publisher_ne_id": "1159321191",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PRT"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321195",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 156,
+    "publisher_ne_id": "1159321195",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PRY"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321197",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 85,
+    "publisher_ne_id": "1159321197",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "QAT"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321199",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 117,
+    "publisher_ne_id": "1159321199",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ROU"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321201",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 18,
+    "publisher_ne_id": "1159321201",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "RUS"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321219",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 169,
+    "publisher_ne_id": "1159321219",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "RWA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321223",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 2,
+    "publisher_ne_id": "1159321223",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SAH"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321225",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 158,
+    "publisher_ne_id": "1159321225",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SAU"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321229",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 14,
+    "publisher_ne_id": "1159321229",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SDN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321235",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 176,
+    "publisher_ne_id": "1159321235",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SDS"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321243",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 51,
+    "publisher_ne_id": "1159321243",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SEN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321247",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 17,
+    "publisher_ne_id": "1159321247",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SGP"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321249",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 135,
+    "publisher_ne_id": "1159321249",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SLB"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321251",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 64,
+    "publisher_ne_id": "1159321251",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SLE"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321253",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 37,
+    "publisher_ne_id": "1159321253",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SLV"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321259",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 167,
+    "publisher_ne_id": "1159321259",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SOL"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321261",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 12,
+    "publisher_ne_id": "1159321261",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SOM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321267",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 172,
+    "publisher_ne_id": "1159321267",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SRB"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321273",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 10,
+    "publisher_ne_id": "1159321273",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "STP"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321281",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 42,
+    "publisher_ne_id": "1159321281",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SUR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321283",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 152,
+    "publisher_ne_id": "1159321283",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SVK"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321285",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 150,
+    "publisher_ne_id": "1159321285",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SVN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321287",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 110,
+    "publisher_ne_id": "1159321287",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SWE"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321289",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 73,
+    "publisher_ne_id": "1159321289",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SWZ"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321295",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 108,
+    "publisher_ne_id": "1159321295",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "SYR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321301",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 15,
+    "publisher_ne_id": "1159321301",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TCD"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321303",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 58,
+    "publisher_ne_id": "1159321303",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TGO"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321305",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 91,
+    "publisher_ne_id": "1159321305",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "THA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321307",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 104,
+    "publisher_ne_id": "1159321307",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TJK"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321309",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 106,
+    "publisher_ne_id": "1159321309",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TKM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321313",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 24,
+    "publisher_ne_id": "1159321313",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TLS"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321319",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 5,
+    "publisher_ne_id": "1159321319",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TON"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321321",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 175,
+    "publisher_ne_id": "1159321321",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TTO"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321327",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 81,
+    "publisher_ne_id": "1159321327",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TUN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321331",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 124,
+    "publisher_ne_id": "1159321331",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TUR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321333",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 26,
+    "publisher_ne_id": "1159321333",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TUV"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321335",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 140,
+    "publisher_ne_id": "1159321335",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TWN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321337",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 1,
+    "publisher_ne_id": "1159321337",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "TZA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321343",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 168,
+    "publisher_ne_id": "1159321343",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "UGA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321345",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 112,
+    "publisher_ne_id": "1159321345",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "UKR"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321353",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 28,
+    "publisher_ne_id": "1159321353",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "URY"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321359",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 21,
+    "publisher_ne_id": "1159321359",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "GUM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321361",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 20,
+    "publisher_ne_id": "1159321361",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "MNP"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321363",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 45,
+    "publisher_ne_id": "1159321363",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "PRI"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321369",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 4,
+    "publisher_ne_id": "1159321369",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "USA"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321405",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 6,
+    "publisher_ne_id": "1159321405",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "UZB"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321411",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 40,
+    "publisher_ne_id": "1159321411",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "VEN"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321417",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 94,
+    "publisher_ne_id": "1159321417",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "VNM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321421",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 89,
+    "publisher_ne_id": "1159321421",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "VUT"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321423",
+    "source_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+    "source_feature_index": 4,
+    "publisher_ne_id": "1159321423",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "WSM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321425",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 157,
+    "publisher_ne_id": "1159321425",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "YEM"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321431",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 25,
+    "publisher_ne_id": "1159321431",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ZAF"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321439",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 70,
+    "publisher_ne_id": "1159321439",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ZMB"
+  },
+  {
+    "id": "natural-earth:v5.1.2:country:1159321441",
+    "source_path": "raw/ne_110m_admin_0_countries.geojson",
+    "source_feature_index": 48,
+    "publisher_ne_id": "1159321441",
+    "coordinate_fields": [
+      "LABEL_X",
+      "LABEL_Y"
+    ],
+    "name_field": "NAME_EN",
+    "publisher_adm0_a3": "ZWE"
+  }
+]

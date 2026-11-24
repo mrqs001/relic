@@ -1,0 +1,15 @@
+{
+  "schema": "relic.geography-corrections.v1",
+  "purpose": "Reviewed decisions where a publisher figure misleads a resolver rule. Publisher records, evidence and readings are unchanged; only the named rule ignores the figure. The file is compiled into the resolver and its hash is part of the location-context identity, so any change replays geography without model calls.",
+  "population_not_used": [
+    {
+      "id": "geonames:173334",
+      "name": "Al Qunayṭirah (Quneitra city, Syria)",
+      "publisher_population": 36143,
+      "compared_with": "geonames:173336 Quneitra Governorate, population 90000",
+      "reason": "The city was largely destroyed in 1974 and has stayed mostly uninhabited. GeoNames still lists 36,143 people, enough for the city to outweigh its governorate under the 3x rule, while reports naming \"Quneitra\" usually mean the governorate.",
+      "effect": "The population is treated as unknown when choosing between this city and same-name divisions or places.",
+      "reviewed": "2026-09-27"
+    }
+  ]
+}

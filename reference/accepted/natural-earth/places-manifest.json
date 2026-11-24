@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "natural-earth-place-navigation:v5.1.2",
+  "title": "Natural Earth country and major/capital city navigation index",
+  "status": "accepted_for_globe_place_navigation_only",
+  "accepted_at": "2026-09-10T21:46:54.841Z",
+  "publisher": "Natural Earth",
+  "fictional": false,
+  "eligible_for_evidence": false,
+  "eligible_for_analytical_scope": false,
+  "eligible_for_automated_geocoding": false,
+  "source": {
+    "repository": "https://github.com/nvkelso/natural-earth-vector",
+    "release_tag": "v5.1.2",
+    "commit": "f1890d9f152c896d250a77557a5751a93d494776",
+    "release_published_at": "2022-05-13T23:24:34Z",
+    "acquired_at": "2026-09-10T21:42:49.410Z",
+    "discovery": "places-discovery.json",
+    "products": [
+      {
+        "name": "ne_110m_admin_0_countries",
+        "product_version": "5.1.1"
+      },
+      {
+        "name": "ne_110m_admin_0_tiny_countries",
+        "product_version": "5.1.1"
+      },
+      {
+        "name": "ne_110m_populated_places",
+        "product_version": "5.1.2"
+      }
+    ],
+    "raw_files": [
+      {
+        "path": "geojson/ne_110m_admin_0_countries.geojson",
+        "local_path": "raw/ne_110m_admin_0_countries.geojson",
+        "bytes": 838726,
+        "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+        "git_blob_sha": "1e6ab74c7042f97013be69ceec798be8e1aff27d",
+        "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/geojson/ne_110m_admin_0_countries.geojson?ref=f1890d9f152c896d250a77557a5751a93d494776",
+        "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_110m_admin_0_countries.geojson"
+      },
+      {
+        "path": "geojson/ne_110m_admin_0_tiny_countries.geojson",
+        "local_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+        "bytes": 134886,
+        "sha256": "753c4b167361f0f1223091d52f98aaddfb9101529eef263cc094057e43228c40",
+        "git_blob_sha": "e468bfde3af1fbc49741fcfea938dbbdd9a9c27d",
+        "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/geojson/ne_110m_admin_0_tiny_countries.geojson?ref=f1890d9f152c896d250a77557a5751a93d494776",
+        "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_110m_admin_0_tiny_countries.geojson"
+      },
+      {
+        "path": "geojson/ne_110m_populated_places.geojson",
+        "local_path": "raw/ne_110m_populated_places.geojson",
+        "bytes": 654324,
+        "sha256": "a86028b083182b68c7620fc6e1a8a47ee547cb9cd2fb62ccbb78bea786440899",
+        "git_blob_sha": "7e6a4ef960d752f810a1365b73d4283b8eb6f0b9",
+        "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/geojson/ne_110m_populated_places.geojson?ref=f1890d9f152c896d250a77557a5751a93d494776",
+        "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_110m_populated_places.geojson"
+      },
+      {
+        "path": "110m_cultural/ne_110m_admin_0_countries.VERSION.txt",
+        "local_path": "raw/ne_110m_admin_0_countries.VERSION.txt",
+        "bytes": 6,
+        "sha256": "f9893302cd3158f3b5aea394dcd2a91574869e9e6ff69e9235b10a3bf8c983fb",
+        "git_blob_sha": "ac14c3dfaa865ea332c62348d1bca867bdbbd1cf",
+        "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/110m_cultural/ne_110m_admin_0_countries.VERSION.txt?ref=f1890d9f152c896d250a77557a5751a93d494776",
+        "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/110m_cultural/ne_110m_admin_0_countries.VERSION.txt"
+      },
+      {
+        "path": "110m_cultural/ne_110m_admin_0_tiny_countries.VERSION.txt",
+        "local_path": "raw/ne_110m_admin_0_tiny_countries.VERSION.txt",
+        "bytes": 6,
+        "sha256": "f9893302cd3158f3b5aea394dcd2a91574869e9e6ff69e9235b10a3bf8c983fb",
+        "git_blob_sha": "ac14c3dfaa865ea332c62348d1bca867bdbbd1cf",
+        "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/110m_cultural/ne_110m_admin_0_tiny_countries.VERSION.txt?ref=f1890d9f152c896d250a77557a5751a93d494776",
+        "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/110m_cultural/ne_110m_admin_0_tiny_countries.VERSION.txt"
+      },
+      {
+        "path": "110m_cultural/ne_110m_populated_places.VERSION.txt",
+        "local_path": "raw/ne_110m_populated_places.VERSION.txt",
+        "bytes": 6,
+        "sha256": "0c9a9d43610d66f4cc3f42da08cae044483de25894a9daf9dc6a76ff75ca9327",
+        "git_blob_sha": "61fcc87350341bc51d640aa9161073ce615703ce",
+        "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/110m_cultural/ne_110m_populated_places.VERSION.txt?ref=f1890d9f152c896d250a77557a5751a93d494776",
+        "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/110m_cultural/ne_110m_populated_places.VERSION.txt"
+      }
+    ]
+  },
+  "rights": {
+    "basis": "public_domain",
+    "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "checked_at": "2026-09-10",
+    "pinned_snapshot": "raw/LICENSE.md",
+    "pinned_snapshot_sha256": "2631b5b39b6d1acc56de75235109b5af2dbb4b0ac5a127b6f06185977247fd4b",
+    "attribution": "Made with Natural Earth.",
+    "attribution_required": false
+  },
+  "scope": {
+    "purpose": "Explicit map camera navigation from a local search palette; never a report position, physical-entity match, analytical boundary or current recognition assertion.",
+    "geography": "Publisher global small-scale country/territory labels and a selected 200 of 243 populated places.",
+    "maximum_download_bytes_per_file": 2097152,
+    "request_timeout_seconds": 20,
+    "world_vintage": "Release is 2022; underlying label and point observation dates may be older or unknown."
+  },
+  "index": {
+    "path": "display/map-places.json",
+    "frontend_path": "web/public/map-places.json",
+    "url": "/map-places.json",
+    "schema": "{id:string,name:string,kind:\"country\"|\"city\",country?:string,aliases:string[],longitude:number,latitude:number,zoom:number}[]",
+    "count": 410,
+    "countries": 210,
+    "cities": 200,
+    "bytes": 199358,
+    "sha256": "155161e6439811d54001b289b25387dc39549318ea7fd912281128cd01e866c6"
+  },
+  "identity": {
+    "country": "natural-earth:v5.1.2:country:<publisher NE_ID>",
+    "city": "natural-earth:v5.1.2:city:<publisher NE_ID>",
+    "deduplication": "Country/tiny layers are combined only on identical publisher NE_ID; no name or proximity merge.",
+    "provenance": "places-provenance.json",
+    "provenance_sha256": "906b0d39f11bd081aded6741d7c3ea53b17d7848e7743c795cfa27f292a2bef6"
+  },
+  "extraction": {
+    "script": "build-map-places.mjs",
+    "network": false,
+    "alias_policy": "Retain source names, translations, aliases and country codes; case-insensitive NFKC deduplication. Also compact publisher dotted initialisms such as U.K. to UK for keyboard lookup.",
+    "city_selection": "SCALERANK ascending, ADM0CAP descending, POP_MAX descending, NE_ID lexicographic; first 200 of 243 publisher places.",
+    "country_selection": "All 177 countries plus 33 additional tiny-country points; deduplicate only identical publisher NE_ID, preserving country-layer label where both exist.",
+    "coordinate_policy": "Use publisher LABEL_X/LABEL_Y for country navigation, unchanged source GeoJSON point for cities; never infer report/evidence geography.",
+    "zoom_policy": "Camera presentation preference only: country extent from largest polygon shell, clamped 1.6–6.5; tiny-country points 6; cities 6.2 for publisher POP_MAX>=5m else7. No population value is exposed as current evidence.",
+    "city_country_policy": "Retain each city source record ADM0NAME directly; omit the field if unavailable. Do not crosswalk ADM0_A3 through country/tiny-country layers or substitute sovereignty labels."
+  },
+  "quality": {
+    "report": "places-quality.json",
+    "sha256": "f9803951a351383f586244196ec272f7b0ba1d21d9e598df603f753a05ed1153",
+    "outcome": "passed_for_globe_place_navigation_only",
+    "remaining_limits": [
+      "Pinned 2022 repository release; underlying label/position vintage may be older or unknown.",
+      "The country enum includes publisher-defined countries/territories, not a legal recognition assertion.",
+      "Not complete city/capital coverage; 43 source places omitted by explicit rank limit.",
+      "Aliases are publisher values, not reconciled current official names.",
+      "Label points and suggested zoom are for camera navigation only; never use them to locate evidence, test analytical scope or assert geography."
+    ],
+    "city_country_records_checked": 200
+  },
+  "refresh": {
+    "automatic": false,
+    "policy": "Review a new pinned release and regenerate/validate before replacement. Preserve this source/index manifest for reproducibility."
+  },
+  "catalogue_policy": "The general reference catalogue remains disabled candidates. This acceptance is only the named local navigation index; it does not promote inherited inputs or enable country boundaries as analytical truth.",
+  "corrections": [
+    {
+      "corrected_at": "2026-09-10T21:53:02.460Z",
+      "previous_index_sha256": "2f327bd2403d13052b538b442ba3b35974f0ddc90f3578ad18d5cd46084f448d",
+      "reason": "Country-code crosswalk allowed Madeira to overwrite Portugal for Lisbon. All city labels now retain the source city ADM0NAME directly, with source-field provenance and regression checks. Raw source releases and city coordinates are unchanged."
+    }
+  ]
+}

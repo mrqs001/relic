@@ -1,0 +1,360 @@
+{
+  "fictional": true,
+  "purpose": "Owned synthetic boundaries and source claims; shapes are not real country borders. The simplified polygon intentionally omits an analytical hole.",
+  "editions": [
+    {
+      "metadata": {
+        "boundaryID": "LBN-ADM0-fictional",
+        "boundaryISO": "LBN",
+        "boundaryName": "Lebanon",
+        "boundaryType": "ADM0",
+        "boundaryYearRepresented": "Fictional test edition",
+        "boundarySource": "Authored fictional geometry",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "Relic owned acceptance fixture",
+        "sourceDataUpdateDate": "2026-09-20",
+        "buildDate": "2026-09-20",
+        "admUnitCount": "1",
+        "gjDownloadURL": "https://example.invalid/fictional-full.geojson",
+        "simplifiedGeometryGeoJSON": "https://example.invalid/fictional-display.geojson"
+      },
+      "full": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "shapeID": "ADM0-fictional",
+              "shapeName": "Lebanon",
+              "shapeGroup": "LBN",
+              "shapeType": "ADM0"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    34,
+                    32
+                  ],
+                  [
+                    37,
+                    32
+                  ],
+                  [
+                    37,
+                    35
+                  ],
+                  [
+                    34,
+                    35
+                  ],
+                  [
+                    34,
+                    32
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "display": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "shapeID": "ADM0-fictional",
+              "shapeName": "Lebanon",
+              "shapeGroup": "LBN",
+              "shapeType": "ADM0"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    34,
+                    32
+                  ],
+                  [
+                    37,
+                    32
+                  ],
+                  [
+                    37,
+                    35
+                  ],
+                  [
+                    34,
+                    35
+                  ],
+                  [
+                    34,
+                    32
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "boundaryID": "LBN-ADM1-fictional",
+        "boundaryISO": "LBN",
+        "boundaryName": "Lebanon",
+        "boundaryType": "ADM1",
+        "boundaryYearRepresented": "Fictional test edition",
+        "boundarySource": "Authored fictional geometry",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "Relic owned acceptance fixture",
+        "sourceDataUpdateDate": "2026-09-20",
+        "buildDate": "2026-09-20",
+        "admUnitCount": "1",
+        "gjDownloadURL": "https://example.invalid/fictional-full.geojson",
+        "simplifiedGeometryGeoJSON": "https://example.invalid/fictional-display.geojson"
+      },
+      "full": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "shapeID": "ADM1-fictional",
+              "shapeName": "Hollow",
+              "shapeGroup": "LBN",
+              "shapeType": "ADM1"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    34,
+                    32
+                  ],
+                  [
+                    37,
+                    32
+                  ],
+                  [
+                    37,
+                    35
+                  ],
+                  [
+                    34,
+                    35
+                  ],
+                  [
+                    34,
+                    32
+                  ]
+                ],
+                [
+                  [
+                    35,
+                    33
+                  ],
+                  [
+                    35,
+                    34
+                  ],
+                  [
+                    36,
+                    34
+                  ],
+                  [
+                    36,
+                    33
+                  ],
+                  [
+                    35,
+                    33
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "display": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "shapeID": "ADM1-fictional",
+              "shapeName": "Hollow",
+              "shapeGroup": "LBN",
+              "shapeType": "ADM1"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    34,
+                    32
+                  ],
+                  [
+                    37,
+                    32
+                  ],
+                  [
+                    37,
+                    35
+                  ],
+                  [
+                    34,
+                    35
+                  ],
+                  [
+                    34,
+                    32
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "country",
+      "original": "Fictional: fire reported in Lebanon.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: fire reported in Lebanon.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: fire reported in Lebanon.",
+            "quote": "Fictional: fire reported in Lebanon.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": null,
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Lebanon",
+            "quote": "Fictional: fire reported in Lebanon.",
+            "role": "event",
+            "canonical_name": "Lebanon",
+            "country_code": "LB"
+          }
+        ]
+      }
+    },
+    {
+      "id": "province",
+      "original": "Ficticio: incendio reportado en Hollow Province.",
+      "gold": {
+        "language": "es",
+        "translation": "Fictional: fire reported in Hollow Province.",
+        "headline": "Fictional: fire reported in Hollow Province.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: fire reported in Hollow Province.",
+            "quote": "Ficticio: incendio reportado en Hollow Province.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": null,
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Hollow Province",
+            "quote": "Ficticio: incendio reportado en Hollow Province.",
+            "role": "event",
+            "canonical_name": "Hollow Province",
+            "country_code": "LB"
+          }
+        ]
+      }
+    },
+    {
+      "id": "denied",
+      "original": "Fictional: fire denied in Hollow Province.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: fire denied in Hollow Province.",
+        "kind": "event",
+        "claim_status": "denied",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: fire denied in Hollow Province.",
+            "quote": "Fictional: fire denied in Hollow Province.",
+            "state": "denied",
+            "event_type": "fire",
+            "time_text": null,
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Hollow Province",
+            "quote": "Fictional: fire denied in Hollow Province.",
+            "role": "event",
+            "canonical_name": "Hollow Province",
+            "country_code": "LB"
+          }
+        ]
+      }
+    },
+    {
+      "id": "issuer",
+      "original": "Fictional: the office in Hollow Province reports a fire elsewhere.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional: the office in Hollow Province reports a fire elsewhere.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional: the office in Hollow Province reports a fire elsewhere.",
+            "quote": "Fictional: the office in Hollow Province reports a fire elsewhere.",
+            "state": "reported",
+            "event_type": "fire",
+            "time_text": null,
+            "location_indices": [
+              0
+            ]
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Hollow Province",
+            "quote": "Fictional: the office in Hollow Province reports a fire elsewhere.",
+            "role": "issuer",
+            "canonical_name": "Hollow Province",
+            "country_code": "LB"
+          }
+        ]
+      }
+    }
+  ]
+}

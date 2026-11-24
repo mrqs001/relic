@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "fictional": true,
+  "title": "Fictional media follow-ups",
+  "sources": [
+    {
+      "id": "fixture:channel",
+      "label": "Fictional Harbour Wire",
+      "family": "telegram"
+    }
+  ],
+  "evidence_revisions": [
+    {
+      "id": "telegram:fixture:peer:1",
+      "revision": "v1",
+      "source": "fixture:channel",
+      "published_at": "2026-09-20T12:00:00Z",
+      "acquired_at": "2026-09-20T13:00:00Z",
+      "text": "Fictional report: crews are responding to flooding at the harbour.",
+      "geometry": null,
+      "location_precision": "unresolved",
+      "origin_group": null,
+      "dependence": "unknown",
+      "language": "en",
+      "fictional": true,
+      "availability": "available",
+      "upstream_state": "present",
+      "relationships": {
+        "account_id": "fixture",
+        "peer_id": "peer",
+        "message_id": "1",
+        "sender_id": "fixture"
+      },
+      "media": [
+        {
+          "kind": "photo"
+        }
+      ],
+      "citation": {
+        "evidence_id": "telegram:fixture:peer:1",
+        "revision": "v1",
+        "start_character": 0,
+        "end_character": 66
+      }
+    },
+    {
+      "id": "telegram:fixture:peer:2",
+      "revision": "v1",
+      "source": "fixture:channel",
+      "published_at": "2026-09-20T12:01:00Z",
+      "acquired_at": "2026-09-20T13:00:00Z",
+      "text": "📷",
+      "geometry": null,
+      "location_precision": "unresolved",
+      "origin_group": null,
+      "dependence": "unknown",
+      "language": "en",
+      "fictional": true,
+      "availability": "available",
+      "upstream_state": "present",
+      "relationships": {
+        "account_id": "fixture",
+        "peer_id": "peer",
+        "message_id": "2",
+        "sender_id": "fixture"
+      },
+      "media": [
+        {
+          "kind": "photo"
+        }
+      ],
+      "citation": {
+        "evidence_id": "telegram:fixture:peer:2",
+        "revision": "v1",
+        "start_character": 0,
+        "end_character": 1
+      }
+    },
+    {
+      "id": "telegram:fixture:peer:3",
+      "revision": "v1",
+      "source": "fixture:channel",
+      "published_at": "2026-09-20T12:02:59Z",
+      "acquired_at": "2026-09-20T13:00:00Z",
+      "text": "Additional footage",
+      "geometry": null,
+      "location_precision": "unresolved",
+      "origin_group": null,
+      "dependence": "unknown",
+      "language": "en",
+      "fictional": true,
+      "availability": "available",
+      "upstream_state": "present",
+      "relationships": {
+        "account_id": "fixture",
+        "peer_id": "peer",
+        "message_id": "3",
+        "sender_id": "fixture"
+      },
+      "media": [
+        {
+          "kind": "photo"
+        }
+      ],
+      "citation": {
+        "evidence_id": "telegram:fixture:peer:3",
+        "revision": "v1",
+        "start_character": 0,
+        "end_character": 18
+      }
+    },
+    {
+      "id": "telegram:fixture:peer:4",
+      "revision": "v1",
+      "source": "fixture:channel",
+      "published_at": "2026-09-20T12:03:01Z",
+      "acquired_at": "2026-09-20T13:00:00Z",
+      "text": "📷",
+      "geometry": null,
+      "location_precision": "unresolved",
+      "origin_group": null,
+      "dependence": "unknown",
+      "language": "en",
+      "fictional": true,
+      "availability": "available",
+      "upstream_state": "present",
+      "relationships": {
+        "account_id": "fixture",
+        "peer_id": "peer",
+        "message_id": "4",
+        "sender_id": "fixture"
+      },
+      "media": [
+        {
+          "kind": "photo"
+        }
+      ],
+      "citation": {
+        "evidence_id": "telegram:fixture:peer:4",
+        "revision": "v1",
+        "start_character": 0,
+        "end_character": 1
+      }
+    },
+    {
+      "id": "telegram:fixture:peer:5",
+      "revision": "v1",
+      "source": "fixture:channel",
+      "published_at": "2026-09-20T12:03:40Z",
+      "acquired_at": "2026-09-20T13:00:00Z",
+      "text": "Fictional separate report: roads reopen after maintenance.",
+      "geometry": null,
+      "location_precision": "unresolved",
+      "origin_group": null,
+      "dependence": "unknown",
+      "language": "en",
+      "fictional": true,
+      "availability": "available",
+      "upstream_state": "present",
+      "relationships": {
+        "account_id": "fixture",
+        "peer_id": "peer",
+        "message_id": "5",
+        "sender_id": "fixture"
+      },
+      "media": [],
+      "citation": {
+        "evidence_id": "telegram:fixture:peer:5",
+        "revision": "v1",
+        "start_character": 0,
+        "end_character": 58
+      }
+    }
+  ]
+}

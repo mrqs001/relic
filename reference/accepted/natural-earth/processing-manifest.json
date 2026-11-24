@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "natural-earth-city-reference:v5.1.2",
+  "acceptance_id": "natural-earth-city-reference:v5.1.2:policy-v1",
+  "status": "accepted_for_city_level_location_candidates",
+  "accepted_at": "2026-09-11",
+  "accepted_by": "Relic implementation review under the owner-authorized processing scope",
+  "publisher": "Natural Earth",
+  "edition": "v5.1.2",
+  "product": "ne_110m_populated_places",
+  "product_version": "5.1.2",
+  "repository_commit": "f1890d9f152c896d250a77557a5751a93d494776",
+  "release_published_at": "2022-05-13T23:24:34Z",
+  "source_path": "raw/ne_110m_populated_places.geojson",
+  "source_sha256": "a86028b083182b68c7620fc6e1a8a47ee547cb9cd2fb62ccbb78bea786440899",
+  "source_bytes": 654324,
+  "source_record_count": 243,
+  "publisher_id_field": "NE_ID",
+  "stable_id": "natural-earth:v5.1.2:city:<publisher NE_ID>",
+  "geometry_policy": "Unchanged publisher GeoJSON Point, explicitly city_level_approximate. It is a city reference point, never the observed incident site or a surveyed coordinate.",
+  "occurrence_policy": "A uniquely matching exact publisher name or explicitly reviewed alias may supply a city-level location hypothesis only for event role under the caller reported-event gate. Canonical-name-only guesses, conflicting country constraints, ambiguity, origin/destination/issuer/mentioned roles and non-reported-event material cannot produce occurrence geometry.",
+  "country_policy": "Use each city record ISO_A2 and ADM0NAME directly. These are dated publisher classifications; do not infer legal recognition or crosswalk sovereignty/country layers.",
+  "names_policy": "Retain NAME, NAMEASCII, NAMEALT and explicit NAME_<language> publisher values. Case/whitespace normalization only; no fuzzy names, nearest-coordinate guessing or unrestricted transliteration.",
+  "aliases": {
+    "path": "processing-aliases.json",
+    "sha256": "9a99b090103cae3d409f27ec7c4234139f0ce8ac275c4c164f6ed9df92b285e2",
+    "count": 3
+  },
+  "rights": {
+    "basis": "public_domain",
+    "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "pinned_snapshot": "raw/LICENSE.md",
+    "pinned_snapshot_sha256": "2631b5b39b6d1acc56de75235109b5af2dbb4b0ac5a127b6f06185977247fd4b",
+    "attribution": "Made with Natural Earth."
+  },
+  "quality": {
+    "accepted": 243,
+    "rejected": 0,
+    "duplicate_ids": 0,
+    "coordinate_changes": 0,
+    "validation": "All original features have a unique integer NE_ID, a name, and a finite two-dimensional WGS84 point. Checks establish format and provenance, not accuracy or completeness."
+  },
+  "limits": [
+    "Source release is from 2022; individual location observation dates are not supplied.",
+    "243 selected publisher cities worldwide are not a complete city gazetteer.",
+    "Haifa, Gaza, Isfahan, Aleppo, Basra and Mosul are absent; preserve unresolved outputs.",
+    "Country and territory publisher names are accepted only as broad identity/context candidates under the explicit country_identity policy here; no country occurrence coordinates or analytical boundaries are accepted.",
+    "No inherited input, facility annotation, population estimate or AI-provided coordinate is accepted by this policy."
+  ],
+  "refresh": {
+    "automatic": false,
+    "policy": "A new source release or alias change requires a distinct reviewed acceptance and hash; retain the old reference for prior interpretations."
+  },
+  "country_identity": {
+    "id": "natural-earth-country-name-reference:v5.1.2",
+    "acceptance_id": "natural-earth-country-name-reference:v5.1.2:policy-v1",
+    "status": "accepted_for_broad_name_identity_only",
+    "purpose": "Exact publisher country/territory names may identify broad contextual candidates during message reading. This is a separate processing acceptance, not an extension inferred from navigation permission.",
+    "geometry_policy": "Do not read or return country label points, centroids or polygons as occurrence geometry. Never infer a city from a country mention.",
+    "product_version": "5.1.1",
+    "unique_record_count": 210,
+    "deduplication": "Exact publisher NE_ID only; prefer admin_0_countries over matching tiny-country identity.",
+    "source_files": [
+      {
+        "path": "raw/ne_110m_admin_0_countries.geojson",
+        "bytes": 838726,
+        "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+        "record_count": 177
+      },
+      {
+        "path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+        "bytes": 134886,
+        "sha256": "753c4b167361f0f1223091d52f98aaddfb9101529eef263cc094057e43228c40",
+        "record_count": 37
+      }
+    ]
+  }
+}

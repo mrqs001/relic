@@ -1,0 +1,13 @@
+{
+  "description": "Fictional collection setup. Saving these targets never verifies or contacts their upstream accounts.",
+  "cases": [
+    {
+      "input": {"provider":"telegram","label":"Fictional port messages","target":"https://t.me/Relic_Test_Channel/","enabled":true},
+      "expected": {"provider":"telegram","label":"Fictional port messages","target":"@relic_test_channel","mode":"stream","poll_interval_seconds":null,"enabled":true,"status":"not_connected","version":1}
+    },
+    {
+      "input": {"provider":"x","label":"Fictional X messages","target":"https://www.twitter.com/Relic_Test/"},
+      "expected": {"provider":"x","label":"Fictional X messages","target":"@relic_test","mode":"poll","poll_interval_seconds":120,"enabled":false,"status":"paused","version":1}
+    }
+  ]
+}

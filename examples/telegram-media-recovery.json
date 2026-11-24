@@ -1,0 +1,21 @@
+{
+  "fictional": true,
+  "purpose": "Offline adapter-shaped input; never import into the live workspace",
+  "source": {"id": "telegram:100:-1000000000200", "label": "Synthetic media channel"},
+  "message": {
+    "id": "telegram:100:-1000000000200:42",
+    "text": "Fictional caption: power restored in Port Selene.",
+    "published_at": "2026-09-12T10:00:00Z",
+    "source_edited_at": "2026-09-12T10:01:00Z",
+    "upstream_state": "present",
+    "relationships": {"account_id": "100", "peer_id": "-1000000000200", "message_id": "42"},
+    "media": [{"kind": "photo", "id": "synthetic-photo-1", "mime_type": "image/png", "size": null, "archive_status": "not_requested"}]
+  },
+  "expected": {
+    "same_instant_formats": ["2026-09-12T10:00:00Z", "2026-09-12T10:00:00.000Z", "2026-09-12T11:00:00+01:00"],
+    "unchanged_creates_revision": false,
+    "actual_edit": "Retain exact new revision and its media; keep old text, asset association and publication unchanged",
+    "checkpoint": "History watermark, continuation and pause state remain unchanged",
+    "network": "One existing exact-message media request; no history refresh or repeated download"
+  }
+}

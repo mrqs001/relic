@@ -1,0 +1,507 @@
+{
+  "version": "relic.taxonomy.fixture.v2",
+  "fictional": true,
+  "purpose": "New event vocabulary acceptance; not supplied as prompt examples; model evaluation pending",
+  "cases": [
+    {
+      "id": "taxonomy_weapons_launch",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: A missile was launched from a mobile launcher. Its destination is unknown.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: A missile was launched from a mobile launcher. Its destination is unknown.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "conflict",
+        "claims": [
+          {
+            "text": "Fictional report: A missile was launched from a mobile launcher. Its destination is unknown.",
+            "quote": "Fictional report: A missile was launched from a mobile launcher. Its destination is unknown.",
+            "state": "reported",
+            "event_type": "weapons_launch",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_territorial_change",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: Local sources report that armed forces captured a border town.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: Local sources report that armed forces captured a border town.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "conflict",
+        "claims": [
+          {
+            "text": "Fictional report: Local sources report that armed forces captured a border town.",
+            "quote": "Fictional report: Local sources report that armed forces captured a border town.",
+            "state": "reported",
+            "event_type": "territorial_change",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_military_activity",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: Military aircraft were seen patrolling; no attack was reported.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: Military aircraft were seen patrolling; no attack was reported.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "conflict",
+        "claims": [
+          {
+            "text": "Fictional report: Military aircraft were seen patrolling; no attack was reported.",
+            "quote": "Fictional report: Military aircraft were seen patrolling; no attack was reported.",
+            "state": "reported",
+            "event_type": "military_activity",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_maritime_interdiction",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: The coast guard says it redirected 7 commercial vessels during the blockade.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: The coast guard says it redirected 7 commercial vessels during the blockade.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "conflict",
+        "claims": [
+          {
+            "text": "Fictional report: The coast guard says it redirected 7 commercial vessels during the blockade.",
+            "quote": "Fictional report: The coast guard says it redirected 7 commercial vessels during the blockade.",
+            "state": "reported",
+            "event_type": "maritime_interdiction",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_security_alert",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: An air-raid warning was issued. No impact was reported.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: An air-raid warning was issued. No impact was reported.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional report: An air-raid warning was issued. No impact was reported.",
+            "quote": "Fictional report: An air-raid warning was issued. No impact was reported.",
+            "state": "reported",
+            "event_type": "security_alert",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_alert_lifted",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: Authorities lifted the air-raid warning.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: Authorities lifted the air-raid warning.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional report: Authorities lifted the air-raid warning.",
+            "quote": "Fictional report: Authorities lifted the air-raid warning.",
+            "state": "reported",
+            "event_type": "alert_lifted",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_evacuation",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: Authorities will evacuate the neighbourhood tomorrow.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: Authorities will evacuate the neighbourhood tomorrow.",
+        "kind": "event",
+        "claim_status": "planned",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional report: Authorities will evacuate the neighbourhood tomorrow.",
+            "quote": "Fictional report: Authorities will evacuate the neighbourhood tomorrow.",
+            "state": "planned",
+            "event_type": "evacuation",
+            "time_text": "tomorrow",
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_rescue",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: Rescuers searched the collapsed warehouse for survivors.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: Rescuers searched the collapsed warehouse for survivors.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional report: Rescuers searched the collapsed warehouse for survivors.",
+            "quote": "Fictional report: Rescuers searched the collapsed warehouse for survivors.",
+            "state": "reported",
+            "event_type": "rescue",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_transport_disruption",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: The port reopened after a temporary closure.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: The port reopened after a temporary closure.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "Fictional report: The port reopened after a temporary closure.",
+            "quote": "Fictional report: The port reopened after a temporary closure.",
+            "state": "reported",
+            "event_type": "transport_disruption",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_diplomatic_meeting",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: The foreign ministers will meet tomorrow for negotiations.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: The foreign ministers will meet tomorrow for negotiations.",
+        "kind": "event",
+        "claim_status": "planned",
+        "topic": "diplomacy",
+        "claims": [
+          {
+            "text": "Fictional report: The foreign ministers will meet tomorrow for negotiations.",
+            "quote": "Fictional report: The foreign ministers will meet tomorrow for negotiations.",
+            "state": "planned",
+            "event_type": "diplomatic_meeting",
+            "time_text": "tomorrow",
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_agreement",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: The parties signed a ceasefire agreement.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: The parties signed a ceasefire agreement.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "diplomacy",
+        "claims": [
+          {
+            "text": "Fictional report: The parties signed a ceasefire agreement.",
+            "quote": "Fictional report: The parties signed a ceasefire agreement.",
+            "state": "reported",
+            "event_type": "agreement",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_sanctions",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: The government imposed financial sanctions on 3 companies.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: The government imposed financial sanctions on 3 companies.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "diplomacy",
+        "claims": [
+          {
+            "text": "Fictional report: The government imposed financial sanctions on 3 companies.",
+            "quote": "Fictional report: The government imposed financial sanctions on 3 companies.",
+            "state": "reported",
+            "event_type": "sanctions",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_policy_change",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: The government revoked the foreign trainees’ entry visas.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: The government revoked the foreign trainees’ entry visas.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "politics",
+        "claims": [
+          {
+            "text": "Fictional report: The government revoked the foreign trainees’ entry visas.",
+            "quote": "Fictional report: The government revoked the foreign trainees’ entry visas.",
+            "state": "reported",
+            "event_type": "policy_change",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_arrest",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: Police released the detained journalist.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: Police released the detained journalist.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "politics",
+        "claims": [
+          {
+            "text": "Fictional report: Police released the detained journalist.",
+            "quote": "Fictional report: Police released the detained journalist.",
+            "state": "reported",
+            "event_type": "arrest",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_legal_proceeding",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: A court sentenced the accused person to prison.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: A court sentenced the accused person to prison.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "politics",
+        "claims": [
+          {
+            "text": "Fictional report: A court sentenced the accused person to prison.",
+            "quote": "Fictional report: A court sentenced the accused person to prison.",
+            "state": "reported",
+            "event_type": "legal_proceeding",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_election",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: The electoral commission announced the final election result.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: The electoral commission announced the final election result.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "politics",
+        "claims": [
+          {
+            "text": "Fictional report: The electoral commission announced the final election result.",
+            "quote": "Fictional report: The electoral commission announced the final election result.",
+            "state": "reported",
+            "event_type": "election",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_aid_delivery",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: A relief convoy delivered food and medicine.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: A relief convoy delivered food and medicine.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "safety",
+        "claims": [
+          {
+            "text": "Fictional report: A relief convoy delivered food and medicine.",
+            "quote": "Fictional report: A relief convoy delivered food and medicine.",
+            "state": "reported",
+            "event_type": "aid_delivery",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_cyber_incident",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: The operator reports a cyber intrusion into its network.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: The operator reports a cyber intrusion into its network.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "Fictional report: The operator reports a cyber intrusion into its network.",
+            "quote": "Fictional report: The operator reports a cyber intrusion into its network.",
+            "state": "reported",
+            "event_type": "cyber_incident",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_damage_without_cause",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional report: Two apartment buildings were damaged. The cause is unknown.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional report: Two apartment buildings were damaged. The cause is unknown.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "Fictional report: Two apartment buildings were damaged. The cause is unknown.",
+            "quote": "Fictional report: Two apartment buildings were damaged. The cause is unknown.",
+            "state": "reported",
+            "event_type": "structural_damage",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    },
+    {
+      "id": "taxonomy_collapse_denied",
+      "split": "held_out",
+      "event_fixture": true,
+      "original": "Fictional statement: The council denied that the school building collapsed.",
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Fictional statement: The council denied that the school building collapsed.",
+        "kind": "statement",
+        "claim_status": "denied",
+        "topic": "infrastructure",
+        "claims": [
+          {
+            "text": "Fictional statement: The council denied that the school building collapsed.",
+            "quote": "Fictional statement: The council denied that the school building collapsed.",
+            "state": "denied",
+            "event_type": "structural_damage",
+            "time_text": null,
+            "location_indices": []
+          }
+        ],
+        "locations": []
+      }
+    }
+  ]
+}

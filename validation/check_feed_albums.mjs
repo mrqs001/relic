@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
+const require=createRequire(new URL('../web/package.json',import.meta.url));
+const {build}=require('esbuild');
+const bundle=await build({entryPoints:[fileURLToPath(new URL('../web/src/components/feed-albums.ts',import.meta.url))],bundle:true,write:false,format:'esm',platform:'browser'});
+const {feedAlbums}=await import(`data:text/javascript;base64,${Buffer.from(bundle.outputFiles[0].text).toString('base64')}`);
+const message=(id,source='telegram:channel',text='',album='1')=>({id,revision:'v1',source,text,relationships:{grouped_id:album}});
+const input=[message('new'),message('caption','telegram:channel','Fictional exact caption'),message('other','telegram:other'),message('unrelated','telegram:channel','Unrelated','2'),message('x','x:user'),message('x2','x:user')];
+const original=JSON.stringify(input), rows=feedAlbums(input);
+assert.equal(rows.length,5);assert.equal(rows[0].message.id,'caption');assert.equal(rows.flatMap(r=>r.members).length,input.length);assert.equal(JSON.stringify(input),original);
+assert.equal(feedAlbums(input.slice(0,1))[0].members.length,1);
+console.log('Passed: native source-qualified album presentation; all loaded members preserved; no cross-source/X inference or original mutation.');

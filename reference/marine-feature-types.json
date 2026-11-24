@@ -1,0 +1,21 @@
+{
+  "schema": "relic.marine-feature-types.v2",
+  "reviewed": "2026-10-09",
+  "purpose": "GeoNames feature types that name a small sea feature whose gazetteer point may stand for an event reported 'in' or 'near' it. Without this review every physical feature is an identity without a location. The file is compiled into the resolver and its hash is part of the location-context identity, so a change replays geography without model calls.",
+  "rule": "Only when the gazetteer identity is the single selected candidate, no OpenStreetMap outline of it exists, the place is an event place of a reported occurrence, and the feature type below is listed. A type with near_marine_area_km is placed only when its point lies inside, or within about that distance of, a loaded Marine Regions area. The point is marked approximate_marine_feature: approximate, not an observed incident coordinate. Seas, gulfs and bays are areas from Marine Regions and are not listed here.",
+  "country_rule": "A sea feature is no evidence of a message's country: GeoNames files a strait under one of the countries on its shores. A supplied or written country that differs from the filing country keeps the feature only when the record's alternate country codes (cc2) list that country or its point lies within about 100 km of that country's loaded outline. With no supplied, written or message country, the exact name must name nothing else in the loaded gazetteers, and the global baseline must be loaded to show this.",
+  "types": [
+    {"class": "H", "code": "STRT", "meaning": "strait", "extent": "Usually 5 to 60 km wide and up to about 150 km long (Hormuz); the point is the publisher's representative point."},
+    {"class": "H", "code": "CHN", "meaning": "channel", "extent": "A navigable passage; usually narrower than a strait.", "near_marine_area_km": 25, "inland_use": "GeoNames also uses CHN for river channels."},
+    {"class": "H", "code": "CHNM", "meaning": "marine channel", "extent": "As channel."},
+    {"class": "H", "code": "NRWS", "meaning": "narrows", "extent": "A constricted section of a waterway.", "near_marine_area_km": 25, "inland_use": "GeoNames also uses NRWS for narrows of rivers and lakes."},
+    {"class": "H", "code": "SHOL", "meaning": "shoal", "extent": "Usually under 20 km across (Scarborough Shoal's lagoon is about 15 km).", "near_marine_area_km": 25, "inland_use": "GeoNames also uses SHOL for river sandbars."},
+    {"class": "H", "code": "RF", "meaning": "reef", "extent": "Usually under 20 km across."},
+    {"class": "H", "code": "RFC", "meaning": "coral reef", "extent": "As reef."},
+    {"class": "T", "code": "ATOL", "meaning": "atoll", "extent": "Usually under 30 km across."}
+  ],
+  "excluded": [
+    {"code": "BNK, BNKU and other U-class undersea features", "reason": "Banks and undersea names collide with land names (a Philippine undersea 'West Bank'); they stay identities without a location."},
+    {"code": "GULF, BAY, SEA, COVE", "reason": "Areas, not points. Marine Regions supplies reviewed areas for the seas and gulfs Relic covers."}
+  ]
+}

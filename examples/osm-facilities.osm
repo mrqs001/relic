@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<osm version="0.6" generator="Relic fictional fixture">
+  <node id="1" version="1" timestamp="2026-01-01T00:00:00Z" lon="50" lat="30" />
+  <node id="2" version="1" timestamp="2026-01-01T00:00:00Z" lon="50.1" lat="30" />
+  <node id="3" version="1" timestamp="2026-01-01T00:00:00Z" lon="50.1" lat="30.1" />
+  <node id="4" version="1" timestamp="2026-01-01T00:00:00Z" lon="50" lat="30.1" />
+  <node id="5" version="1" timestamp="2026-01-01T00:00:00Z" lon="50.02" lat="30.02" />
+  <node id="6" version="1" timestamp="2026-01-01T00:00:00Z" lon="50.04" lat="30.02" />
+  <node id="7" version="1" timestamp="2026-01-01T00:00:00Z" lon="50.04" lat="30.04" />
+  <node id="8" version="1" timestamp="2026-01-01T00:00:00Z" lon="50.02" lat="30.04" />
+  <node id="9" version="1" timestamp="2026-01-01T00:00:00Z" lon="50.2" lat="30.2" />
+  <node id="10" version="1" timestamp="2026-01-01T00:00:00Z" lon="50.3" lat="30.2" />
+  <node id="11" version="1" timestamp="2026-01-01T00:00:00Z" lon="50.3" lat="30.3" />
+  <node id="12" version="1" timestamp="2026-01-01T00:00:00Z" lon="50.2" lat="30.3" />
+  <node id="20" version="1" timestamp="2026-01-01T00:00:00Z" lon="50.4" lat="30.4">
+    <tag k="name" v="Fictional Cedar Airport" />
+    <tag k="name:fa" v="فرودگاه خیالی سدر" />
+    <tag k="old_name" v="Old Cedar Field" />
+    <tag k="aeroway" v="aerodrome" />
+    <tag k="iata" v="ZZZ" />
+  </node>
+  <way id="101" version="1" timestamp="2026-01-01T00:00:00Z">
+    <nd ref="1" />
+    <nd ref="2" />
+    <nd ref="3" />
+  </way>
+  <way id="102" version="1" timestamp="2026-01-01T00:00:00Z">
+    <nd ref="3" />
+    <nd ref="4" />
+    <nd ref="1" />
+  </way>
+  <way id="103" version="1" timestamp="2026-01-01T00:00:00Z">
+    <nd ref="5" />
+    <nd ref="6" />
+    <nd ref="7" />
+    <nd ref="8" />
+    <nd ref="5" />
+  </way>
+  <way id="110" version="1" timestamp="2026-01-01T00:00:00Z">
+    <nd ref="9" />
+    <nd ref="10" />
+    <nd ref="11" />
+    <nd ref="12" />
+    <nd ref="9" />
+    <tag k="name" v="Fictional Closed Rail Loop" />
+    <tag k="railway" v="station" />
+    <tag k="area" v="no" />
+  </way>
+  <way id="120" version="1" timestamp="2026-01-01T00:00:00Z">
+    <nd ref="9" />
+    <nd ref="999" />
+    <nd ref="11" />
+    <nd ref="9" />
+    <tag k="name" v="Fictional Missing Works" />
+    <tag k="landuse" v="industrial" />
+  </way>
+  <way id="130" version="1" timestamp="2026-01-01T00:00:00Z">
+    <nd ref="9" />
+    <nd ref="10" />
+    <nd ref="11" />
+    <nd ref="12" />
+    <nd ref="9" />
+    <tag k="name" v="Fictional Power Station" />
+    <tag k="power" v="plant" />
+  </way>
+  <relation id="201" version="1" timestamp="2026-01-01T00:00:00Z">
+    <member type="way" ref="101" role="outer" />
+    <member type="way" ref="103" role="inner" />
+    <member type="way" ref="102" role="outer" />
+    <tag k="name" v="Fictional Lakeside Hospital" />
+    <tag k="name:fa" v="بیمارستان خیالی" />
+    <tag k="amenity" v="hospital" />
+    <tag k="type" v="multipolygon" />
+  </relation>
+  <relation id="202" version="1" timestamp="2026-01-01T00:00:00Z">
+    <member type="relation" ref="201" role="outer" />
+    <tag k="name" v="Fictional Nested Port" />
+    <tag k="landuse" v="port" />
+    <tag k="type" v="multipolygon" />
+  </relation>
+</osm>

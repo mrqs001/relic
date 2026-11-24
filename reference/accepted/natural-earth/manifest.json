@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "id": "natural-earth-110m-locator:v5.1.2",
+  "title": "Natural Earth 1:110m land and coastline locator",
+  "publisher": "Natural Earth",
+  "status": "accepted_for_local_locator_display",
+  "accepted_at": "2026-09-10T21:14:00.904Z",
+  "accepted_by": "Relic implementation review under the selected reference-data plan",
+  "publication_boundary": "Bundled local map display assets only; not inserted into analytical evidence or an accepted administrative-boundary baseline.",
+  "fictional": false,
+  "default_enabled_for_locator_display": true,
+  "eligible_for_analysis": false,
+  "eligible_as_evidence": false,
+  "source": {
+    "repository": "https://github.com/nvkelso/natural-earth-vector",
+    "release_tag": "v5.1.2",
+    "commit": "f1890d9f152c896d250a77557a5751a93d494776",
+    "release_published_at": "2022-05-13T23:24:34Z",
+    "acquired_at": "2026-09-10T21:12:22.319Z",
+    "discovery": "discovery.json"
+  },
+  "vintage": {
+    "release_date": "2022-05-13",
+    "meaning": "Repository release date, not an observation or last-survey date.",
+    "per_feature_observation_dates": "not_supplied"
+  },
+  "scope": {
+    "geography": "Global generalized physical land/coastline locator",
+    "scale": "1:110m",
+    "products": [
+      "ne_110m_land",
+      "ne_110m_coastline"
+    ],
+    "selection": "Only these two complete small GeoJSON files, plus the pinned publisher licence and VERSION.",
+    "excluded": [
+      "country/administrative boundary datasets",
+      "place labels",
+      "physical facility records",
+      "all other catalogue candidates"
+    ],
+    "maximum_body_bytes": 2097152,
+    "request_timeout_seconds": 20
+  },
+  "rights": {
+    "basis": "public_domain",
+    "terms_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "terms_checked_at": "2026-09-10",
+    "pinned_snapshot": "raw/LICENSE.md",
+    "pinned_snapshot_sha256": "2631b5b39b6d1acc56de75235109b5af2dbb4b0ac5a127b6f06185977247fd4b",
+    "permitted_use": "Local display, distribution and derived display geometry under the publisher public-domain dedication.",
+    "attribution": "Made with Natural Earth.",
+    "attribution_url": "https://www.naturalearthdata.com/",
+    "attribution_required": false
+  },
+  "identity": {
+    "raw": "No stable per-feature publisher identifier is supplied in these GeoJSON files.",
+    "display": "natural-earth:v5.1.2:ne_110m_<layer>:row-<zero-based index>",
+    "mapping": "Each display feature maps to the same raw feature-array index in the exact retained file. IDs do not assert cross-release physical identity."
+  },
+  "quality": {
+    "report": "quality.json",
+    "report_sha256": "2717f531d234ce264e7035a62ea90ae3877ae3f8ea6181a9b2fab2a7608d33a1",
+    "outcome": "passed_for_small_scale_locator_display",
+    "coordinates": 10271,
+    "features": 261,
+    "rejected_records": 0,
+    "actual_coordinates_changed": 0,
+    "remaining_limits": [
+      "Generalized 1:110m locator geometry; not navigation or surveyed detail.",
+      "Coordinate/ring checks do not prove topology, world accuracy or completeness.",
+      "No legal/administrative membership, geocoding, incident association or evidence support may use this display asset.",
+      "Release date is known; per-feature real-world observation dates are not supplied."
+    ]
+  },
+  "assets": [
+    {
+      "layer": "land",
+      "raw_path": "raw/ne_110m_land.geojson",
+      "raw_bytes": 138160,
+      "raw_sha256": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+      "display_path": "display/land.geojson",
+      "display_bytes": 144175,
+      "display_sha256": "193d9bd6cee5d8fc8fe7e33c6e5b1cdb6e3dadcb6cfa23277f89591465b1c80d",
+      "feature_count": 127
+    },
+    {
+      "layer": "coastline",
+      "raw_path": "raw/ne_110m_coastline.geojson",
+      "raw_bytes": 139907,
+      "raw_sha256": "851f581ff5ffb844deed8ae1a9ce22e3c4bb3d74fa342cadb5d8e39b41ae7c3c",
+      "display_path": "display/coastline.geojson",
+      "display_bytes": 146911,
+      "display_sha256": "61432c8f55695174ac6963aa1cfaf8f720652cb79bf3a87f8d13f544a8515e78",
+      "feature_count": 134
+    }
+  ],
+  "refresh": {
+    "automatic": false,
+    "policy": "Review and validate a separately pinned release before replacement; retain these raw assets/manifest for reproduction. Failed refresh keeps this accepted display release."
+  },
+  "catalogue_policy": "The research catalogue remains a disabled candidate registry. This acceptance applies only to the named locator assets and does not enable other products."
+}

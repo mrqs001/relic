@@ -1,0 +1,88 @@
+{
+  "attempted": 8,
+  "cases": [
+    {
+      "cost_credits": 0.000357104,
+      "failures": [
+        "location_role_0"
+      ],
+      "id": "english_denial",
+      "mapped_locations": 0,
+      "passed": false,
+      "response_hash": "02186cd536ac381e083307dc58afbdfd5842ed7ec420063baf0f85e6adbe05fa",
+      "split": "baseline"
+    },
+    {
+      "cost_credits": 0.0002130624,
+      "failures": [
+        "topic"
+      ],
+      "id": "portuguese_plan_not_observation",
+      "mapped_locations": 0,
+      "passed": false,
+      "response_hash": "32050d31a0bb755e73edac217b60be8f024636268884880ed6dfc87c1ba83e31",
+      "split": "baseline"
+    },
+    {
+      "error_kind": "unsupported_quote",
+      "id": "arabic_denial",
+      "passed": false,
+      "split": "baseline"
+    },
+    {
+      "cost_credits": 0.00018,
+      "failures": [],
+      "id": "russian_historical",
+      "mapped_locations": 0,
+      "passed": true,
+      "response_hash": "5d1ccbb44dc785eee5f522aca8f7016e6d9a99589128d6ede00b04d65ab30a92",
+      "split": "baseline"
+    },
+    {
+      "cost_credits": 0.000198128,
+      "failures": [],
+      "id": "ukrainian_number_correction",
+      "mapped_locations": 0,
+      "passed": true,
+      "response_hash": "646dcddf013fd1bb41bcc8c0c41c3e053e24e2bc9c411c62033dc5921dc91287",
+      "split": "held_out"
+    },
+    {
+      "cost_credits": 0.000180528,
+      "failures": [],
+      "id": "persian_current_event",
+      "mapped_locations": 1,
+      "passed": true,
+      "response_hash": "8499f0fe1469d1ce195f982135b71ff716ff5a57f09daa3a366ef376fea88a4b",
+      "split": "baseline"
+    },
+    {
+      "cost_credits": 0.000162752,
+      "failures": [],
+      "id": "hebrew_current_event",
+      "mapped_locations": 0,
+      "passed": true,
+      "response_hash": "c02517d14e6e3c798afa91f8659a2849ddb4e596f60305da4c69d532c0751bda",
+      "split": "held_out"
+    },
+    {
+      "error_kind": "invalid_output",
+      "id": "source_prompt_injection",
+      "passed": false,
+      "split": "held_out"
+    }
+  ],
+  "expected": 8,
+  "fictional": true,
+  "fixture_sha256": "26a2ab1769cca7444d99c8147d08c4396b6cddbe100f4677e07d226796deb9a8",
+  "fixture_version": "relic.message-analysis.fixture.v1",
+  "known_cost_credits": 0.0015329504,
+  "limitations": "Eight fictional text cases and deterministic semantic gates; not a universal translation-quality claim. Review private audits before copying this gate to another workspace.",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "passed": false,
+  "positive_current_city_mapping": true,
+  "prompt_version": "relic.message-analysis.v2",
+  "recipe": "message-reading-v1",
+  "spend_stop_credits": 0.4,
+  "unknown_billing": false
+}

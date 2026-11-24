@@ -1,0 +1,577 @@
+{
+  "version": "relic.reading-acceptance.v1.1",
+  "fictional": true,
+  "purpose": "Newly authored after the v7 protocol was frozen. No case is included in the prompt. Small multilingual regression set, not a population accuracy estimate.",
+  "cases": [
+    {
+      "id": "accept_fr_rail",
+      "split": "acceptance",
+      "event_fixture": true,
+      "original": "Exercice fictif : le trafic ferroviaire a repris à Lyon ce matin après une panne de 3 heures.",
+      "english_checks": [
+        [
+          "resumed",
+          "restored",
+          "reopened"
+        ],
+        [
+          "3"
+        ]
+      ],
+      "gold": {
+        "language": "fr",
+        "translation": "Fictional exercise: rail traffic resumed in Lyon this morning after a 3-hour outage.",
+        "headline": "Rail traffic resumed in Lyon this morning after a 3-hour outage.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "Rail traffic resumed in Lyon this morning after a 3-hour outage.",
+            "event_type": "transport_disruption",
+            "state": "reported",
+            "time_text": "ce matin",
+            "location_indices": [
+              0
+            ],
+            "quote": "Exercice fictif : le trafic ferroviaire a repris à Lyon ce matin après une panne de 3 heures."
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Lyon",
+            "canonical_name": "Lyon",
+            "role": "event",
+            "country_code": null,
+            "quote": "Exercice fictif : le trafic ferroviaire a repris à Lyon ce matin après une panne de 3 heures."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accept_es_denial",
+      "split": "acceptance",
+      "event_fixture": true,
+      "original": "Simulación: la alcaldesa negó que un incendio afectara a Valencia hoy. No se registraron heridos.",
+      "english_checks": [
+        [
+          "denied",
+          "denies"
+        ],
+        [
+          "no injuries",
+          "no injured",
+          "no casualties"
+        ]
+      ],
+      "gold": {
+        "language": "es",
+        "translation": "Simulation: the mayor denied that a fire affected Valencia today. No injuries were recorded.",
+        "headline": "The mayor denied a fire in Valencia today.",
+        "kind": "statement",
+        "claim_status": "denied",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "The mayor denied a fire in Valencia today.",
+            "event_type": "fire",
+            "state": "denied",
+            "time_text": "hoy",
+            "location_indices": [
+              0
+            ],
+            "quote": "Simulación: la alcaldesa negó que un incendio afectara a Valencia hoy. No se registraron heridos."
+          },
+          {
+            "text": "No injuries were recorded.",
+            "event_type": null,
+            "state": "reported",
+            "time_text": null,
+            "location_indices": [],
+            "quote": "Simulación: la alcaldesa negó que un incendio afectara a Valencia hoy. No se registraron heridos."
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Valencia",
+            "canonical_name": "Valencia",
+            "role": "event",
+            "country_code": null,
+            "quote": "Simulación: la alcaldesa negó que un incendio afectara a Valencia hoy. No se registraron heridos."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accept_ar_rescue",
+      "split": "acceptance",
+      "event_fixture": true,
+      "original": "تدريب خيالي: أنقذت فرق الإنقاذ 4 أشخاص في بيروت صباح اليوم. سبب الحادث غير معروف.",
+      "english_checks": [
+        [
+          "rescue",
+          "rescued"
+        ],
+        [
+          "4"
+        ],
+        [
+          "unknown",
+          "not known",
+          "unclear"
+        ]
+      ],
+      "gold": {
+        "language": "ar",
+        "translation": "Fictional exercise: rescue teams rescued 4 people in Beirut this morning. The cause of the accident is unknown.",
+        "headline": "Rescue teams rescued 4 people in Beirut this morning; the cause is unknown.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "Rescue teams rescued 4 people in Beirut this morning; the cause is unknown.",
+            "event_type": "rescue",
+            "state": "reported",
+            "time_text": "صباح اليوم",
+            "location_indices": [
+              0
+            ],
+            "quote": "تدريب خيالي: أنقذت فرق الإنقاذ 4 أشخاص في بيروت صباح اليوم. سبب الحادث غير معروف."
+          }
+        ],
+        "locations": [
+          {
+            "mention": "بيروت",
+            "canonical_name": "Beirut",
+            "role": "event",
+            "country_code": null,
+            "quote": "تدريب خيالي: أنقذت فرق الإنقاذ 4 أشخاص في بيروت صباح اليوم. سبب الحادث غير معروف."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accept_fa_future",
+      "split": "acceptance",
+      "event_fixture": true,
+      "original": "تمرین خیالی: مقامات گفتند فردا ساکنان شیراز را تخلیه خواهند کرد. تخلیه هنوز آغاز نشده است.",
+      "english_checks": [
+        [
+          "will",
+          "plan"
+        ],
+        [
+          "not",
+          "yet"
+        ]
+      ],
+      "gold": {
+        "language": "fa",
+        "translation": "Fictional exercise: officials said they will evacuate residents of Shiraz tomorrow. The evacuation has not yet begun.",
+        "headline": "Officials plan to evacuate residents of Shiraz tomorrow; it has not started.",
+        "kind": "statement",
+        "claim_status": "planned",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "Officials plan to evacuate residents of Shiraz tomorrow; it has not started.",
+            "event_type": "evacuation",
+            "state": "planned",
+            "time_text": "فردا",
+            "location_indices": [
+              0
+            ],
+            "quote": "تمرین خیالی: مقامات گفتند فردا ساکنان شیراز را تخلیه خواهند کرد. تخلیه هنوز آغاز نشده است."
+          }
+        ],
+        "locations": [
+          {
+            "mention": "شیراز",
+            "canonical_name": "Shiraz",
+            "role": "event",
+            "country_code": null,
+            "quote": "تمرین خیالی: مقامات گفتند فردا ساکنان شیراز را تخلیه خواهند کرد. تخلیه هنوز آغاز نشده است."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accept_he_archive",
+      "split": "acceptance",
+      "event_fixture": true,
+      "original": "תרגיל בדיוני: הסרטון מראה הפגנה בירושלים בשנת 2018, לא הפגנה מהיום.",
+      "english_checks": [
+        [
+          "2018"
+        ],
+        [
+          "not today",
+          "not from today",
+          "not a current",
+          "not a protest from today",
+          "not a demonstration from today"
+        ]
+      ],
+      "gold": {
+        "language": "he",
+        "translation": "Fictional exercise: the video shows a protest in Jerusalem in 2018, not a protest from today.",
+        "headline": "The video shows a protest in Jerusalem in 2018, not today.",
+        "kind": "event",
+        "claim_status": "historical",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "The video shows a protest in Jerusalem in 2018, not today.",
+            "event_type": "protest",
+            "state": "historical",
+            "time_text": "בשנת 2018",
+            "location_indices": [
+              0
+            ],
+            "quote": "תרגיל בדיוני: הסרטון מראה הפגנה בירושלים בשנת 2018, לא הפגנה מהיום."
+          }
+        ],
+        "locations": [
+          {
+            "mention": "ירושלים",
+            "canonical_name": "Jerusalem",
+            "role": "event",
+            "country_code": null,
+            "quote": "תרגיל בדיוני: הסרטון מראה הפגנה בירושלים בשנת 2018, לא הפגנה מהיום."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accept_uk_repair",
+      "split": "acceptance",
+      "event_fixture": true,
+      "original": "Навчальний сценарій: у Львові сьогодні відновили водопостачання після аварії. Постраждалих немає.",
+      "english_checks": [
+        [
+          "restored",
+          "resumed"
+        ],
+        [
+          "no casualties",
+          "no injuries",
+          "no one was injured"
+        ]
+      ],
+      "gold": {
+        "language": "uk",
+        "translation": "Training scenario: water service was restored in Lviv today after an accident. There are no casualties.",
+        "headline": "Water service was restored in Lviv today after an accident; no casualties were reported.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "Water service was restored in Lviv today after an accident; no casualties were reported.",
+            "event_type": "infrastructure_disruption",
+            "state": "reported",
+            "time_text": "сьогодні",
+            "location_indices": [
+              0
+            ],
+            "quote": "Навчальний сценарій: у Львові сьогодні відновили водопостачання після аварії. Постраждалих немає."
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Львові",
+            "canonical_name": "Lviv",
+            "role": "event",
+            "country_code": null,
+            "quote": "Навчальний сценарій: у Львові сьогодні відновили водопостачання після аварії. Постраждалих немає."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accept_ru_issuer",
+      "split": "acceptance",
+      "event_fixture": true,
+      "original": "Учебный сценарий: выступая в Казани, чиновник сообщил о взрыве в Самаре сегодня. Причина неизвестна.",
+      "english_checks": [
+        [
+          "explosion"
+        ],
+        [
+          "unknown",
+          "unclear",
+          "not known"
+        ]
+      ],
+      "gold": {
+        "language": "ru",
+        "translation": "Training scenario: speaking in Kazan, an official reported an explosion in Samara today. The cause is unknown.",
+        "headline": "An official speaking in Kazan reported an explosion in Samara today; its cause is unknown.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "An official speaking in Kazan reported an explosion in Samara today; its cause is unknown.",
+            "event_type": "explosion",
+            "state": "reported",
+            "time_text": "сегодня",
+            "location_indices": [
+              1
+            ],
+            "quote": "Учебный сценарий: выступая в Казани, чиновник сообщил о взрыве в Самаре сегодня. Причина неизвестна."
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Казани",
+            "canonical_name": "Kazan",
+            "role": "issuer",
+            "country_code": null,
+            "quote": "Учебный сценарий: выступая в Казани, чиновник сообщил о взрыве в Самаре сегодня. Причина неизвестна."
+          },
+          {
+            "mention": "Самаре",
+            "canonical_name": "Samara",
+            "role": "event",
+            "country_code": null,
+            "quote": "Учебный сценарий: выступая в Казани, чиновник сообщил о взрыве в Самаре сегодня. Причина неизвестна."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accept_en_two_states",
+      "split": "acceptance",
+      "event_fixture": true,
+      "original": "Fictional drill: a warehouse fire was reported in Dublin today. Police denied a separate explosion in Cork yesterday.",
+      "english_checks": [
+        [
+          "denied",
+          "denies"
+        ]
+      ],
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "A warehouse fire was reported in Dublin today.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "A warehouse fire was reported in Dublin today.",
+            "event_type": "fire",
+            "state": "reported",
+            "time_text": "today",
+            "location_indices": [
+              0
+            ],
+            "quote": "Fictional drill: a warehouse fire was reported in Dublin today. Police denied a separate explosion in Cork yesterday."
+          },
+          {
+            "text": "Police denied a separate explosion in Cork yesterday.",
+            "event_type": "explosion",
+            "state": "denied",
+            "time_text": "yesterday",
+            "location_indices": [
+              1
+            ],
+            "quote": "Fictional drill: a warehouse fire was reported in Dublin today. Police denied a separate explosion in Cork yesterday."
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Dublin",
+            "canonical_name": "Dublin",
+            "role": "event",
+            "country_code": null,
+            "quote": "Fictional drill: a warehouse fire was reported in Dublin today. Police denied a separate explosion in Cork yesterday."
+          },
+          {
+            "mention": "Cork",
+            "canonical_name": "Cork",
+            "role": "event",
+            "country_code": null,
+            "quote": "Fictional drill: a warehouse fire was reported in Dublin today. Police denied a separate explosion in Cork yesterday."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accept_pt_civilian",
+      "split": "acceptance",
+      "event_fixture": true,
+      "original": "Exercício fictício: 6 professores viajarão amanhã para Braga. A estrada permanece aberta.",
+      "english_checks": [
+        [
+          "6"
+        ],
+        [
+          "will",
+          "plan",
+          "to travel"
+        ],
+        [
+          "open"
+        ]
+      ],
+      "gold": {
+        "language": "pt",
+        "translation": "Fictional exercise: 6 teachers will travel to Braga tomorrow. The road remains open.",
+        "headline": "6 teachers will travel to Braga tomorrow.",
+        "kind": "statement",
+        "claim_status": "planned",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "6 teachers will travel to Braga tomorrow.",
+            "event_type": null,
+            "state": "planned",
+            "time_text": null,
+            "location_indices": [],
+            "quote": "Exercício fictício: 6 professores viajarão amanhã para Braga. A estrada permanece aberta."
+          },
+          {
+            "text": "The road remains open.",
+            "event_type": null,
+            "state": "reported",
+            "time_text": null,
+            "location_indices": [],
+            "quote": "Exercício fictício: 6 professores viajarão amanhã para Braga. A estrada permanece aberta."
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Braga",
+            "canonical_name": "Braga",
+            "role": "destination",
+            "country_code": null,
+            "quote": "Exercício fictício: 6 professores viajarão amanhã para Braga. A estrada permanece aberta."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accept_en_provisional",
+      "split": "acceptance",
+      "event_fixture": true,
+      "original": "Fictional drill: an unverified report claims a drone strike near Accra this morning. No independent confirmation is available.",
+      "english_checks": [
+        [
+          "unverified",
+          "unconfirmed"
+        ],
+        [
+          "strike"
+        ]
+      ],
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "An unverified report claims a drone strike near Accra this morning, without independent confirmation.",
+        "kind": "event",
+        "claim_status": "unclear",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "An unverified report claims a drone strike near Accra this morning, without independent confirmation.",
+            "event_type": "strike",
+            "state": "unclear",
+            "time_text": "this morning",
+            "location_indices": [
+              0
+            ],
+            "quote": "Fictional drill: an unverified report claims a drone strike near Accra this morning. No independent confirmation is available."
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Accra",
+            "canonical_name": "Accra",
+            "role": "event",
+            "country_code": null,
+            "quote": "Fictional drill: an unverified report claims a drone strike near Accra this morning. No independent confirmation is available."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accept_tr_arrest",
+      "split": "acceptance",
+      "event_fixture": true,
+      "original": "Kurgusal tatbikat: polis bugün Ankara’da 2 kişiyi gözaltına aldı.",
+      "english_checks": [
+        [
+          "detained",
+          "arrested"
+        ],
+        [
+          "2"
+        ]
+      ],
+      "gold": {
+        "language": "tr",
+        "translation": "Fictional exercise: police detained 2 people in Ankara today.",
+        "headline": "Police detained 2 people in Ankara today.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "Police detained 2 people in Ankara today.",
+            "event_type": "arrest",
+            "state": "reported",
+            "time_text": "bugün",
+            "location_indices": [
+              0
+            ],
+            "quote": "Kurgusal tatbikat: polis bugün Ankara’da 2 kişiyi gözaltına aldı."
+          }
+        ],
+        "locations": [
+          {
+            "mention": "Ankara",
+            "canonical_name": "Ankara",
+            "role": "event",
+            "country_code": null,
+            "quote": "Kurgusal tatbikat: polis bugün Ankara’da 2 kişiyi gözaltına aldı."
+          }
+        ]
+      }
+    },
+    {
+      "id": "accept_en_coordinates",
+      "split": "acceptance",
+      "event_fixture": true,
+      "original": "Fictional exercise: rescue teams searched an unnamed coastal village overnight. The message supplies no place name or coordinates.",
+      "english_checks": [
+        [
+          "rescue",
+          "searched"
+        ]
+      ],
+      "gold": {
+        "language": "en",
+        "translation": null,
+        "headline": "Rescue teams searched an unnamed coastal village overnight.",
+        "kind": "event",
+        "claim_status": "reported",
+        "topic": "other",
+        "claims": [
+          {
+            "text": "Rescue teams searched an unnamed coastal village overnight.",
+            "event_type": "rescue",
+            "state": "reported",
+            "time_text": "overnight",
+            "location_indices": [],
+            "quote": "Fictional exercise: rescue teams searched an unnamed coastal village overnight. The message supplies no place name or coordinates."
+          }
+        ],
+        "locations": []
+      }
+    }
+  ],
+  "review_note": "Civilian-travel headline infinitive (teachers to travel) is valid future wording when the complete translation preserves will/tomorrow and no event is invented. This is a semantic-marker correction, not a relaxed event-state or citation check."
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "acquired_at": "2026-09-10T21:42:49.410Z",
+  "repository": "https://github.com/nvkelso/natural-earth-vector",
+  "release_tag": "v5.1.2",
+  "commit": "f1890d9f152c896d250a77557a5751a93d494776",
+  "source_directory": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/geojson?ref=f1890d9f152c896d250a77557a5751a93d494776",
+  "files": [
+    {
+      "path": "geojson/ne_110m_admin_0_countries.geojson",
+      "local_path": "raw/ne_110m_admin_0_countries.geojson",
+      "bytes": 838726,
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+      "git_blob_sha": "1e6ab74c7042f97013be69ceec798be8e1aff27d",
+      "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/geojson/ne_110m_admin_0_countries.geojson?ref=f1890d9f152c896d250a77557a5751a93d494776",
+      "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_110m_admin_0_countries.geojson"
+    },
+    {
+      "path": "geojson/ne_110m_admin_0_tiny_countries.geojson",
+      "local_path": "raw/ne_110m_admin_0_tiny_countries.geojson",
+      "bytes": 134886,
+      "sha256": "753c4b167361f0f1223091d52f98aaddfb9101529eef263cc094057e43228c40",
+      "git_blob_sha": "e468bfde3af1fbc49741fcfea938dbbdd9a9c27d",
+      "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/geojson/ne_110m_admin_0_tiny_countries.geojson?ref=f1890d9f152c896d250a77557a5751a93d494776",
+      "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_110m_admin_0_tiny_countries.geojson"
+    },
+    {
+      "path": "geojson/ne_110m_populated_places.geojson",
+      "local_path": "raw/ne_110m_populated_places.geojson",
+      "bytes": 654324,
+      "sha256": "a86028b083182b68c7620fc6e1a8a47ee547cb9cd2fb62ccbb78bea786440899",
+      "git_blob_sha": "7e6a4ef960d752f810a1365b73d4283b8eb6f0b9",
+      "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/geojson/ne_110m_populated_places.geojson?ref=f1890d9f152c896d250a77557a5751a93d494776",
+      "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_110m_populated_places.geojson"
+    },
+    {
+      "path": "110m_cultural/ne_110m_admin_0_countries.VERSION.txt",
+      "local_path": "raw/ne_110m_admin_0_countries.VERSION.txt",
+      "bytes": 6,
+      "sha256": "f9893302cd3158f3b5aea394dcd2a91574869e9e6ff69e9235b10a3bf8c983fb",
+      "git_blob_sha": "ac14c3dfaa865ea332c62348d1bca867bdbbd1cf",
+      "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/110m_cultural/ne_110m_admin_0_countries.VERSION.txt?ref=f1890d9f152c896d250a77557a5751a93d494776",
+      "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/110m_cultural/ne_110m_admin_0_countries.VERSION.txt"
+    },
+    {
+      "path": "110m_cultural/ne_110m_admin_0_tiny_countries.VERSION.txt",
+      "local_path": "raw/ne_110m_admin_0_tiny_countries.VERSION.txt",
+      "bytes": 6,
+      "sha256": "f9893302cd3158f3b5aea394dcd2a91574869e9e6ff69e9235b10a3bf8c983fb",
+      "git_blob_sha": "ac14c3dfaa865ea332c62348d1bca867bdbbd1cf",
+      "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/110m_cultural/ne_110m_admin_0_tiny_countries.VERSION.txt?ref=f1890d9f152c896d250a77557a5751a93d494776",
+      "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/110m_cultural/ne_110m_admin_0_tiny_countries.VERSION.txt"
+    },
+    {
+      "path": "110m_cultural/ne_110m_populated_places.VERSION.txt",
+      "local_path": "raw/ne_110m_populated_places.VERSION.txt",
+      "bytes": 6,
+      "sha256": "0c9a9d43610d66f4cc3f42da08cae044483de25894a9daf9dc6a76ff75ca9327",
+      "git_blob_sha": "61fcc87350341bc51d640aa9161073ce615703ce",
+      "metadata_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/contents/110m_cultural/ne_110m_populated_places.VERSION.txt?ref=f1890d9f152c896d250a77557a5751a93d494776",
+      "download_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/110m_cultural/ne_110m_populated_places.VERSION.txt"
+    }
+  ]
+}

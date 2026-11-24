@@ -1,0 +1,186 @@
+{
+  "version": "relic.events.v3",
+  "review": "EVENT_TAXONOMY.md",
+  "types": [
+    {
+      "id": "strike",
+      "label": "Strike",
+      "group": "Conflict",
+      "definition": "Explicit aerial, missile, drone or artillery strike. Do not infer a weapon from a blast."
+    },
+    {
+      "id": "armed_attack",
+      "label": "Armed attack",
+      "group": "Conflict",
+      "definition": "Shooting, assault or an armed attack with unspecified weapon; not unexplained noise."
+    },
+    {
+      "id": "explosion",
+      "label": "Explosion",
+      "group": "Safety",
+      "definition": "A blast whose armed cause or weapon is not established."
+    },
+    {
+      "id": "air_defense",
+      "label": "Air defence",
+      "group": "Conflict",
+      "definition": "Interception or air-defence engagement; not the mere presence of an aircraft."
+    },
+    {
+      "id": "weapons_launch",
+      "label": "Weapons launch",
+      "group": "Conflict",
+      "definition": "A reported missile, rocket or drone launch, without inventing an impact."
+    },
+    {
+      "id": "territorial_change",
+      "label": "Territorial change",
+      "group": "Conflict",
+      "definition": "Capture, recapture or loss of control of a place; movement alone is insufficient."
+    },
+    {
+      "id": "military_movement",
+      "label": "Deployment",
+      "group": "Military activity",
+      "definition": "Deployment, reinforcement or withdrawal of forces."
+    },
+    {
+      "id": "military_activity",
+      "label": "Military activity",
+      "group": "Military activity",
+      "definition": "Military patrol, flight, naval activity or exercise; no attack inferred. Civil flights are not military."
+    },
+    {
+      "id": "maritime_interdiction",
+      "label": "Maritime interdiction",
+      "group": "Military activity",
+      "definition": "Vessel seizure, boarding, enforced diversion or blockade; cumulative counts are one aggregate report."
+    },
+    {
+      "id": "security_alert",
+      "label": "Security alert",
+      "group": "Safety",
+      "definition": "A concrete warning or alert being issued or raised; the warned-about attack is not confirmed."
+    },
+    {
+      "id": "alert_lifted",
+      "label": "All clear",
+      "group": "Safety",
+      "definition": "An alert being lifted, not proof an attack occurred."
+    },
+    {
+      "id": "evacuation",
+      "label": "Evacuation",
+      "group": "Safety",
+      "definition": "An evacuation order or evacuation, preserving planned versus completed status."
+    },
+    {
+      "id": "rescue",
+      "label": "Rescue",
+      "group": "Safety",
+      "definition": "Search, rescue or recovery operation; casualty figures alone are not a new event."
+    },
+    {
+      "id": "fire",
+      "label": "Fire",
+      "group": "Safety",
+      "definition": "A fire; do not infer its cause."
+    },
+    {
+      "id": "protest",
+      "label": "Protest",
+      "group": "Civil affairs",
+      "definition": "A demonstration, riot or civil protest; political opinion alone is not a protest."
+    },
+    {
+      "id": "infrastructure_disruption",
+      "label": "Infrastructure disruption",
+      "group": "Infrastructure",
+      "definition": "Power, water, communications or other service outage; damage alone does not prove an outage."
+    },
+    {
+      "id": "structural_damage",
+      "label": "Structural damage",
+      "group": "Infrastructure",
+      "definition": "Damage, destruction or collapse of buildings, bridges or other structures; does not establish cause or service outage."
+    },
+    {
+      "id": "transport_disruption",
+      "label": "Transport disruption",
+      "group": "Infrastructure",
+      "definition": "Road, airport, port, border or transport closure, reopening or interruption."
+    },
+    {
+      "id": "accident",
+      "label": "Accident",
+      "group": "Safety",
+      "definition": "A concrete transport, industrial or other accident, without assigning intent."
+    },
+    {
+      "id": "disaster",
+      "label": "Natural hazard",
+      "group": "Safety",
+      "definition": "Earthquake, flood, storm or other natural hazard. A forecast remains planned/unclear."
+    },
+    {
+      "id": "diplomatic_meeting",
+      "label": "Diplomatic contact",
+      "group": "Politics and diplomacy",
+      "definition": "A concrete official meeting, visit, call or negotiation; future meetings remain planned."
+    },
+    {
+      "id": "agreement",
+      "label": "Agreement",
+      "group": "Politics and diplomacy",
+      "definition": "Agreement, ceasefire or deal being reached, implemented or broken; talks alone are not an agreement."
+    },
+    {
+      "id": "sanctions",
+      "label": "Sanctions",
+      "group": "Politics and diplomacy",
+      "definition": "Imposition, removal or change of sanctions or embargoes; diplomatic disapproval alone is not sanctions."
+    },
+    {
+      "id": "policy_change",
+      "label": "Policy change",
+      "group": "Politics and diplomacy",
+      "definition": "A concrete government decision, restriction, regulation or administrative change; general rhetoric is not an event."
+    },
+    {
+      "id": "arrest",
+      "label": "Arrest or detention",
+      "group": "Civil affairs",
+      "definition": "Arrest, detention, release or prisoner exchange; an allegation alone is not an arrest."
+    },
+    {
+      "id": "legal_proceeding",
+      "label": "Legal proceeding",
+      "group": "Civil affairs",
+      "definition": "A charge, trial, judgment or sentence; preserve allegations and jurisdiction."
+    },
+    {
+      "id": "election",
+      "label": "Election",
+      "group": "Civil affairs",
+      "definition": "Voting, election results, appointment or transfer of office; campaigning commentary alone is not an event."
+    },
+    {
+      "id": "aid_delivery",
+      "label": "Aid operation",
+      "group": "Civil affairs",
+      "definition": "A concrete humanitarian delivery or relief operation; a promise remains planned."
+    },
+    {
+      "id": "cyber_incident",
+      "label": "Cyber incident",
+      "group": "Infrastructure",
+      "definition": "An explicitly reported intrusion or cyberattack; an unexplained outage is not a cyberattack."
+    },
+    {
+      "id": "other",
+      "label": "Other event",
+      "group": "Other",
+      "definition": "A concrete occurrence outside this vocabulary. Never use it to force commentary, promotion or media-only content into Events."
+    }
+  ]
+}

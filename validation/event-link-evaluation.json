@@ -1,0 +1,1128 @@
+{
+  "admission_rejections": 10,
+  "fictional": true,
+  "fixture_sha256": "f6714bea89d727f311fec6b477a7af21e02c4f14017e701b1aa278cf7b26ec2b",
+  "known_cost_usd": 0.0037009,
+  "model_exact_labels": 29,
+  "model_reviewed": 30,
+  "new_calls": 0,
+  "passed": false,
+  "passed_cases": 39,
+  "profile": {
+    "bounds_bytes": {
+      "claim_text": 4096,
+      "event_type": 80,
+      "place": 512,
+      "published_at": 80,
+      "state": 32,
+      "time_text": 640
+    },
+    "candidate_policy": "relic.possible-event-links.v1",
+    "decoder": "relic.event-pair-decoder.v2",
+    "explicit_time_date_guard": "different UTC publication dates abstain",
+    "parameters": {
+      "max_tokens": 4096,
+      "model": "openai/gpt-6-luna",
+      "provider": {
+        "allow_fallbacks": false,
+        "data_collection": "deny",
+        "only": [
+          "openai"
+        ],
+        "order": [
+          "openai"
+        ],
+        "require_parameters": true
+      },
+      "reasoning": {
+        "effort": "medium"
+      },
+      "response_format": {
+        "json_schema": {
+          "name": "relic_event_pair",
+          "schema": {
+            "additionalProperties": false,
+            "properties": {
+              "a_quote": {
+                "maxLength": 4096,
+                "minLength": 1,
+                "type": "string"
+              },
+              "b_quote": {
+                "maxLength": 4096,
+                "minLength": 1,
+                "type": "string"
+              },
+              "reason": {
+                "maxLength": 480,
+                "minLength": 1,
+                "type": "string"
+              },
+              "relation": {
+                "enum": [
+                  "same_occurrence",
+                  "update",
+                  "denial",
+                  "correction",
+                  "distinct",
+                  "uncertain"
+                ],
+                "type": "string"
+              }
+            },
+            "required": [
+              "relation",
+              "a_quote",
+              "b_quote",
+              "reason"
+            ],
+            "type": "object"
+          },
+          "strict": true
+        },
+        "type": "json_schema"
+      },
+      "stream": false
+    },
+    "policy": "relic.event-pair-review.v1",
+    "publication_window_seconds": 21600,
+    "support_basis": "retained derived claim text; not original evidence",
+    "system_sha256": "cc2100d435b466620a20cfd24b538d8c4ea2482d3b94c550f59bfd37015413e1"
+  },
+  "results": [
+    {
+      "actual": "uncertain",
+      "actual_link": false,
+      "elapsed_ms": 2044,
+      "expected": "uncertain",
+      "id": "changed-detail-not-correction",
+      "known_cost_usd": 0.0001197,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "bb6e10ff0278886d74a3cf13c0be44f6e5c73b88f2708f198b27623007d2b9d8",
+      "review": {
+        "a_span": [
+          0,
+          37
+        ],
+        "b_span": [
+          0,
+          36
+        ],
+        "decision": {
+          "a_quote": "A fire in Eastmere injured 12 people.",
+          "b_quote": "A fire in Eastmere injured 2 people.",
+          "reason": "Both describe a fire in Eastmere, but neither gives a distinguishing occurrence anchor; the differing injury counts alone do not establish a correction or a shared occurrence.",
+          "relation": "uncertain"
+        },
+        "input_sha256": "974e3c1127c1508333f0de521981db5b09c0172bad48418ef6906bf9d170813b",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "update",
+      "actual_link": true,
+      "elapsed_ms": 1787,
+      "expected": "update",
+      "id": "changed-toll-update",
+      "known_cost_usd": 0.0001146,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "dc2f03c27e340f7b3e6a314dc5301eaeec3b58c052d08ba109e14eae1841e1d0",
+      "review": {
+        "a_span": [
+          0,
+          58
+        ],
+        "b_span": [
+          0,
+          70
+        ],
+        "decision": {
+          "a_quote": "Two people were injured in the Blue Mill fire in Eastmere.",
+          "b_quote": "The injury toll from the Blue Mill fire in Eastmere has risen to five.",
+          "reason": "B gives a revised injury toll for the same identified Blue Mill fire.",
+          "relation": "update"
+        },
+        "input_sha256": "d4f940608ecaf352ad8fd58618dcb10fa418ba364812fb25710306eb4a4924f7",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "same_occurrence",
+      "actual_link": true,
+      "elapsed_ms": 7697,
+      "expected": "same_occurrence",
+      "id": "copy-does-not-confirm",
+      "known_cost_usd": 0.0003122,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "1bfd756bdacd35621b396a942f72bdd48122a1d7b52d3ce836080e11b7cc2bf7",
+      "review": {
+        "a_span": [
+          0,
+          67
+        ],
+        "b_span": [
+          0,
+          67
+        ],
+        "decision": {
+          "a_quote": "A fire broke out at the grain warehouse on North Pier in Northport.",
+          "b_quote": "A fire broke out at the grain warehouse on North Pier in Northport.",
+          "reason": "Both claims identify a fire at the same specific target, the grain warehouse on North Pier.",
+          "relation": "same_occurrence"
+        },
+        "input_sha256": "769ab9fb63a0f4fc864c9a9c221960d498ea8800a9b753447b22519c1c33e43f",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "denial",
+      "actual_link": true,
+      "elapsed_ms": 2011,
+      "expected": "denial",
+      "id": "denial-context",
+      "known_cost_usd": 0.0001072,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "b7201fba48dc96df29f4d9f3a74047dd40c9fddaecb149cdf577c179bf05a522",
+      "review": {
+        "a_span": [
+          0,
+          67
+        ],
+        "b_span": [
+          0,
+          92
+        ],
+        "decision": {
+          "a_quote": "A fire broke out at the grain warehouse on North Pier in Northport.",
+          "b_quote": "The fire service denies reports of a fire at the grain warehouse on North Pier in Northport.",
+          "reason": "B explicitly denies the reported fire at the same named warehouse and pier.",
+          "relation": "denial"
+        },
+        "input_sha256": "b709399f97aab7aaacba1213baa5ec5f5fdcce2fdafc1a21ac96b1f28b3fc79f",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "distinct",
+      "actual_link": false,
+      "elapsed_ms": 2718,
+      "expected": "distinct",
+      "id": "denial-different-facility",
+      "known_cost_usd": 0.0001401,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "77f38f66674ba61ab46f800a40d7a81b2ace24d06bd1fba1520d0c96df5303d0",
+      "review": {
+        "a_span": [
+          0,
+          41
+        ],
+        "b_span": [
+          0,
+          52
+        ],
+        "decision": {
+          "a_quote": "A fire has hit the Blue Mill in Eastmere.",
+          "b_quote": "Authorities deny a fire at the Red Mill in Eastmere.",
+          "reason": "The claims identify different mills as the fire location, so the denial concerns a different target.",
+          "relation": "distinct"
+        },
+        "input_sha256": "a35abc9261786a2a4a6a54623999dbd4739e609c3ef13a91dff9a27c5d1b2a65",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "distinct",
+      "actual_link": false,
+      "elapsed_ms": 1842,
+      "expected": "distinct",
+      "id": "different-bridge",
+      "known_cost_usd": 9.09e-05,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "700d5b6f3a57b6dd7481cf0b66999d374049dbe486c5f25bb5f7eb568834300e",
+      "review": {
+        "a_span": [
+          0,
+          48
+        ],
+        "b_span": [
+          0,
+          45
+        ],
+        "decision": {
+          "a_quote": "The Riverside bridge in Northport has collapsed.",
+          "b_quote": "The Meadow bridge in Northport has collapsed.",
+          "reason": "The claims identify different bridges: Riverside and Meadow.",
+          "relation": "distinct"
+        },
+        "input_sha256": "9739d9b3171d421cd557a7bac9e753d9f2d0b577458132d13f97d6ed05087925",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "ineligible",
+      "expected": "distinct",
+      "id": "different-city",
+      "known_cost_usd": 0.0,
+      "new_calls": 0,
+      "pass": true,
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "ineligible",
+      "expected": "distinct",
+      "id": "different-day",
+      "known_cost_usd": 0.0,
+      "new_calls": 0,
+      "pass": true,
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "distinct",
+      "actual_link": false,
+      "elapsed_ms": 1845,
+      "expected": "distinct",
+      "id": "different-numbered-terminal",
+      "known_cost_usd": 9.23e-05,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "d38d908d95cd549bc00a3ff59beb6007cf31c5548b6d933b9d3d67977f954ed8",
+      "review": {
+        "a_span": [
+          22,
+          52
+        ],
+        "b_span": [
+          22,
+          52
+        ],
+        "decision": {
+          "a_quote": "Terminal 2 of Eastmere airport",
+          "b_quote": "Terminal 3 of Eastmere airport",
+          "reason": "The claims identify different airport terminals as the fire locations.",
+          "relation": "distinct"
+        },
+        "input_sha256": "7cda31840948008b3111254101da0c15a2bdaff98f4a50f0ed082b450c758948",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "ineligible",
+      "expected": "distinct",
+      "id": "different-occurrence-time",
+      "known_cost_usd": 0.0,
+      "new_calls": 0,
+      "pass": true,
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "ineligible",
+      "expected": "distinct",
+      "id": "different-type",
+      "known_cost_usd": 0.0,
+      "new_calls": 0,
+      "pass": true,
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "distinct",
+      "actual_link": false,
+      "elapsed_ms": 3146,
+      "expected": "distinct",
+      "id": "different-venue",
+      "known_cost_usd": 0.0001051,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "71f04c6c1c5853651f0074a87b2f08eebcef7157959e4eb8289b8c47ef17e749",
+      "review": {
+        "a_span": [
+          24,
+          66
+        ],
+        "b_span": [
+          24,
+          59
+        ],
+        "decision": {
+          "a_quote": "grain warehouse on North Pier in Northport",
+          "b_quote": "school on Cedar Street in Northport",
+          "reason": "The reports identify different facilities at different locations.",
+          "relation": "distinct"
+        },
+        "input_sha256": "1df18f338ad7785bb0b2e71f7fa63d466cc5fab10d0d22b810c1482d985ce4ac",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "correction",
+      "actual_link": true,
+      "elapsed_ms": 1790,
+      "expected": "correction",
+      "id": "explicit-correction",
+      "known_cost_usd": 0.0001102,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "e05b51266e67fd384d5a7c2961b77b9db6ff577a22c8c2aef6234184fc526f84",
+      "review": {
+        "a_span": [
+          0,
+          47
+        ],
+        "b_span": [
+          0,
+          71
+        ],
+        "decision": {
+          "a_quote": "A fire at Eastmere Blue Mill injured 12 people.",
+          "b_quote": "Correction to our Blue Mill fire report: 2 people were injured, not 12.",
+          "reason": "B explicitly corrects the earlier Blue Mill fire report and revises the injury count from 12 to 2.",
+          "relation": "correction"
+        },
+        "input_sha256": "749cfc317f8a2ddd0d2020fc2b4832b4d2a54d5bfef5ffee7d602e955400ef3f",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "distinct",
+      "actual_link": false,
+      "elapsed_ms": 1851,
+      "expected": "distinct",
+      "id": "explicit-unrelated",
+      "known_cost_usd": 0.000104,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "8dee1dc02243e42f6a09d739ba784aeb5d301f2c54b30f64def4eb419e9d3d88",
+      "review": {
+        "a_span": [
+          0,
+          44
+        ],
+        "b_span": [
+          0,
+          67
+        ],
+        "decision": {
+          "a_quote": "A blaze destroyed the Blue Mill in Eastmere.",
+          "b_quote": "In an unrelated incident, a fire damaged Eastmere general hospital.",
+          "reason": "B explicitly calls it unrelated and identifies a different target: the general hospital rather than the Blue Mill.",
+          "relation": "distinct"
+        },
+        "input_sha256": "fd079e95d18041463dbd96e0869ca5546dff7efe127295a7c522e9e7050e884a",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "ineligible",
+      "expected": "distinct",
+      "id": "future-vs-current",
+      "known_cost_usd": 0.0,
+      "new_calls": 0,
+      "pass": true,
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "uncertain",
+      "actual_link": false,
+      "elapsed_ms": 1685,
+      "expected": "uncertain",
+      "id": "generic-copy",
+      "known_cost_usd": 9.4e-05,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "88bb195c92b7822a282eec42a2b52231a888acee003f571af18333314c093fea",
+      "review": {
+        "a_span": [
+          0,
+          29
+        ],
+        "b_span": [
+          0,
+          29
+        ],
+        "decision": {
+          "a_quote": "Explosions heard in Eastmere.",
+          "b_quote": "Explosions heard in Eastmere.",
+          "reason": "Both are generic reports with no distinguishing target or occurrence time, so the claims alone do not establish whether they concern the same incident.",
+          "relation": "uncertain"
+        },
+        "input_sha256": "5a48a496037334119595fdd44b082cf1fdb5311e2efaacb947e5a2d376e09fb0",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "uncertain",
+      "actual_link": false,
+      "elapsed_ms": 2209,
+      "expected": "uncertain",
+      "id": "generic-same-city",
+      "known_cost_usd": 0.0001062,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "5d85d9577ba67f69466607220e76d1026316eb537ce6831fed4cea1a45416eeb",
+      "review": {
+        "a_span": [
+          0,
+          25
+        ],
+        "b_span": [
+          0,
+          37
+        ],
+        "decision": {
+          "a_quote": "Smoke seen over Eastmere.",
+          "b_quote": "A fire has been reported in Eastmere.",
+          "reason": "Both are generic fire reports in Eastmere, with no distinguishing target or occurrence-time anchor to establish that they describe the same incident.",
+          "relation": "uncertain"
+        },
+        "input_sha256": "bb1bc2db41507e6ea0882840190c7d8b673a3e19d530708b2330f0a30b6615b2",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "ineligible",
+      "expected": "distinct",
+      "id": "historical",
+      "known_cost_usd": 0.0,
+      "new_calls": 0,
+      "pass": true,
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "distinct",
+      "actual_link": false,
+      "elapsed_ms": 1960,
+      "expected": "distinct",
+      "id": "hospital-vs-warehouse",
+      "known_cost_usd": 9.65e-05,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "79af7e8a1b36d6e1e9947a3ca79e796443b66284f3165dff4f22de4bd959f6fb",
+      "review": {
+        "a_span": [
+          0,
+          43
+        ],
+        "b_span": [
+          0,
+          41
+        ],
+        "decision": {
+          "a_quote": "A fire damaged Northport’s grain warehouse.",
+          "b_quote": "A fire damaged Northport’s main hospital.",
+          "reason": "The claims identify different target facilities: the grain warehouse and the main hospital.",
+          "relation": "distinct"
+        },
+        "input_sha256": "6958c7090c2d1341e3fe39ebd4a7ab79b77096a69e22131cd670616b8c0eda4a",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "ineligible",
+      "expected": "distinct",
+      "id": "missing-time",
+      "known_cost_usd": 0.0,
+      "new_calls": 0,
+      "pass": true,
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "distinct",
+      "actual_link": false,
+      "elapsed_ms": 3818,
+      "expected": "distinct",
+      "id": "nearby-not-same",
+      "known_cost_usd": 0.0001168,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "b45690701922bd7d2b96fabe4ff987b0bd64b3de54e2e91cc9389bc053e7ebc4",
+      "review": {
+        "a_span": [
+          0,
+          41
+        ],
+        "b_span": [
+          0,
+          72
+        ],
+        "decision": {
+          "a_quote": "A fire damaged the Blue Mill in Eastmere.",
+          "b_quote": "A fire damaged the house across the road from the Blue Mill in Eastmere.",
+          "reason": "The claims identify different fire-damaged targets: the Blue Mill and a house across the road from it.",
+          "relation": "distinct"
+        },
+        "input_sha256": "cb1ab9d6fe578486555b1e9c665f7eb421f28d81ee144458310d44c9983808b0",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "denial",
+      "actual_link": true,
+      "elapsed_ms": 2190,
+      "expected": "denial",
+      "id": "negated-target",
+      "known_cost_usd": 9.91e-05,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "e02f6825e79a393bd07d30bd99f371b12ff004c558fe3de81dc3bc565ef635c2",
+      "review": {
+        "a_span": [
+          0,
+          41
+        ],
+        "b_span": [
+          0,
+          53
+        ],
+        "decision": {
+          "a_quote": "A fire has hit the Blue Mill in Eastmere.",
+          "b_quote": "Authorities deny a fire at the Blue Mill in Eastmere.",
+          "reason": "B explicitly denies the fire at the same named facility alleged in A.",
+          "relation": "denial"
+        },
+        "input_sha256": "0fa3ba6928b6be84ea8182119c5d13115d5346cde04f6cd15b7f6fa55e9bf50b",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "distinct",
+      "actual_link": false,
+      "elapsed_ms": 2687,
+      "expected": "distinct",
+      "id": "new-attack",
+      "known_cost_usd": 0.000111,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "35735819f74c85c26e424d1205b6506e520e5c7413f880092808813da98a4813",
+      "review": {
+        "a_span": [
+          0,
+          54
+        ],
+        "b_span": [
+          0,
+          69
+        ],
+        "decision": {
+          "a_quote": "A strike hit Eastmere Blue Quay radar station at dawn.",
+          "b_quote": "Another strike has just hit Eastmere Blue Quay radar station at noon.",
+          "reason": "B explicitly describes another strike at noon, distinct from A’s strike at dawn.",
+          "relation": "distinct"
+        },
+        "input_sha256": "86c59f3f87a45ff72dd192ea3b6cd8bf41354ab015915480c83401dd23a8c229",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "ineligible",
+      "expected": "distinct",
+      "id": "old-video",
+      "known_cost_usd": 0.0,
+      "new_calls": 0,
+      "pass": true,
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "distinct",
+      "actual_link": false,
+      "elapsed_ms": 2631,
+      "expected": "distinct",
+      "id": "opposite-depot",
+      "known_cost_usd": 0.0001133,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "9806de626537ff3fff3329636734c0d291bc384e560ee630b5c878cd5cbaec4d",
+      "review": {
+        "a_span": [
+          0,
+          61
+        ],
+        "b_span": [
+          0,
+          61
+        ],
+        "decision": {
+          "a_quote": "An airstrike hit the East Gate ammunition depot in Northport.",
+          "b_quote": "An airstrike hit the West Gate ammunition depot in Northport.",
+          "reason": "The claims identify different gate-specific ammunition depots as the targets.",
+          "relation": "distinct"
+        },
+        "input_sha256": "43562d700d223a038a993f947a9c5992492613bddf050e8efe3b43c9a4baf623",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "update",
+      "actual_link": true,
+      "elapsed_ms": 3205,
+      "expected": "update",
+      "id": "outage-update",
+      "known_cost_usd": 0.0001098,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "eae4b833ff4b651b373395898dad0c83195b89f78c85d6bb78a6856fc92c0a7a",
+      "review": {
+        "a_span": [
+          0,
+          63
+        ],
+        "b_span": [
+          0,
+          80
+        ],
+        "decision": {
+          "a_quote": "A power outage has affected the eastern districts of Northport.",
+          "b_quote": "Electricity has been restored to Northport’s eastern districts after the outage.",
+          "reason": "B reports restoration in the same eastern districts after the outage described in A.",
+          "relation": "update"
+        },
+        "input_sha256": "93d975a5169b41f1114d5940f34d585a36f6c838f629ad573ccb923a0add24a7",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "ineligible",
+      "expected": "distinct",
+      "id": "planned-drill",
+      "known_cost_usd": 0.0,
+      "new_calls": 0,
+      "pass": true,
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "update",
+      "actual_link": true,
+      "elapsed_ms": 2925,
+      "expected": "update",
+      "id": "restoration-not-new-outage",
+      "known_cost_usd": 0.0001221,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "0f37994a48e8dff510eda7cafb24ab422c1d9f39e54f94db2f318fd6b4ab861f",
+      "review": {
+        "a_span": [
+          0,
+          71
+        ],
+        "b_span": [
+          0,
+          80
+        ],
+        "decision": {
+          "a_quote": "The Blue Quay district of Eastmere lost power after a substation fault.",
+          "b_quote": "Power has returned to Eastmere Blue Quay after repairs to the failed substation.",
+          "reason": "B reports power returning in the same Blue Quay area after repairs to the failed substation, a subsequent development of A's outage.",
+          "relation": "update"
+        },
+        "input_sha256": "fb907928da461691afadb1fb735945941f4c8fa16fee94215255c90396918da8",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "same_occurrence",
+      "actual_link": true,
+      "elapsed_ms": 2900,
+      "expected": "same_occurrence",
+      "id": "same-attack-paraphrase",
+      "known_cost_usd": 0.0001171,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "0879af41d29d8d630622f88605fc554843f22c93cb18759811174f5f067d8182",
+      "review": {
+        "a_span": [
+          0,
+          58
+        ],
+        "b_span": [
+          0,
+          81
+        ],
+        "decision": {
+          "a_quote": "A drone hit Eastmere Blue Quay radar station this morning.",
+          "b_quote": "This morning’s drone strike damaged the radar installation at Eastmere Blue Quay.",
+          "reason": "Both describe a drone strike this morning against the radar facility at Eastmere Blue Quay.",
+          "relation": "same_occurrence"
+        },
+        "input_sha256": "d45685d72942beec0e6705dde10f45dfd7dd202e9c0a1b097b110b44692448fb",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "same_occurrence",
+      "actual_link": true,
+      "elapsed_ms": 2763,
+      "expected": "same_occurrence",
+      "id": "same-bridge",
+      "known_cost_usd": 0.0001434,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "6c51fa92749137ac596a56a268b752f4a474d53b6c02e3b3e675a5d8944f7168",
+      "review": {
+        "a_span": [
+          0,
+          48
+        ],
+        "b_span": [
+          0,
+          54
+        ],
+        "decision": {
+          "a_quote": "The Riverside bridge in Northport has collapsed.",
+          "b_quote": "Northport’s Riverside bridge collapsed this afternoon.",
+          "reason": "Both passages identify the Riverside bridge in Northport as collapsed, with no distinguishing detail suggesting separate incidents.",
+          "relation": "same_occurrence"
+        },
+        "input_sha256": "c55a116e587a686d7a74a9b329fba81c824a32af2dc1d8b218518303065a202a",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "same_occurrence",
+      "actual_link": true,
+      "elapsed_ms": 5588,
+      "expected": "same_occurrence",
+      "id": "same-numbered-terminal",
+      "known_cost_usd": 0.0002305,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "18527bfdbb9aa5f2eb57b4362dbff5293b81efbc605131e07a36d9edae7ba293",
+      "review": {
+        "a_span": [
+          0,
+          53
+        ],
+        "b_span": [
+          0,
+          45
+        ],
+        "decision": {
+          "a_quote": "A fire has started at Terminal 2 of Eastmere airport.",
+          "b_quote": "Fire reported at Eastmere airport Terminal 2.",
+          "reason": "Both claims identify a fire at the same exact facility, Terminal 2 of Eastmere airport.",
+          "relation": "same_occurrence"
+        },
+        "input_sha256": "dd8c2506b59e7418537d3998b3ece7bed17fc98f6a9b2ca0f34b53a27a856484",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "same_occurrence",
+      "actual_link": true,
+      "elapsed_ms": 1676,
+      "expected": "same_occurrence",
+      "id": "same-strike",
+      "known_cost_usd": 0.000106,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "09a09917e19dc9636283f43e2723088648b2707fb8d01dce48d2295dc38d095f",
+      "review": {
+        "a_span": [
+          0,
+          64
+        ],
+        "b_span": [
+          0,
+          71
+        ],
+        "decision": {
+          "a_quote": "An airstrike hit the West Ridge radar station outside Northport.",
+          "b_quote": "The radar station on West Ridge near Northport was struck from the air.",
+          "reason": "Both claims identify an airstrike against the West Ridge radar station near Northport, with no conflicting occurrence details.",
+          "relation": "same_occurrence"
+        },
+        "input_sha256": "91853c38d684631883a5a551cb1d538d1413fa9ee64614548d7533189c1adee6",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "same_occurrence",
+      "actual_link": true,
+      "elapsed_ms": 3706,
+      "expected": "same_occurrence",
+      "id": "same-warehouse",
+      "known_cost_usd": 0.0001404,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "788481a771cfe8cb252235ec671feba3bef7f22cd3295ae6d2881c595c11870a",
+      "review": {
+        "a_span": [
+          2,
+          66
+        ],
+        "b_span": [
+          11,
+          52
+        ],
+        "decision": {
+          "a_quote": "fire broke out at the grain warehouse on North Pier in Northport",
+          "b_quote": "the North Pier grain warehouse is on fire",
+          "reason": "Both claims report a fire at the specifically identified North Pier grain warehouse in Northport.",
+          "relation": "same_occurrence"
+        },
+        "input_sha256": "df498d7125cb7588bac195a45281749be2c63317784085e964de5b340650bf30",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "distinct",
+      "actual_link": false,
+      "elapsed_ms": 1820,
+      "expected": "distinct",
+      "id": "second-same-venue",
+      "known_cost_usd": 0.0001174,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "d619909c3d7d42ef1f5c82df372d2d6a2fc85322d16dcd26f7b28e7a3198c68c",
+      "review": {
+        "a_span": [
+          0,
+          55
+        ],
+        "b_span": [
+          0,
+          72
+        ],
+        "decision": {
+          "a_quote": "A fire broke out at the Blue Mill in Eastmere at 04:00.",
+          "b_quote": "A second, separate fire broke out at the Blue Mill in Eastmere at 11:00.",
+          "reason": "B explicitly describes a second, separate fire and gives a different occurrence time.",
+          "relation": "distinct"
+        },
+        "input_sha256": "f3be5965743a7a6bc7f9a6551a860ca13220a88c8f62a6711aa530a81c297af5",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "uncertain",
+      "actual_link": false,
+      "elapsed_ms": 3348,
+      "expected": "distinct",
+      "id": "separate-fire",
+      "known_cost_usd": 0.0001436,
+      "new_calls": 0,
+      "pass": false,
+      "request_sha256": "375d8008f754811aa336067c7cab9b1964d0a87ed900bd6384b6ff8e967aab16",
+      "review": {
+        "a_span": [
+          0,
+          62
+        ],
+        "b_span": [
+          0,
+          55
+        ],
+        "decision": {
+          "a_quote": "A car caught fire in the Northport central market parking lot.",
+          "b_quote": "A shop caught fire inside the Northport central market.",
+          "reason": "The claims identify different targets and locations within the market, with no evidence that they describe the same occurrence or separate incidents.",
+          "relation": "uncertain"
+        },
+        "input_sha256": "a377dbe4c83450975a10d1dace99a4854325dbd1ae1fd43d9ed5363378cb268e",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "distinct",
+      "actual_link": false,
+      "elapsed_ms": 2996,
+      "expected": "distinct",
+      "id": "source-instruction",
+      "known_cost_usd": 0.0001083,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "45e2893247ed8814d5d35110438215b999d267b43c535568395ea4e2fb8a627d",
+      "review": {
+        "a_span": [
+          0,
+          37
+        ],
+        "b_span": [
+          0,
+          36
+        ],
+        "decision": {
+          "a_quote": "The Blue Mill in Eastmere is on fire.",
+          "b_quote": "The Red Mill in Eastmere is on fire.",
+          "reason": "The claims identify different named facilities: the Blue Mill and the Red Mill.",
+          "relation": "distinct"
+        },
+        "input_sha256": "73bd9063771c8783270cdfca3c25dbdc887465d0c905e49ccc01dbe4aa0cf455",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "denial",
+      "actual_link": true,
+      "elapsed_ms": 2061,
+      "expected": "denial",
+      "id": "unicode-negation",
+      "known_cost_usd": 0.0001114,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "b44b0a01677ebc961b263d23004b68b2b42ccca3b9b709389f7620fa8541ebf0",
+      "review": {
+        "a_span": [
+          0,
+          34
+        ],
+        "b_span": [
+          0,
+          52
+        ],
+        "decision": {
+          "a_quote": "حريق في مصنع النور بمدينة إيستمير.",
+          "b_quote": "تنفي السلطات وقوع حريق في مصنع النور بمدينة إيستمير.",
+          "reason": "B explicitly denies the fire reported in A at the same named factory.",
+          "relation": "denial"
+        },
+        "input_sha256": "c753c326a1857104d03023eedbf3a3fa8515dc00569776e22cff6d90b7eddc98",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "uncertain",
+      "actual_link": false,
+      "elapsed_ms": 3088,
+      "expected": "uncertain",
+      "id": "unknown-relation-not-proof",
+      "known_cost_usd": 0.00011,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "c67749a6156fd5b2d6280048cf4a7ea71872e856c9e22397a99945439f9ca194",
+      "review": {
+        "a_span": [
+          0,
+          39
+        ],
+        "b_span": [
+          0,
+          48
+        ],
+        "decision": {
+          "a_quote": "A fire broke out near Eastmere airport.",
+          "b_quote": "Flights at Eastmere airport have been suspended.",
+          "reason": "Both mention Eastmere airport, but B does not identify the fire as the reason for the suspension or otherwise anchor it to the same occurrence.",
+          "relation": "uncertain"
+        },
+        "input_sha256": "96562613971f2672b44cd48a5ad8266e315ff899479ad7e4058c2bd95140b85e",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "challenge",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "ineligible",
+      "expected": "distinct",
+      "id": "unresolved",
+      "known_cost_usd": 0.0,
+      "new_calls": 0,
+      "pass": true,
+      "split": "development",
+      "unknown_cost_requests": 0
+    },
+    {
+      "actual": "update",
+      "actual_link": true,
+      "elapsed_ms": 2608,
+      "expected": "update",
+      "id": "update-fire",
+      "known_cost_usd": 0.0001077,
+      "new_calls": 0,
+      "pass": true,
+      "request_sha256": "f4d0d944f827dd0f6e6d70f40cac40df90203268196205f5f396030e237f29c1",
+      "review": {
+        "a_span": [
+          0,
+          67
+        ],
+        "b_span": [
+          0,
+          79
+        ],
+        "decision": {
+          "a_quote": "A fire broke out at the grain warehouse on North Pier in Northport.",
+          "b_quote": "Firefighters have contained the fire at Northport’s North Pier grain warehouse.",
+          "reason": "Both identify the North Pier grain warehouse fire, and B reports its containment as a subsequent development.",
+          "relation": "update"
+        },
+        "input_sha256": "4359720810220417766b5cf082c3ae3a1150329e69d3b41686756b56ab0618ec",
+        "profile_sha256": "15b1871891d8bd749a05790c5f3bc1d15b6029be43c97181b5d12da219d712eb"
+      },
+      "split": "development",
+      "unknown_cost_requests": 0
+    }
+  ],
+  "safe_abstentions": 1,
+  "total_cases": 40,
+  "unknown_cost_requests": 0,
+  "unsafe_links": 0
+}
